@@ -1,0 +1,402 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_InvoiceSummary
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_InvoiceSummary
+ identifier : 0x2707d140d4589cdc
+ internal_properties : CAAAAAgAAAC9/opZZFQ5rfDbbAG72uN8dFm2lyqVz5KpNnvBnPLtsfuPsivXAm2oD4JYnvrNlaCCidIJ4Xwe0a3Uj8n6nHILKFOV/ZHMM5zVqvVpFAa3ScEoxcAWmOsa8SMDqPOdbur9aBbqvkKydbzYBazZCylxq0ji1a5Q075q5zGpfm/rds50lYNEXiJjNhXHXDL0X4cce8by+iCfjhSDn4DQ26ylpZnPZNC9+DFJvQdO7cjcdlST1Z6k2uSAKQlbXldJ+vsaBJSI+QeceDOL/yyokL/1QeHADUcPdmGspyIZAvfNNdt+aM5VwIpLVbb9lfK1B0asKk23xLTWqj64hGwzKtPYrfYgYF2kwS+irF9Nngm8ieaUUnekUdZ6Vum4Ug8qOH+vkRHjh4X0AgA1ZuwaVM1VEyWsplyP3iP0kKvJGePlzCCfSAQXIq3AvoAzhEI8lH+lvGl9pCsqhdxl8VPSLvzFZqmsn3CxHIlu2nlaV/3jNrBBnhk2U5Sn/+uQWseFI7Fhf4MdXl8xM9QDFBZf3sX02nodrey9gX3IuD+6BIJKI2gA19vstoyShKnx/kbRISpF0RtpYZ0LaK1P1nq9k2wsyNK241yvJqX9yv2XdNvZKTzW3So11Mu232wY4V3avmE1XFkE8jvRI20iT45gzwmV1AUQMGaf+KabVuPKEnCOPraphs6/mrcDM8KgxzdRRUyAU2/Y7hMC/Tra9v8UO/7BtfVC6iYn/IiV5UiP0bqBn78AALjx6Cb1XvyjDzDMn983q33VsZBoXanXRxZd0dt/WHOYjWCOz0mtftEKsKjC
+ properties :
+  width : 320
+  height : 248
+  heightMin : 321
+ controls :
+  -
+    name : STC_CURRENT_MONTH
+    identifier : 0x2707d140d4599cdc
+    internal_properties : CAAAAAgAAAAt0hnC03hNmMKFW6ksMyEGmE/CE3acNrs1s+8CW5H+tgBHkSqU/xj9A4G2/n1VeNSDa53YwyRxcuUzuHpcnpKvSyoQd3AsAw/hcp9crT5OmfqA3crRJx9cbCrKqfgU22GGS3UnsOAiaeiIT7WwPHK+oZh5lheHLj0U08qMVqlZJ/BWwBE4x61tcCStwKekIJXzvGegJgGRJlpH0JSbqu5SoVg8KKM1LeJAchr7uwoli8GKGXJqF8sGWIaw9i7cDoXlfzpFECN0/cbR4TbCxDLwywJlvFpcgVFFUE+JkmQBSRZZReZDxrzeuLPNPfg311cwkV4ka4Y7OwI38HTNga7U0/DoDhC1CfcnHG2HTIFy22+pFTY3u8tMdGByyxpF4dmpKRdhNMwJRnbqIjMVyI2hChx36rEHF36g1m/IGKAv2arQxr8Y7hnqgM5PFejEZUWxxdhVDKiKeI4a+QSviIB3E+FsbStWDwBAj+VbnEHZCxOB4q/ZxTVYPUrqMcTfEmY5XlgMfNET6hjxDlGSYXkdtPTL5MioMl2BgcivKgZpj0Ag+m2Usqz2GhTee07LvL8sg0pwXv87UTEZPzN8KLBakl8AxqZ50Gdp/amVHQmV4+oggz+zG4+yxMg98HrQ28fEbFwQ3mkYVE48t5HIPgogIQ==
+    properties :
+     width : 320
+     height : 48
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : BTN_PREVIOUS
+    identifier : 0x2707d140d45a9cdc
+    internal_properties : CAAAAAgAAADXAEw9gadJsUUpAPL71H+/pTj6IuqFPiyVq/qL7cDLCX9s9G36np9+qCpTej/cKwHkc3CGzWZwUEycJs4gxutbyrCeoOviRgVtxWktD2SyKX7kHATWc49EGMCsRtLGS6IWKasRyOTG9OfFOFVXfdBkW1ANv/ewU45LlOhiCCqABl75rVwFNECyhKFgkMUexzfocdvHVswuCz6FdGqQb09Y7dYDieugAvgrdPXOXyMp8WM+CV8wdeWewYzI63lY9hYkvZ8RWHvJBr4vi7MAUr+harJ1DzUqipUJLJc/FDVwwnoulbbuw4fJoy2pDT1llcKT+k0lIaL0war4ViBIGRfykojWmYrRDgGZ3m0hUAmYJoghdMK75zDidqckAA0ElUf7B94heIIWaJeGiuhu1wtcFE1BoSmdKezgQZwxo9lSbrq1jKiCwiqsVum6m2jta5UOdwhgHaQqZRuPb8hov/QuLm1MtW9GrZxdvgFNXX2H0ZkUW8OZzOF5qjNVEQpLojoleeP3UZjneFsGiALrS8B9jNOoYOxjWYrs/E28PyMfSQYJazt97bUm59PsAPpzkXG5H9ZoHl3VF+1rVwqreL0kJCVQIbHXuGqYHvgeT7X0tDFI04oTsOjloBQTrUpt9pZRSMuVKit/qti5Y9Y/jS3xHAJiGY+wo/A6RFxNfI9l3HJpHRx0fqyRntyg6lo/xnrpKeAu57UJeHQt1X7jWJ4WhYjzdFViKbGal1Gf1vB/glAkLJT6nvxP/A3ajvqpRJUUGKMjtG/X9Mjyi2/q2D7ZUqQAltbx/rjN5yWiGbdI8UVhvGfc5KltlPUzs/yWbSLIko4sOO36SOzHwMMkQw==
+    properties :
+     x : 15
+     y : 4
+     width : 40
+     height : 40
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABPKakwX0SdVtFqh8hsZwbfsSvubMa3R4sJ8EsmiNVJiZvW2NglwnWhEvlP1oyyS5wBvFjUxhoZ3a10Vwjl66dL4mr7Dm5z+133ybF/gwXJ2eiim7L3dq3Mh19kX2QEtCc24rZsK5F0cM+Ss+g=
+        code : |1+
+         
+         gdCurrentDate..Month--
+         
+         // Refreshes the information
+         RefreshSynthesis()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_NEXT
+    identifier : 0x2707d140d45b9cdc
+    internal_properties : CAAAAAgAAACdcFl5RvfmfbvDrDAPJdk6G5XL0QfvhM/lZuZxTFz9svVXyTiRKtFr19jEHH4WAcmP5aVYu+7pW1IZ05ol2a1G+OOOTXN93gkmPk7vkWMvsoalDHpK+B/gndWKO9UzzMi0gNyKLkch19n2Hgnj9kkX6w54orrvnlIvf7nV7/k9H+THqvoiHTrc1kSYeyN2ThPqsWvpqkrfyChylS4L7qAfqBlVIpXkUC+x9XbvgeuUd48CMTEpDrvhFNb+bHBkOHlIq+kkXDIBPlJLUfWghkeH/2sT4sHqPv2+OOiSPIy9Hk0AOfTtz48Z3wfZ7oPfXsSJY/S/TdOHTlANCydn3fkRDzW4a9M8W3NH6MJ0dGlrEP2FD8wHyrrzfTsO/zgqWt1KrNLoPBlROu3BaDo7VHFI5X8eOnK+qzB6qDYnWtC9m1Ej9B7kTkTL5tfdMiJ+IAvUKdnKYR+/ouCAK1cIxvsTW9/ELvjwEoHQO131qUufAbdARFwHyU5Ijp8qUcgoVzvvNhxQyAC3XPP6UmG4SAxizDiWWeD7OU69rkfoIhUvFWpkpSMaEQwX+ZpZe7T4fAwM5GBZsNDgVrr6dnIkfLUJCKOBsIP1elAjPfpvPUOkC0GJYolyefz2JhAnuADIELOrMfnKBhT8gl+64VAoceYcfmdoEbAE/SlZ8HBZjYpxhznlJmT+OITbz1O0bazQUywv3+ozDE5eWCwFqmmJ1zuC8Ll1PBDw+1Fv6d1zlfaIIpTWP6m1cI59Xp+/NGNPG7LIjqrmChtudKV79bCOeIBlK3Hz0a/vw7yJBiPjerpqpscmhjhmy7i+lRIYG/804sATC99khYkLqjjhP1g=
+    properties :
+     x : 265
+     y : 4
+     width : 40
+     height : 40
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABPKakwX0SdVtFqh8hsZwbfsSvubMa3R4sJ8EsmiNVJiZvW2NglwnWhEvlP1oyyS5wBvFjUxhoZ3a10Vwjl66dL4mr7Dm5z+133ybF/gwXJ2eiim7L3dq3Mh19kX2QEtCc24rZsK5F0cM+Ss+g=
+        code : |1-
+         
+         gdCurrentDate..Month++
+         
+         // Refreshes the information
+         RefreshSynthesis()
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : EDT_TOTAL
+    identifier : 0x2707d140d45c9cdc
+    internal_properties : CAAAAAgAAADrSJUUUCIfFOPL1VaQv0JADoSEU6E5vq1itJSlx/8i73bsA1IGoOxLciDFLWmxG2qVcHxrMPzVVKqi3ad+gKQ6v5Hu6W0fbon05sY5mXcK8US/5Z8TQ3AsQsbjXK7GlZwLbd8YGuRhvKWYY7/Cf8euF3FeEOBuKbwTFM96a73Yt5s6QytBXAeR0ZS68KKlr8cqxYji/ifpvB9B5yRslaYjxwy3f5d0v8+38vSTFF3+zjHlIkx+4bfs/FLm25TmMxRiGbwRurhyRZzNCjtiocuL2BFyY/RPbTBH8+Iv0I0+5QyZca0uue+Nsv8c4Vrt4A7nkJiAORHSkhiSrOt8+P6OPELGMcZo5M/xgcQT+jp0diYGxrUgWEb1Wj4qVI9iRbAycVAwHIQl8bnZbyAqECGKS4ThZ0U4Pkb7pAXqSBoDMeD6RC6ckLSZJH39++EgIEnYJLpkumftcKTlZoBqtnD9m9oAeC9Co+ULhqlx+WLtVTpKTcwBc3V2QE12ypkZuoz/FUCHm7f/n/NpsbdgyRRmNKzt4aOGvXw7z9vBIjEreN5Hep89Qp2wiZbyVDY27AQrhhXNExpsGO/8GycGUoO+4heo8GrDCZUqfVRmdJNM0fl6Exa3Wut2+6HzhIElpVQvnFTK0UlmKQ31ywUM8iou/Qf5fWSTK4AM0hNzkEUYDRESNKq7xLW/Y6bVBDX5JDjgufJtlrpEijxlJrpo2kxNhitfUoDSNnXHUNgADDccrRu/1iRDu8fjmPPR47WRl4AtJijRWALjFb0Ob5fBVgHGgSRSFz/ZoicvSexoZwpWeaWibK+MxBZVDZ9Xf94chbhZPoNKCqD972K0fJD4fnGDdgKf9RW39va39Xt7z8N9haduyKAq25BITy2Uls0hiirNnCXXuEhNxxREI9byPc0ZNVFMOfY+Gb2TIeK+0LdKxQKexdUbUWwlLsY0s2BW7JrFHGwRa4SeeqaU9MhVTGI2u4U8mdlzy6hufiHe5psmtcyG0fFa7B5R5v0NrY+IS8tMCJcufz1128S8IAk53aFFBp4gLm2DFzZgmwUr92SDjQvrAb+MXH1/sD+DmdBbO7ICfXmb8NVB/Z117wJbySSqQT0uheYuQZa0YOsE+S+YxN2P0Us2KT2lXM8Qxcf0o/Rym7Iuw05OZGdvFhJHt0qthYGcEol+jgOMaf236QPKvJ/OGCxMOpSy350hFEo+r0Grhkjmhm1TmgvbRaq2v2T9ZVvi0sF7M6t3o79G5waJCSxdRW97uuDinx2NvZjQ6hy5rDqEyaRH9hb9ZnSX94YuPoK9TdYCzSIJ4Q==
+    properties :
+     x : -1
+     y : 120
+     width : 322
+     height : 35
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : EDT_Reimbursements
+    identifier : 0x2707d140d45d9cdc
+    internal_properties : CAAAAAgAAADUdJ7D541x2a0kKUsBIDFpqTXAZD6LP19VX+FdhxSNxaZHHxSttT8LGVe3OMiUwdroqgTitdt6+8kJmRSni8uScMAkVL5VE5zo1U+1fqPoL6txIxoDU3t35DVAzAtIwuX3p6mfxYrExzUfRnXzn4dCFBaBdre1WMF+Erdl/dGHIRgXdcmg43pvgt7FuGBlC407aMRpolO0MLyCmWmvq21+kgFrMrufJuabDw2KfjCoztN9pJPzAQl6myDcEHmXvSf9+tkm5ew/fLfT0bFnK1/azztEIOQ47C+b6txF4U7ZauMgZm221BcKccsJSAXSx29Ef6OzcMPbyH8E4nsP4b096gS2l3F1+lSdNx3mfPmiF68I7nLGDU6EGp+HwiptsHtx0hkKFpa1cFpGIUcAeH9SLxARfabpjLE6O8Qwmi2htsgCgLBn1BD/wjV788Gj1kwuxqvmzk5VMF4L45XrSyLFQ/qG6zI+9fTtHxn5JLS1RZ3+++R+mrxZRylljkomRTMRAw8IRVaWSc/FoWux8cWIec9p0Y6UBqOIEeLUZ7KCHZAkTHWaNqO06WDwvY8uInvEqFqYAJ2ujEWrvJCVMEzVQVscEZ7M891Ti3ZiTwv216jDCNc/FufZInCXD86v7VchXonPfzHaCgbz/bKWu1fxzxFQJ6RxIilEloZRGx04Ni/UewxBFFO0uw4GSacO0anU9VgYsGwIl06gd6k3ab5KQhoENaELVlwVXvHBt6De0mytPQjGNuQgghF7NduN+d1rjmi8Uv3ZTOeiK41wIQ5IIkbmbmsCkXlCSCmZXLbIPS3rqEejYh6uCWENKIS/yomq9CDsrGU3m3LRjv2Faa3A2cYZZKMeSdfvO8JI8Z06w4TK52jb5z7F35vtdpo4PJoAK9ghc3K5iStfUnxJL2MW1FTLOjMYosLfedh5+NkH5dBs1fPtDgE4+a84FNzTrtBL+/Kj0XwYpUf7VO1Cec/ukeY2TBSk5LZ3F1lwi/n5m5004kHrnGPS2oWtWdfHjC1GA+RNgLE7R80X4414WyZgoqBqx+F/+a4Co3r7EMTfonDGDqIEcC34rG4PLiu5yOHCbkHYendLaj9aZkLolRz3vAda0VHaE5t7jMKcAUOGex4ijAXPOIE3hd+Y2DpS+yzbDo3nxW8wYNQ9ufETzWfJftP+YrrhyEphDikPmR9Vu6X+xKKdP9Xk2+ETmbHKtdKtacfJhoP/cT6w7EpGAheuBBcma9b8K1guV+Fa8A65uiC7kuZk/o+NR3gMmV7ypv8ZxrbdoCLmOnxNAIoAwZxEmlrUy6r1zPTFZv5HKq6/6Cfci2MW342xvqhHHKbDm++aOw3ISfp5CWknVsiPefLzn38yn+iyJy8pzZqA5iRH0pKes0G8x2o+BTO3N38se6G0iWkguTl8rGxQSkAVlDohvqe96QrnlmZs
+    properties :
+     x : -1
+     y : 159
+     width : 322
+     height : 35
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        code : |1-
+         
+        type : 17
+  -
+    name : PROGBAR_Repayments
+    identifier : 0x2707d140d45e9cdc
+    internal_properties : CAAAAAgAAABdRkyhPbh6vXaQ/7HEK6zcN5UcDpsXwfhlWCACjdBw25R9pFE7lnbX9H7hqD9KFV6gPIU3QdBgsAHQmDwgK2lZZtl0u2vxsez06DCWaeAn1ud/MvJpwl+6gTBD7vf1MdBS8cUDI8ToysD3HbiiV2++/OgT8mMAn/SpYmkUMaSGJxhxHYfc/kxacrVKSBQWnLxVjqvWTykjTC81YaGs8SUvkbkPZW2fR1KnLK7b2ooTnJH3I0Z1xtlMNQxtx50z8tflDkWZ27Q7GbIY8P5C9v8PjV5WHlFhliMHWv77LJWgyFEF58GjjmBc97bNtRWiL+RCAah/NtsWUeGTW0Aowsb3wAFIqqh+PZakYk1nJRQbtnNhx+cEw10emYC9IXI0ZHvf5aWs9nEa1h471281FjsyDMH4NfjuMqIN+WcSJDNFsTqE5iJH9Ntj/I6QVesY98dyZg10zb+i/17nZHXRje1snte3NK7Tdrb1zxzWCEP4rIK2Eg9/90lzfOTZcV7Q1NqqbIunNqiBxeWlAUofaDsgMIdTSKRVTQfAIOAZJ/ntjiD9rsLLriQMh8WAznPuZlskLSoQEn4D3O4E9C+q6iKh72UrDR0hKg4bBakBU/06WISa20eN062PODgmahhZgR8RlUT2IRTTVletf+FIG3KZ6xhyrfOchsOkOuohMSA3xva4boLhYKyU9+6wSI1VKGWgYaUAccqcxUpwukm3b13t0C4Jh8Xu9yr8hDTR5pJ0d6rY4G3wMxUSKOA4a8E4yHqiKGhN1f4ds6loxpIQesGiuG+bhZgstTdb5rXR8VjcmLhEDBXtVVZF7sZCq8BG6kqesiyk3DyyfvpiHyy5CAZdrKMnzGKCZQJjHc0VewpbWuWZVAxq9ycQ7Oycl6MhcaBHSjdvlLAOtnopODOHkahk1gXo17Z+HB976Sv9AyrYeUrK
+    properties :
+     x : 15
+     y : 73
+     width : 290
+     height : 26
+    type : 10
+    code_elements :
+     type_code : 17
+     p_codes : []
+  -
+    name : STC_No_Reimbursement
+    identifier : 0x2707d140d45f9cdc
+    internal_properties : CAAAAAgAAABKT4uVZML9fBxQVDOmKrrtUsfWpypoXxvPElcXIAg7o0FXdJQ8852ZeU9G3VMVymhcaj1R5knnKtKwbwNyqY5RgDYL/7SRX9yk761WT2AkKbDOliIobvfwWRyE/wADZ6/OK6d3Bf94BrGl1BtF8L+chCdQX9IoL0xEAPw/06mY6zUzfy17m/825LaOU2JsN/gJedE+IojW5kqWya4GjIiw6HT5xMxP09usyHyUVBgxGT2LMEqWTLE5V1smQGJelRxroIqaga4egXG2A8yArNeStL2MwJzUfWBOMeUosCdgQY8NGrFP3L1jDpWnRlSCm5erF+inJPhtVk83BA+PA03iDH5aSGP4M+b5KXschEmAi+/oyQVTQqLdcpWRKNGuSx0ilwfIb/qgJS4Y13gU1DU7DzTcu/Y/YSaxQKHZW0lantLBaq1TpnKYKaYb13n5NJlMvjZiYJS4MPFuqAtqX2UswvwVKO8gqkHayps8nssNBiJW9K1xP+rJ+ULvXMiFHveKTpUXmukndbthyNEYBIcF03LEVjIoAodYA68CtE8MjNaSBdtr
+    properties :
+     x : 41
+     y : 75
+     width : 239
+     height : 24
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2707d140d4609cdc
+  internal_properties : CAAAAAgAAACW8cptdWu9YqkTWiu4fq+T2U4EvQ5tpOmrdKNgQ6qTEmThY3ABiyWj3DUAPTtaaFQYhD8VLR0z3zwdLgH2Ouow4Ww8XCHXSJUhnx1FlYC9XrcMuh9IF/hUM9W5W4QZ/P2bHMmEU2BGTvPYz9W3SRIZ0SeD5h8w9NW0OQCTAiM4GULaDlWWR7I0SCXgIq3AIl4lIStJ10AcrSNzA95AdYL74LefqNixJ5eH99UDLXGMg1193N8DzbhPgO1g5lPaaxdQVWQ9yfT0C2mas5wQmcorV6ZiyTox5/Fm63fkZCk0pSULKLYy/Xj44/+FZ7dgGS7mYilT5MMdrh9xZmwi3pxrQz0kzH+TnWnEJL7AEaEITm7+0PNOy8BrKxJ01QE=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2a2505a900438be8
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAD9NyuKCoPB0kUiJp4gRjRey1FrZAMjBZ5ujJQ6pQjxVu3G7UwlAdmTaiQsvCX2nDHL5spLc9Y+7f7rlsdLfpCC5ihFKobjQGZ86xKUsNTvFNUCbHClHUNWbRChOg==
+ code_elements :
+  internal_properties : CAAAAAgAAAA32MT91YSTHb9SpRL9crOObwlObGs+F7s2bpvTjcMViB0dMlZ0QeNYDTGS87ky0FnDud/1WBYPM8JpXY/Kata8QTGptzris7p13Q==
+  type_code : 1
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAADxwye7LepREquw+57Ai4hJR9F0AIhxMx9b1ldMpKH3H2WQRtSjLOFx3A9/wNzqrQ5brnKs4Di0djTr2u/m+oiiW/MWRWMOAnJafJRunGxSWKmrmr2gRQDx5o4X7vWTIZKDt4ETcFAX7UkczZY=
+     code : |1-
+      
+      
+      // Global
+      gdCurrentDate      is date = Today()
+      gcyGrandTotal     is currency
+      gmoAmountReimbursed is currency
+      
+      // Hides the controls before the calculation
+      PROGBAR_Repayments..Visible = False
+      EDT_TOTAL..Visible = False
+      EDT_Reimbursements..Visible = False
+   -
+     internal_properties : CAAAAAgAAABFMW1jSzmaxxEeG/lK2iTv7A4g7vFJt2k7iGLkkG87V+D9QRnGTUNftIfEFRdiuSYn06m/2nsYe+pbm+y1qQ8GTjIU3t2a3I4GN5HAKBizqkR5GHzmysxbnpdC/tK8j3G2at1lT1pKeeuuDqW4TY/30gmPQduSs4eO400Q2QbKSQ==
+     code : |1+
+      
+      
+      // Displays the preview in synthesis
+      RefreshSynthesis()
+      
+      
+      // Displays the result
+      PROGBAR_Repayments..Visible = True
+      EDT_TOTAL..Visible = True
+      EDT_Reimbursements..Visible = True
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      SWITCH MyChildWindow..Name
+      	CASE "WIN_InvoiceEdit" , "WIN_EditInvoice_Tablet" :
+      		RefreshSynthesis()
+      	OTHER CASE
+      		
+      END
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : RefreshSynthesis
+     internal_properties : CAAAAAgAAABLxBwO091CU7YUzo6MV1XKAJf+5Izl7RPw2gGK/mcitUbJnQsfHkuRNAPAqUSpYyt1b35JPrWHRq/ey7dkgFruUcLre8KfJJNv50qaDLQT4N5kaSwByRMR3bYUCTuYnEykKfpugCsQn3tfgiJkOCY824eOesR8PMKj/G5qO6SkHCO3s5rq9uWYGBosln1ssIxleoGopge6frbJ4F5UoB8tblgd2uFGknSuLflgnmsE3U18UtzAs3AGjE5SHkI4/LhUdAw0muDfgMzukB4+iEG9GRDHjzdlbxL/cA9MoRsqRpSC89QvaKq7
+     procedure_id : 1659525060856290524
+     type_code : 14
+     code : |1+
+      // Summary: Refreshes the preview in synthesis
+      // Syntax:
+      // RefreshSynthesis ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE RefreshSynthesis()
+      
+      
+      // Displays the month
+      STC_CURRENT_MONTH = Upper( StringBuild(<§$0004§>, GetMonthCaption(gdCurrentDate..Month), gdCurrentDate..Year))
+      
+      refreshTotal()
+      
+      EDT_TOTAL = StringBuild(<§$0002§>, NumToString(gcyGrandTotal, ",2fS"), pManagingValues.gsSymbolReferenceCurrency)
+      EDT_Reimbursements = StringBuild(<§$0003§>, NumToString(gmoAmountReimbursed, ",2fS"), pManagingValues.gsSymbolReferenceCurrency)
+      
+      
+      
+      // Calculates the ratio for the progress bar
+      IF gmoAmountReimbursed <> 0 _AND_ gcyGrandTotal <> 0 THEN
+      	PROGBAR_Repayments = (gmoAmountReimbursed * PROGBAR_Repayments..MaxValue) / gcyGrandTotal	
+      	STC_No_Reimbursement..Visible = False
+      ELSE
+      	PROGBAR_Repayments = 0
+      	STC_No_Reimbursement..Visible = True
+      END
+      
+     type : 458752
+   -
+     name : refreshTotal
+     internal_properties : CAAAAAgAAAC7B2c0SnQE03SEYEjGaqtZpZFwcPt2oRcBUJGW14A9UfITgNrt2YzpmyawTVxwhV3OKuuUvzGFTtI4KrzuAz7pujjxvnwAWUWiy+fFkoB3NyPrBRdR6S0hhiCn/RVnomU6tATVsYzoMnNQ3TaPGHa3qm/egMn0g92TNwBwO26eodPB7hlaS1z3G+oRCZWKtU5G/DRVSWhsAcHU9sTxmj6DoBwsqLS+Be0Q+iVKBbcprML6wyggN+VNe7iRXTvWeR9k9GQDAyRhrJ+k3MgE8Lz3cs15DT05g7fvNN662bT1ltb3h3vsBCgDNZOc/YA8th3BGuScJd2CCo7T5IXBjKSyz1yQ/l4FA86058wE6TQuqboapBYqgigF5/6k4BQ=
+     procedure_id : 1659525060856356060
+     type_code : 14
+     code : |1+
+      // Summary: Refreshes the total paid
+      // Syntax:
+      //refreshTotal ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      
+      
+      PROCEDURE refreshTotal()
+      
+      // Variables
+      dStartDate is date ; dStartDate = gdCurrentDate
+      dEndDate   is date ; dEndDate = gdCurrentDate
+      
+      
+      // Defines the beginning and the end of month
+      dStartDate..Day = 1
+      dEndDate..Day   = 31
+      
+      // Reset the information
+      gmoAmountReimbursed = 0
+      gcyGrandTotal     = 0
+      
+      // Configures the query
+      QRY_ExpenseAccountList.pStartDate   = dStartDate
+      QRY_ExpenseAccountList.pEndDate     = dEndDate
+      QRY_ExpenseAccountList.pEnvelopeID = Null
+      
+      // Runs the query
+      IF HExecuteQuery(QRY_ExpenseAccountList) THEN
+      	
+      	// Browses the query and fill the looper
+      	FOR EACH QRY_ExpenseAccountList 
+      		
+      		// Cumulates the total amount
+      		gcyGrandTotal += AmountAccordingToReference(QRY_ExpenseAccountList.Amount, QRY_ExpenseAccountList.CurrencyID,QRY_ExpenseAccountList.ExchangeRate)
+      		
+      		// If the bill was reimbursed, it is cumulated to the total of reimbursed bills
+      		IF QRY_ExpenseAccountList.Status = STATUS_REIMBURSED THEN
+      			gmoAmountReimbursed += AmountAccordingToReference(QRY_ExpenseAccountList.Amount, QRY_ExpenseAccountList.CurrencyID,QRY_ExpenseAccountList.ExchangeRate)
+      		END	
+      		
+      		END
+      	
+      ELSE
+      	Error(HErrorInfo())
+      END
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+resources :
+ string_res :
+  identifier : 0x1f2bba83000b45c9
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : "%1 %2"
+     index : 0
+   -
+     text :
+      en-GB : MM/DD/YYYY
+     index : 1
+   -
+     text :
+      en-GB : "%1 %2"
+     index : 2
+   -
+     text :
+      en-GB : "%1 %2"
+     index : 3
+   -
+     text :
+      en-GB : "%1 %2"
+     index : 4
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

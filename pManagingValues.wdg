@@ -1,0 +1,998 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pManagingValues
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1707d15514d0ef42
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : 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
+  type_code : 31
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAADicTtDO6Q83FAx9oJEJ0CH+oTbQRNg/EDfymISZRSp6SdFnen75kU7NSbunqrl6bf5f1P1w06LpkEHK4rhDSUNCj1SM4iGW2UaN8Ju5QKLP1RYfCZENxL9opuj0eSC0euHsns71LfrbigHDm1U6KOT35afWUzk687TCwmRBweuMj4fIJbT3vqXD9GqxYPI76IHsFe3fOXYan7jERRE8QUsHSdgaGLp00PF/qTQIx+DqvFWduGNxejaTxwz/uH+jPYAGTb1TI5sEUTDj1cnLvgqNJ9pscudw5/lNq2ozFVxTk+ed4Hn851niSdfd3xdo79e
+     code : |1+
+      
+      CONSTANT
+      	// Different states
+      	STATUS_TO_SEND  = 1
+      	STATUS_PENDING = 2
+      	STATUS_REIMBURSED = 3
+      	STATUS_REFUSED    = 4
+      	
+      	// No value
+      	CS_NO_VALUE = 0
+      	
+      	// Sort the expense accounts
+      	SORT_AMOUNT = 1
+      	SORT_DATE    = 2
+      	
+      	SORT_ASCENDING   = 3
+      	SORT_DESCENDING = 4
+      	
+      	// Display the date
+      	MODE_MONTH = 1
+      	MODE_DAY = 2
+      
+      	// Edit mode
+      	MODE_VAT_UNIQUE     = 1
+      	MODE_VAT_SECONDARY = 2
+      	MODE_THREE_VAT = 3
+      		
+      	// Default VAT
+      	VAT_DEFAULT = 20
+      	
+      END
+      
+      // Global
+      gnReferenceCurrencyID is int = CS_NO_VALUE
+      gsSymbolReferenceCurrency  is string
+      gsNameReferenceCurrency      is string
+      
+      _DefineReferenceCurrency()
+      
+      
+      gnMyProfileID is int = CS_NO_VALUE
+      gsNameMyProfile is string
+      
+      
+      gsHTMLAnInvoice is string = [
+      	<table style="margin-left:10px;">
+      	<tr>
+      	<td width="105px" class="l-11" style="padding:5px;">$$DATE$$ </td>
+      	<td width="270px" class="l-13" style="padding:5px;">$$DESCRIPTION$$</td>
+      	<td width="145px" class="l-9" style="padding:5px;">$$CONTRIBUTORS$$</td>
+      	<td width="115px" class="l-11" style="padding:5px;">$$IOT$$</td>
+      	<td width="115px" class="l-11" style="padding:5px;">$$VAT$$</td>
+      	<td width="155px" class="l-13" style="padding:5px;">$$CUSTOMER$$ </td>
+      	<td width="155px" class="l-11" style="padding:5px;">$$PROJECT$$</td>
+      	</tr>
+      	</table>
+      ]
+      
+     type : 720896
+  procedures :
+   -
+     name : EmailBuild
+     internal_properties : CAAAAAgAAACKC1VhZzK9qOZBLRdaknNcaTV5Pt4UTGMKDEaRA4XkB9JlFjQlVNCeFHQV1LR34g1W4dfaAsHrFjQOWliMZl128IburmqnAp3yG6Tveak9Xvn5EImyX55ERgjZTa8vNlUKWEvPgFtRUfVNz1HFo48zs1k2aCrnRjwXr8pM6hh592fyT5oZ8w/8pcJ4f985NoKmYtsiggbrpijVB1mahKeIK99Ltt8SbGw1JU/CcuDlnbiXJ4ZAuMfy0oy2RztartE09wVH/iPCkCrD7MLf2li92xrSWR/OIVxvfmjBzCz8pd2BELlWfeHzYnEihiNCN0/2KpJdchLRrog/jt0wgEMK4R2Hw/KlucsIIZAs6V2iF+zJ2lTfcpKNWkQnkDnkhLeYCaq/hrkk6lvkAjL5JZILE9uP4ipM/5k4mCCYN5rnGZqczMs4mzSTSno9KMXKSHK/ew==
+     procedure_id : 1659525151061045058
+     type_code : 15
+     code : |1-
+      // Summary: Transforms an expense account into CSV format
+      // Syntax:
+      //[ <Result> = ] EmailBuild (<arrExpenseAccount> is array)
+      //
+      // Parameters:
+      //	arrExpenseAccount (array): List of expense accounts that must be transformed into CSV
+      // Return value:
+      // 	UNICODE string: // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE EmailBuild(LOCAL arrExpenseAccount is array of int)
+      
+      // Variables
+      sContent   			is string
+      sLine     			is string
+      sCurrency    			is string
+      sCategory 			is string
+      sCustomer    			is string
+      sProject    			is string
+      sContributors 	is string
+      sPaymentType       is string
+      
+      // Adds the header
+      sContent += [CR] + <§@1f2beaee004b6686001b§>
+      
+      // Browse the expense accounts
+      FOR ALL ELEMENT nExpenseAccountID of arrExpenseAccount
+      	sContributors = ""
+      	
+      	// Finds the expense account
+      	HReadSeekFirst(Invoice,InvoiceID,nExpenseAccountID)
+      	IF HFound(Invoice) THEN
+      		
+      		// Positions on the additional information
+      		HReadSeekFirst(LocalCurrency,CurrencyID,Invoice.CurrencyID)
+      		IF HFound(LocalCurrency) THEN sCurrency = LocalCurrency.Symbol ELSE sCurrency = <§@1f2beaee004b6686001c§>
+      		
+      		// Category
+      		HReadSeekFirst(Category,CategoryID,Invoice.CategoryID)
+      		IF HFound(Category) THEN 
+      			SWITCH Nation()
+      				CASE nationFrench:	
+      					sCategory = Category.Name
+      				CASE nationEnglish:					
+      					sCategory = Category.NameUS
+      				OTHER CASE:
+      					sCategory = Category.NameUS				
+      			END
+      		END
+      		
+      		// Type of payment
+      		HReadSeekFirst(PaymentType,PaymentTypeID,Invoice.PaymentTypeID)
+      		IF HFound(PaymentType) THEN 
+      			SWITCH Nation()
+      				CASE nationFrench:	
+      					sPaymentType = PaymentType.Caption
+      				CASE nationEnglish:					
+      					sPaymentType = PaymentType.CaptionUS
+      				OTHER CASE:
+      					sPaymentType = PaymentType.CaptionUS
+      			END
+      		END
+      		
+      		// Contributors
+      		HReadSeekFirst(Invoice_Contributors,InvoiceID,nExpenseAccountID)
+      		WHILE HFound(Invoice_Contributors)
+      			HReadSeek(Contributors,ContributorsID,Invoice_Contributors.ContributorsID)
+      			IF HFound(Contributors) THEN
+      				sContributors += [" - "] + Contributors.Name
+      			END
+      			HReadNext(Invoice_Contributors)
+      		END
+      		
+      		HReadSeekFirst(Customer,CustomerID,Invoice.CustomerID)
+      		IF HFound(Customer) THEN sCustomer = Customer.Name
+      		
+      		HReadSeekFirst(Project,ProjectID,Invoice.ProjectID)
+      		IF HFound(Project) THEN sProject = Project.Name
+      		
+      		// Information
+      		sLine = Invoice.InvoiceID
+      		sLine += ";" + Invoice.Caption
+      		sLine += ";" + Invoice.Amount
+      		sLine += ";" + sCurrency
+      		sLine += ";" + Invoice.VATAmount1
+      		sLine += ";" + Invoice.VATAmount2
+      		sLine += ";" + Invoice.VATAmount3
+      		sLine += ";" + Invoice.VATRate1
+      		sLine += ";" + Invoice.VATRate2
+      		sLine += ";" + Invoice.VATRate3
+      		sLine += ";" + Invoice.Date
+      		sLine += ";" + sCategory
+      		sLine += ";" + sContributors
+      		sLine += ";" + sCustomer
+      		sLine += ";" + sProject
+      		sLine += ";" + GetStatus(Invoice.Status)
+      		sLine += ";" + sPaymentType
+      		
+      		sSpecialCaption is string
+      		nSpecialType is int
+      		 GetSpecialAccordingToCategory(Invoice.CategoryID,sSpecialCaption, nSpecialType)
+      		
+      		sLine += ";" + NoSpace(sSpecialCaption + " " + Invoice.SpecialValue)
+      		
+      		// Adds the row
+      		sContent += [CR] + sLine
+      	ELSE
+      		// Error
+      		Error(StringBuild(<§@1f2beaee004b6686000c§>, nExpenseAccountID))	
+      	END
+      	
+      END
+      
+      RESULT sContent
+     type : 458752
+   -
+     name : GetStatus
+     internal_properties : CAAAAAgAAAAlWfvfNOswE8jLOozyLQuoAwKGp1YlOXM5E5oMkBWtgh6dYW3+27njfC3esgQOh5p7xtwHe0Cc/xD0YBfuWCYtyR2D+UJk2WgdZcRIgpUigsOBOEg/6RGZrb1JSo6oyY4mydyQFRME8ViBO1oVtwAnuxfpSa3NuQrc8rRTYJSJ4xrkyg5xYL3lzsWxvK8J0GS2UdimN+XqwR5+dbyGU0cFoUk4ZFgyRAcCKLnJA8u5xHuwrsdYnPWAE+G6N8zzNbO6TGyF33729g3eySvuwR85M0ClGB2NUcaORW9pCe6D7pIN5qTMEpi5y2vdeNQ0k4EvygY=
+     procedure_id : 1659525151061110594
+     type_code : 15
+     code : |1-
+      // Summary: Retrieves the caption of the status
+      // Syntax:
+      //[ <Result> = ] RetrieveStatus (<nStatusValue>)
+      //
+      // Parameters:
+      //	nStatusValue: Value of the status
+      // Return value:
+      // 	UNICODE string: // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE GetStatus(LOCAL nStatusValue)
+      
+      SWITCH nStatusValue
+      	CASE STATUS_TO_SEND:
+      		RESULT <§@1f2beaee004b66860004§>
+      	CASE STATUS_PENDING:
+      		RESULT <§@1f2beaee004b66860005§>
+      	CASE STATUS_REIMBURSED:
+      		RESULT <§@1f2beaee004b66860002§>
+      	CASE STATUS_REFUSED:
+      		RESULT <§@1f2beaee004b66860003§>
+      	OTHER CASE:
+      		RESULT <§@1f2beaee004b66860006§>
+      END
+     type : 458752
+   -
+     name : EnvelopeRefreshPeriod
+     internal_properties : CAAAAAgAAAAvgbU0b4rpztqTAIcVLMScYDusuX8GXH/wIeJIRETVHgbu2r6M6nRKC3UgAYbG+p/sugavmt4CDd5nmdRK1SOcKiOcvIRTUY9y2MZux15lJnmKDlYlLzfBrkYZtqpgl08jrt2UkltUopbnw1iJzI4kezRP5xLPLwzoPPJnY5MeYv5ANCu15u8EURiE1l7pmCf2d6ReBp5D0RWQ5KJksXCPpFuxg8L3zW/2IItaaEpFnHvXa8FqJy5AM3My6ayeCgD/DmukC/dwXawjjYXtjlTYpjtN3ziK8NGaI+k8NSV2wLts4LikjSpfLmkX1f8PiisPwPPm9iXvfbxRP6iW9ODUQTf9OkHapArKK++yaXUn27wxhb7KBu+lUp4q7cv3CbeS0bZQWJi684zwU1/ZePTrlcHr2g9xsg==
+     procedure_id : 1659525151061176130
+     type_code : 15
+     code : |1-
+      // Summary: Refreshes the period of an envelope
+      // Syntax:
+      //EnvelopeRefreshPeriod (<nEnvelopeID>)
+      //
+      // Parameters:
+      // 	nEnvelopeID: Envelope identifier
+      // Return value:
+      // 	None
+      //
+      PROCEDURE EnvelopeRefreshPeriod(LOCAL nEnvelopeID)
+      
+      //For the next invoice, which date will be proposed by default 
+      //Defined rule >> Propose today's date
+      //But if the user changed today's date to select another date (older date in theory)
+      //it means that all his bills have been entered at once
+      //Therefore, if the date is changed and if among the invoices of this expense note, there is no invoice with a date after
+      //Propose the same date as this invoice
+      //Therefore, it must be stored
+      dInvoiceDate is date = Invoice.Date
+      bFindDefaultDate is boolean = False
+      IF dInvoiceDate = Today() THEN
+      	SetDefaultDate()	
+      ELSE
+      	bFindDefaultDate = True 
+      END
+      
+      // Variable
+      dStartDate is date = "00000000"
+      dEndDate   is date = "00000000"
+      
+      // Positions on the envelope
+      HReadSeekFirst(Expenses,ExpenseAccountID,nEnvelopeID)
+      IF HFound(Expenses) THEN
+      	
+      	// Browses all the expense accounts associated with this envelope
+      	HFilter(Invoice,ExpenseAccountID,Expenses.ExpenseAccountID)
+      	HReadFirst(Invoice,ExpenseAccountID)
+      	WHILE NOT HOut(Invoice)
+      		
+      		IF dStartDate = "00000000" _AND_ dEndDate = "00000000" THEN 
+      			dStartDate = Invoice.Date
+      			dEndDate   = Invoice.Date
+      		ELSE
+      			dStartDate = Min(dStartDate,Invoice.Date)
+      			dEndDate   = Max(dEndDate,Invoice.Date)
+      		END
+      		
+      		IF bFindDefaultDate = True THEN
+      			IF Invoice.Date > dInvoiceDate THEN
+      				SetDefaultDate()
+      				bFindDefaultDate = False 
+      			END
+      		END
+      		
+      		HReadNext(Invoice,ExpenseAccountID)
+      	END
+      	HDeactivateFilter(Invoice)
+      	
+      	// Saves the new dates
+      	Expenses.StartDate  = dStartDate
+      	Expenses.EndDate    = dEndDate
+      	Expenses.StartYear = dStartDate..Year
+      	Expenses.StartMonth  = dStartDate..Month
+      	Expenses.EndYear   = dEndDate..Year
+      	Expenses.EndMonth    = dEndDate..Month
+      	HModify(Expenses)
+      	
+      END
+      
+      IF bFindDefaultDate = True THEN
+      	SetDefaultDate(dInvoiceDate)
+      END
+     type : 458752
+   -
+     name : _DefineReferenceCurrency
+     internal_properties : CAAAAAgAAABndKAMbiom8vmG0BE4zrAY4iPkryPf355eRqKSMGsJOw0XD6IIsi+3KtQzLS5wNaX21o8LYScRQUyYgiT8G3de8qRSV7KTn5Sxv4dGyuBeFz+tC/+A3VvieFEu027emZ41vBEkwqACRuiOqigz64/pM9ShakMwPhJsFX4hHCxNlSRK/0SsHFV497mu021VWEwCftjl//gT3CCjc4ANEjMs/ZWiFGkH+68N95w1h1MDaqpHKPv1d6jCha+IG1lNX3Yx2mOfBdG23pK+sA+uowcba1q28DQ=
+     procedure_id : 1659525151061241666
+     type_code : 15
+     code : |1-
+      // Summary: Defines the reference currency
+      // Syntax:
+      // _DefineReferenceCurrency ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      procedure RESTREINT _DefineReferenceCurrency()
+      
+      HReadSeekFirst(LocalCurrency,Reference,True)
+      if HFound(LocalCurrency) then
+      	gnReferenceCurrencyID = LocalCurrency.CurrencyID
+      	gsSymbolReferenceCurrency  = LocalCurrency.Symbol
+      	gsNameReferenceCurrency      = LocalCurrency.Name
+      end
+     type : 458752
+   -
+     name : AmountAccordingToReference
+     internal_properties : CAAAAAgAAADYl5sQlPe2onI5zsuQL79Anm3Az7KTADY9n5rYGRn2FgD23J6mqZMC2+k+YmrHclCBTgltty8CoLsgxt/SdqL+hjjuzTCHLLHukPpZ0DzsxG8wTSjHkvOJxejxyX1MINaMpSs0Io/sFM6yL20wAphh2mgkHZ2hQCw5vkpy2HF8OtH0LMVYDtj5hVsLw83ufzuaC1IhztSkSK5dIkjpOS9/4kxK2LpCIa94b00HsUnjzLSg4CUIVPYa9CmwxPdowM78MVnf8TqCLY7EEtCSW379imvFyp+cqSPAPGCHXmSnRA==
+     procedure_id : 1659525151061307202
+     type_code : 15
+     code : |1-
+      // Summary: Defines the amount according to the currency
+      // Syntax:
+      //[ <Result> = ] AmountAccordingToReference (<cyAmount>, <nCurrencyID>, <mExchangeRate>)
+      //
+      // Parameters:
+      //	moAmount: Amount
+      //	nCurrencyID: currency
+      //	mExchangeRate: exchange rate
+      // Return value:
+      // 	currency: 
+      //
+      PROCEDURE AmountAccordingToReference(LOCAL cyAmount, LOCAL nCurrencyID, LOCAL mExchangeRate)
+      
+      // Variable
+      cyCalculatedAmount is currency = cyAmount
+      
+      IF nCurrencyID <> gnReferenceCurrencyID _AND_ mExchangeRate <> 0 THEN
+      	cyCalculatedAmount = cyCalculatedAmount / mExchangeRate
+      END
+      
+      RESULT cyCalculatedAmount
+     type : 458752
+   -
+     name : CustomerDelete
+     internal_properties : CAAAAAgAAAAdqHc2hfd8Kbiu/laIwAHK+U6NKumBWXeceFVj7+T+SgOnFRZburPVoJy0UDGQzxM1M6LVshnjkkOie+MIpKY+cWan90YbUB8zewoeqCAXoO4obQitJd8VobosFbfMUGSspZ4C7BdEs8crioY4JOrU63OaRjYiGmwlzrzk/VaSOvVBWQT0tMvishQq0Demfjr3XPcisA2IoOi73pAm0o2L8OKbXGv0OJaAT4+K8D0yi5/WOObKWS5IxugVjPcRPnKqVvJOTQO6NPGbdPGYsqlxYVSfNOa/XPbxCMB3XEgdrRvLuPVwsPwN
+     procedure_id : 1659525151061372738
+     type_code : 15
+     code : |1-
+      // Summary: Deletes a customer
+      // Syntax:
+      //CustomerDelete (<nCustomerID>)
+      //
+      // Parameters:
+      // 	nCurrencyID: ID of the customer currently deleted
+      // Return value:
+      // 	None
+      
+      PROCEDURE CustomerDelete(LOCAL nCustomerID)
+      
+      HReadSeekFirst(Customer,CustomerID,nCustomerID)
+      IF HFound(Customer) THEN
+      	
+      	// De-associates the expense accounts
+      	HFilter(Invoice,CustomerID,nCustomerID)
+      	HReadFirst(Invoice,CustomerID)
+      	WHILE NOT HOut(Invoice)
+      		Invoice.CustomerID = CS_NO_VALUE
+      		HModify(Invoice)
+      		HReadNext(Invoice,CustomerID)
+      	END
+      	HDeactivateFilter(Invoice)
+      	
+      	// Deletes the customer
+      	//HDelete(Customer) >> Useless because the looper is directly linked to the file  =>  automatic deletion
+      END
+     type : 458752
+   -
+     name : EnvelopeDelete
+     internal_properties : CAAAAAgAAADSCzKYUGgqQudAc35IXWmUHXK7BnI0s8tTwcdigM0xMES0Pclw1t1BWvr0M/l1L5HhyoH9H/BUffRjlXFJrmUfi4OGgW2Uao/rRkKY79BjDM9XkODK5U4xf3yCmA/vw+Fy9AerUBStZoW40oDUP4mPo7W7dOJcXiikmh1kbWXazRHIwS0kwNs82pU0VWygD0jjF6VlEhfOULqkntmPPOB1MjPXL/80kA7G0kJ+JIzScrgcYVzpThFzfzGRuHk87ln5APsC4K+/euT5ARGIpWfsoSEnkHkolERV3EdT1yRp+zrd2ouO3YM5pUJ1aDYoPc9O
+     procedure_id : 1659525151061438274
+     type_code : 15
+     code : |1-
+      // Summary: Deletes an envelope
+      // Syntax:
+      //[ <Result> = ] EnvelopeDelete (<nEnvelopeID>)
+      //
+      // Parameters:
+      // 	nEnvelopeID: ID of the envelope that must be deleted
+      // Return value:
+      // 	boolean: True to delete, False otherwise
+      
+      PROCEDURE EnvelopeDelete(LOCAL nEnvelopeID)
+      
+      HReadSeekFirst(Expenses,ExpenseAccountID,nEnvelopeID)
+      IF HFound(Expenses)  THEN
+      	
+      	// Deletes the expense accounts of contributors
+      	HReadSeekLast(Invoice,ExpenseAccountID,Expenses.ExpenseAccountID)
+      	WHILE HFound(Invoice)
+      		
+      		HReadSeekLast(Invoice_Contributors,InvoiceID,Invoice.InvoiceID)
+      		WHILE HFound(Invoice_Contributors)
+      			HDelete(Invoice_Contributors)
+      			HReadPrevious(Invoice_Contributors)	
+      		END
+      		
+      		//Delete the photo files from disk then delete them from the database
+      		DeletePhotoFiles(Invoice.InvoiceID)
+      		
+      		HDelete(Invoice)
+      		HReadPrevious(Invoice)
+      	END
+      	
+      	HDelete(Expenses)
+      	RESULT True
+      
+      END
+      
+      RESULT False
+     type : 458752
+   -
+     name : ProjectDelete
+     internal_properties : CAAAAAgAAABNewcFvqZXRbVphawN+D/NTrVbOV7u6AYlDKFldIUGxvT8qLADlnnXmK4c0lfsxs2t8hQoyFPmNQIJ0NT3/rwK4KgiOz5X/C0+qMLePIR8EbRMPSU8iaHWSpbHs1OMqMu85aUaEr8/p2epRMqb2g01lVt12aJrBATgna3r186CC+QtMWxC9tuBv9JO7NhvqcwkKF+Kns98uXXLhujTs5C74UgZHmFOJMV3Jf9ifRrHX/YYeOb+5dg9K2BIERNPaGec3b2zFtqdBA8ojSBqVhWWSdW8NzP6f/5La4F+2lT7QHHaUZwp5fF4QdAQg4gygAAozA==
+     procedure_id : 1659525151061503810
+     type_code : 15
+     code : |1-
+      // Summary: Deletes a customer
+      // Syntax:
+      //ProjetDelete (<nProjectID>)
+      //
+      // Parameters:
+      // 	nProjectID: ID of the project currently deleted
+      // Return value:
+      // 	None
+      
+      PROCEDURE ProjectDelete(LOCAL nProjectID)
+      
+      HReadSeekFirst(Project,ProjectID,nProjectID)
+      IF HFound(Project) THEN
+      	
+      	// De-associates the expense accounts
+      	HFilter(Invoice,ProjectID,nProjectID)
+      	HReadFirst(Invoice,ProjectID)
+      	
+      	WHILE NOT HOut(Invoice)
+      		Invoice.ProjectID = CS_NO_VALUE
+      		HModify(Invoice)
+      		HReadNext(Invoice,ProjectID)
+      	END
+      	HDeactivateFilter(Invoice)
+      	
+      	// Deletes the project
+      	//HDelete(Customer) >> Useless because the looper is directly linked to the file  =>  automatic deletion
+      END
+     type : 458752
+   -
+     name : CategoryCanBeDeleted
+     internal_properties : CAAAAAgAAADsmiRW6IKe9rmQoOCFh8fyirjwMaX0ibUXbwdq0On0FCbI+QOxAdSvk5cpjelxNIcU0VtZf8Q2Aqas1HVQTHgHWPS5501wdYR8D1dCUS87wveksx8xcjWxzeIUwznSOp4ZBVeSUz9HzZ+pEBgBCcikX1cDfI7l7pVKdxbAHBjya0Z+DH0qdUWtV61g3LgColNGD6IT+i743wOiCDwd9KPIJ6XGfdePDnFF+p41JsaL+8f6SgAD1/Hs+C3RCe9wb5LO+njQ7BQfYeOtiVqUm2ChEjUw0rHzjNOq6F+4CfoenLExbNMZhg==
+     procedure_id : 1659525151061569346
+     type_code : 15
+     code : |1-
+      // Summary: Can the category be deleted?
+      // Syntax:
+      //[ <Result> = ] CategoryCanBeDeleted (<nCategoryID>)
+      //
+      // Parameters:
+      //	nCategoryID: ID of the category whose deletion was requested
+      // Return value:
+      // 	boolean: True if the category can be deleted, False otherwise
+      
+      PROCEDURE CategoryCanBeDeleted(LOCAL nCategoryID)
+      
+      HReadSeekFirst(Category,CategoryID,nCategoryID)
+      IF HFound(Category) THEN
+      	
+      	// Find the associated expense accounts
+      	HFilter(Invoice,CategoryID,nCategoryID)
+      	HReadFirst(Invoice,CategoryID)
+      	
+      	IF NOT HOut(Invoice) THEN 
+      		RESULT False
+      	ELSE
+      		RESULT True
+      	END
+      END
+      
+      RESULT False
+     type : 458752
+   -
+     name : PaymentCanBeDeleted
+     internal_properties : CAAAAAgAAAD5yKvw1YRl6hoF3r6fycl9ZXk18hYDQ6X1J+T7+8DWqpMPP40esGEJD9ON5wkvfSNe+FoNxRZUOXWycnqY4DGKKUIoMxfiv6JWVkpUQ/OulFdvR1tyhfnM/5XSJsmPug9kZ3UNDImJOqVa8r3OIAidDXwCmRUhEFrCaKPZaAiiwNS97jxjB+ush/aVudZ+wryOcE6YrT7+Pu19v7snZBcTL45qwprD/jZbI9tGFqCXVDNDuDPIEc0REtpyyoEU6/uysQTNUyNIRcZV1VQ54q2dZ1EHjM36ne/lNCfiYNsF0KRT4JbMgdY=
+     procedure_id : 1659525151061634882
+     type_code : 15
+     code : |1-
+      // Summary: Can the type of payment be deleted?
+      // Syntax:
+      //[ <Result> = ] PaymentCanBeDeleted (<nPaymentID>)
+      //
+      // Parameters:
+      //	nPaymentID: ID of the payment whose deletion was requested
+      // Return value:
+      // 	boolean: True if the type of payment can be deleted, False otherwise
+      
+      PROCEDURE PaymentCanBeDeleted(LOCAL nPaymentID)
+      
+      HReadSeekFirst(PaymentType, PaymentTypeID,nPaymentID)
+      IF HFound(PaymentType) THEN
+      	
+      	//If associated expense accounts are found
+      	HFilter(Invoice,PaymentTypeID,nPaymentID)
+      	HReadFirst(Invoice,PaymentTypeID)
+      	
+      	IF NOT HOut(Invoice) THEN 
+      		RESULT False
+      	ELSE
+      		RESULT True
+      	END
+      END
+      
+      RESULT False
+     type : 458752
+   -
+     name : CurrencyCanBeDeleted
+     internal_properties : CAAAAAgAAACJOD5j5bLVGnqFLo7PadktNTnl0lZzI8XFF2RbG1CWapP/v33ukLHZb3Pdd3nPzZMOWCrtJQZ0WYWiclp4ULEqydIIA2fir/IWFhokMzN+ZEcPdzvSNdkMD8WyJgl/eq+kF1Vd3Al5KuWaQs3+gDit3fxS8f1J6LJ6wAshoKAKqDw1BpRrT4MkH0694U526kQ2yCawNcY2NmUVB6M//J+bV8YCOmILVo4Tm0MuDrjffNvb0Kvw2cUpyhL6MhlsE0N6iVxl22tgHZ5NHVxRGtVFzyl/BDWCFQfdLC/K+JPtOEzZfqvcsQY=
+     procedure_id : 1659525151061700418
+     type_code : 15
+     code : |1-
+      // Summary: Can the currency be deleted?
+      // Syntax:
+      //[ <Result> = ] CurrencyCanBeDeleted (<nCurrencyID>)
+      //
+      // Parameters:
+      //	nCurrencyID: ID of the currency that must be modified
+      // Return value:
+      // 	boolean: True if the currency can be deleted, False otherwise
+      
+      
+      PROCEDURE CurrencyCanBeDeleted(LOCAL nCurrencyID)
+      
+      HReadSeekFirst(LocalCurrency,CurrencyID,nCurrencyID)
+      IF HFound(LocalCurrency) THEN
+      	
+      	
+      	// Find the associated expense accounts
+      	HFilter(Invoice,CurrencyID,nCurrencyID)
+      	HReadFirst(Invoice,CurrencyID)
+      	
+      	IF NOT HOut(Invoice) THEN 
+      		RESULT False
+      	ELSE
+      		RESULT True
+      	END
+      END
+      
+      RESULT False
+     type : 458752
+   -
+     name : _DefineProfile
+     internal_properties : CAAAAAgAAABndKAMbiom8vmG0BE4zrAY4iPkryPf355eRqKSMGsJOw0XD6IIsi+3KtQzLS5wNaX21o8LYScRQUyYgiT8G3de8qRSV7KTn5Sxv4dGyuBeFz+tC/+A3VvieFEu027emZ41vBEkwqACRuiOqigz64/pM9ShakMwPhJsFX4hHCxNlSRK/0SsHFV497mu021VWEwCftjl//gT3CCjc4ANEjMs/ZWiFGkH+68N95w1h1MDaqpHKPv1d6jCha+IG1lNX3Yx2mOfBdG23pK+sA+uowcba1q28DQ=
+     procedure_id : 1659525151061765954
+     type_code : 15
+     code : |1-
+      // Summary: Defines the contributor profile
+      // Syntax:
+      //_DefineProfile ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE RESTREINT _DefineProfile()
+      
+      HReadSeekFirst(Contributors,MyProfile,True)
+      IF HFound(Contributors) THEN
+      	gnMyProfileID = Contributors.ContributorsID
+      	gsNameMyProfile     = Contributors.Name
+      END
+     type : 458752
+   -
+     name : DeletePhotoFiles
+     internal_properties : CAAAAAgAAAD1gQZkbB/ZGKnOyMEF4eGnZ65icy0OBWIOiaoE/mvFV1PP0T4ugDf1iNxrf/woqdF4aqHPlwmVz9qwDt4Kd6uKzMj0WzTdC74v5xOkRKwGJ5VNke/OO4Mgii1mGcimbYJbHHtAdF76cHqinVNwzLSSWvXy/RgFmYHfKKXk+SVSLn+vpMdpEVAHHkANProGMUkxt9kcgHki988ips9uf5TxAI6Dy9LYWn7EbuPMeGC8B/mUHfLu2AelsFrzX7d5ryNM16CdNo397OFT9fDfsKmSivlLYsY=
+     procedure_id : 1659525151061831490
+     type_code : 15
+     code : |1+
+      // Summary: Delete all the invoice photos from disk
+      // Syntax:
+      //DeletePhotoFiles (<nInvoiceID>)
+      //
+      // Parameters:
+      //	nInvoiceID: ID of the invoice that will be deleted and whose photos will be deleted from disk
+      // Return value:
+      // 	None
+      
+      PROCEDURE DeletePhotoFiles(nInvoiceID)
+      
+      FOR EACH Photos WHERE InvoiceID = nInvoiceID
+      	fDelete(Photos.Path)
+      END
+      
+     type : 458752
+   -
+     name : HTMLBuild
+     internal_properties : CAAAAAgAAADJH1uCfcXxmi8kxLAXJFlFkMUhJzXrZKElSSFF8kCEdqf+mZtoL6pkkEEeKEhw/cS7kLOG57UApboIC24Vt+oPF+LUXI3li8JOVSZ7MaO5cVA8f+Gy+aBkNjsG9MZEE/NEyPwduZYeNc7rUKCpa2Ytx+7lBVeDuISLhgKEdolveaKvm0ren69sYd5Pq0j2qGDy1rHn5Vvlsl22NLaKjfpHJiTzKvp0XX2DgiuFVtIw93cgYuYbwjRUEux2oT15M4mp+QROOV2Knf25PPk/YthEqw/50HK46I4aXCe2XIOygU2Z0zEyHM0lG0nPtaDWbNaOXPNFnH3tGO7xMIhu0xr+Ktrfc/zJSguQaHTaeXoWet0pDJGTECZ39n1qzScrOIhTwanwo6r1sgFkRddWZ6zOCb3KuPE8v0vMsQ3eIkV4EDQ7iPWu6lS3Q1DgoO9NnRkKLsA9Speq2XeC/c9+DmZGkycHGqmkJzQ9+TjScVmDPzLVdsyp3NTiLubVCEJ1
+     procedure_id : 1659525151061897026
+     type_code : 15
+     code : |1-
+      // Summary: Prints a list of expenses
+      // Syntax:
+      //[ <Result> = ] HTMLBuild (<arrEnvelopes> is array [, <sListPhotos> is string])
+      //
+      // Parameters:
+      //	abEnvelopes (array): List of expenses
+      //	sListPhotos (UNICODE string - default value=""):<specify the role of sListPhotos>
+      // Return value:
+      // 	UNICODE string: The HTML
+      
+      PROCEDURE HTMLBuild(arrEnvelopes is array of int, sListPhotos is string = "")
+      
+      sHTMLCodeAllEnvelopes is string
+      
+      // Browse the expense accounts
+      FOR ALL ELEMENT nEnvelopeID of arrEnvelopes
+      	
+      	sHTML 		is string 		 = fLoadText(<§@1f2beaee004b6686001d§>)
+      	cyTotal is currency = 0
+      	
+      	QRY_ExpenseAccountList.pStartDate   = Null
+      	QRY_ExpenseAccountList.pEndDate     = Null
+      	QRY_ExpenseAccountList.pEnvelopeID = nEnvelopeID
+      	
+      	HExecuteQuery(QRY_ExpenseAccountList)
+      	
+      	//Retrieves the envelope information
+      	HReadFirst(QRY_ExpenseAccountList)
+      	IF NOT HOut(QRY_ExpenseAccountList) THEN
+      		// Envelope
+      		sHTML = Replace(sHTML,"$$1$$",QRY_ExpenseAccountList.Envelope_Name)
+      		
+      		// Internal ref
+      		sHTML = Replace(sHTML,"$$2$$", QRY_ExpenseAccountList.InternalRef)
+      		
+      		// Contributor
+      		HReadSeekFirst(Contributors,ContributorsID,GetMyProfileID)
+      		IF HFound(Contributors) THEN
+      			sHTML = Replace(sHTML,"$$3$$", Contributors.Name)
+      		ELSE
+      			sHTML = Replace(sHTML,"$$3$$", "Anonyme")
+      		END
+      		
+      		// Period
+      		sHTML = Replace(sHTML,"$$4$$", DateToString(QRY_ExpenseAccountList.StartDate, maskSystemDate))
+      		sHTML = Replace(sHTML,"$$5$$", DateToString(QRY_ExpenseAccountList.EndDate, maskSystemDate))
+      		
+      		//Printout date
+      		sHTML = Replace(sHTML,"$$6$$", DateToString(Today, maskSystemDate))
+      		
+      		//Number of invoices
+      		QRY_CountExpenseAccounts.pIDList = nEnvelopeID
+      		HExecuteQuery(QRY_CountExpenseAccounts)
+      		sHTML = Replace(sHTML,"$$7$$", QRY_CountExpenseAccounts.NbExpenseAccounts)
+      		
+      		
+      		//retrieves information about each invoice
+      		FOR EACH QRY_ExpenseAccountList 
+      			
+      			sHTMLCodeInvoice  is string = gsHTMLAnInvoice
+      			
+      			// Variable
+      			sDescription is string
+      			
+      			// Increases the total
+      			cyTotal += AmountAccordingToReference(QRY_ExpenseAccountList.Amount, QRY_ExpenseAccountList.CurrencyID, QRY_ExpenseAccountList.ExchangeRate) + QRY_ExpenseAccountList.BankCharges
+      			
+      			// Defines the description
+      			IF QRY_ExpenseAccountList.Caption ~= "" THEN
+      				SWITCH Nation()
+      					CASE nationFrench:
+      						sDescription = Upper(QRY_ExpenseAccountList.Name)
+      						
+      					OTHER CASE:
+      						sDescription = Upper(QRY_ExpenseAccountList.NameUS)
+      				END
+      				
+      			ELSE
+      				SWITCH Nation()
+      					CASE nationFrench:
+      						sDescription = Upper(QRY_ExpenseAccountList.Name) + " - " + QRY_ExpenseAccountList.Caption
+      						
+      					OTHER CASE:
+      						sDescription = Upper(QRY_ExpenseAccountList.NameUS) + " - " + QRY_ExpenseAccountList.Caption
+      						
+      				END
+      				
+      			END
+      			
+      			
+      			
+      			sSpecialCaption is string
+      			nSpecialType is int
+      			GetSpecialAccordingToCategory(QRY_ExpenseAccountList.CategoryID,sSpecialCaption, nSpecialType)
+      			// Special item?
+      			IF sSpecialCaption <> "" THEN
+      				sDescription += "<BR>"  +sSpecialCaption + " : " + QRY_ExpenseAccountList.SpecialValue
+      			END
+      			
+      			IF QRY_ExpenseAccountList.Comment <> "" THEN
+      				sDescription += "<BR>"  + QRY_ExpenseAccountList.Comment
+      			END
+      			
+      			
+      			
+      			// Displays the values
+      			sHTMLCodeInvoice = Replace(sHTMLCodeInvoice,"$$DESCRIPTION$$", sDescription)
+      			
+      			sHTMLCodeInvoice  =  Replace(sHTMLCodeInvoice,"$$DATE$$", DateToString(QRY_ExpenseAccountList.DATE, maskSystemDate)) 
+      			
+      			garrContrib      is array of int
+      			
+      			// Contributors?
+      			HFilter(Invoice_Contributors,InvoiceID,QRY_ExpenseAccountList.ExpenseID)
+      			HReadFirst(Invoice_Contributors,InvoiceID)
+      			WHILE NOT HOut(Invoice_Contributors)
+      				Add(garrContrib,Invoice_Contributors.ContributorsID)
+      				HReadNext(Invoice_Contributors)
+      			END
+      			HDeactivateFilter(Invoice_Contributors)
+      			
+      			
+      			// Variable
+      			sName is string =""
+      			
+      			// Displays the contributors
+      			FOR ALL ELEMENT nContributorID of garrContrib
+      				HReadSeekFirst(Contributors,ContributorsID,nContributorID)
+      				IF HFound(Contributors) THEN
+      					sName += [", "] + Contributors.Name	
+      				END
+      			END
+      			
+      			sHTMLCodeInvoice  =  Replace(sHTMLCodeInvoice,"$$CONTRIBUTORS$$", sName)
+      			
+      			//IOT
+      			sIOT is string = NumToString(QRY_ExpenseAccountList.Amount, ",2fS")  + " " + QRY_ExpenseAccountList.Symbol
+      			
+      			IF QRY_ExpenseAccountList.CurrencyID <> pManagingValues.gnReferenceCurrencyID THEN
+      				
+      				sIOT += "<BR>" +  "(1" + pManagingValues.gsSymbolReferenceCurrency  + " = " + NumToString(QRY_ExpenseAccountList.ExchangeRate, ",2fS") + " " + QRY_ExpenseAccountList.Symbol + ")" +  
+      				"<BR>"   + " = " +  NumToString(AmountAccordingToReference(QRY_ExpenseAccountList.Amount, QRY_ExpenseAccountList.CurrencyID, QRY_ExpenseAccountList.ExchangeRate), ",2fS") + " " + pManagingValues.gsSymbolReferenceCurrency + 
+      				"<BR>"  + <§@1f2beaee004b6686001e§> + NumToString(QRY_ExpenseAccountList.BankCharges, ",2fS")  + " " + pManagingValues.gsSymbolReferenceCurrency
+      				
+      			END
+      			sHTMLCodeInvoice  =  Replace(sHTMLCodeInvoice,"$$IOT$$", sIOT)
+      			
+      			
+      			//VAT
+      			sVAT is string
+      			sVAT  = QRY_ExpenseAccountList.VATRate1+ "% : " +  NumToString(QRY_ExpenseAccountList.VATAmount1, ",2fS")  + " " + QRY_ExpenseAccountList.Symbol 
+      			IF QRY_ExpenseAccountList.VATAmount2 <> 0 THEN
+      				sVAT  += [CR] + QRY_ExpenseAccountList.VATRate2 + "% : "+ NumToString(QRY_ExpenseAccountList.VATAmount2, ",2fS")  + " " + QRY_ExpenseAccountList.Symbol
+      			END
+      			sHTMLCodeInvoice  =  Replace(sHTMLCodeInvoice,"$$VAT$$", sVAT)
+      			
+      			//CUSTOMER
+      			sHTMLCodeInvoice  =  Replace(sHTMLCodeInvoice,"$$CUSTOMER$$", QRY_ExpenseAccountList.Customer_Name)
+      			
+      			//PROJECT
+      			sHTMLCodeInvoice  =  Replace(sHTMLCodeInvoice,"$$PROJECT$$", QRY_ExpenseAccountList.Project_Name)
+      			
+      			
+      			HReadSeekFirst(Photos,InvoiceID,QRY_ExpenseAccountList.ExpenseID)
+      			
+      			WHILE HFound(Photos)
+      				
+      				<COMPILE IF ConfigurationType=Android> 
+      					// for all the photos
+      					sTempPhoto is string
+      					sTempPhoto = gsDirTempPhotos + ["/"] + fExtractPath(Photos.Path,fFileName+fExtension)
+      					fCopyFile(Photos.Path,sTempPhoto)
+      					sListPhotos += [CR] + sTempPhoto				
+      				<ELSE>
+      					sListPhotos += [CR] + Photos.Path
+      				<END>
+      				
+      				HReadNext(Photos)
+      			END
+      			
+      			
+      			sHTML = Replace(sHTML,"<$$HTMLCODEINVOICES$$>", sHTMLCodeInvoice + "<$$HTMLCODEINVOICES$$>")
+      			
+      		END
+      		
+      		sHTML = Replace(sHTML,"<$$HTMLCODEINVOICES$$>", "")
+      		
+      		//Total amount of the envelope
+      		sHTML = Replace(sHTML,"$$8$$", NumToString(cyTotal,",2fS")+" "+pManagingValues.gsSymbolReferenceCurrency)
+      		
+      		sHTMLCodeAllEnvelopes += sHTML + [ "<div style=""page-break-before: always;""> </div>"]
+      	END
+      END
+      
+      RESULT sHTMLCodeAllEnvelopes
+     type : 458752
+   -
+     name : PrintHTML
+     internal_properties : CAAAAAgAAACocawRxXch+/X9oPv1UsaXoaqsuXO0+toutVgJg7zvqqP/KU5LwpMI1nEP++b6SVIGpJCkLyHsDXw1H6Ck6BNQb/qrJ97Rs6MqRfKvblOMz7WLTLcSpeye2V70W06jQLmwNHnS4TBlHU77CKLGXNyJ0QRsdNiT+5e5iPh3mYnuuyI4/Hgvc/7rqo5EQUC4J8GKftnhjhB7BIhtIvGfJkdAq5PkzENJAWmiLo7Na1NBoY/jMYq2IN2Brpmh
+     procedure_id : 1659525151061962562
+     type_code : 15
+     code : |1+
+      
+      // Summary: Prints HTML code
+      // Syntax:
+      //PringHTML (<sHTML> is string)
+      //
+      // Parameters:
+      //	sHTML (UNICODE string): HTML code to print
+      
+      PROCEDURE PrintHTML(sHTML is string)
+      
+      sFile is string = fDataDir() + ["/"] + <§@1f2beaee004b6686001f§>
+      
+      IF fSaveText(sFile,sHTML) THEN
+      	
+      	<COMPILE IF ConfigurationType=Android>
+      		GglPrintDocument(sFile)	
+      	<END>
+      	
+      	
+      END
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x1f2beaee004b6686
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : The expense account %1 is not found
+     index : 0
+   -
+     text :
+      en-GB : $
+     index : 1
+   -
+     text :
+      en-GB : Reimbursed
+     index : 2
+   -
+     text :
+      en-GB : Refused
+     index : 3
+   -
+     text :
+      en-GB : Waiting to be sent
+     index : 4
+   -
+     text :
+      en-GB : Waiting to be reimbursed
+     index : 5
+   -
+     text :
+      en-GB : Unknown
+     index : 6
+   -
+     text :
+      en-GB : Bank transfer
+     index : 7
+   -
+     text :
+      en-GB : Check
+     index : 8
+   -
+     text :
+      en-GB : Currency
+     index : 9
+   -
+     text :
+      en-GB : Credit card
+     index : 10
+   -
+     text :
+      en-GB : Unknown
+     index : 11
+   -
+     text :
+      en-GB : The expense account %1 is not found
+     index : 12
+   -
+     text :
+      en-GB : template.html
+     index : 13
+   -
+     text :
+      en-GB : MM/DD/YYYY
+     index : 14
+   -
+     text :
+      en-GB : "<table width=\"562\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"content-medium\"><tr valign=\"bottom\"><td width=\"42\">&nbsp;</td><td width=\"140\"><b> CATEGORY&nbsp;:</b></td><td width=\"370\">%1</td></tr></table>"
+     index : 15
+   -
+     text :
+      en-GB : "<table width=\"562\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"content-medium\"><tr valign=\"bottom\"><td width=\"42\">&nbsp;</td><td width=\"140\"><b>SPECIAL&nbsp;:</b></td><td width=\"370\">%1</td></tr></table>"
+     index : 16
+   -
+     text :
+      en-GB : "<table width=\"562\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"content-medium\"><tr valign=\"bottom\"><td width=\"42\">&nbsp;</td><td width=\"140\"><b>PRICE&nbsp;BT&nbsp;:</b></div></td><td><span class=\"content-large\">%1&nbsp;%2</span></td></tr></table>"
+     index : 17
+   -
+     text :
+      en-GB : "<table width=\"562\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"content-medium\"><tr valign=\"bottom\"><td width=\"42\">&nbsp;</td><td width=\"140\"><b>VAT&nbsp;(1)&nbsp;:</b></td><td>%1&nbsp;%2&nbsp;<span class=\"content-small\">(%3%)</span></td></tr></table>"
+     index : 18
+   -
+     text :
+      en-GB : "<table width=\"562\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"content-medium\"><tr valign=\"bottom\"><td width=\"42\">&nbsp;</td><td width=\"140\"><b>VAT&nbsp;(2)&nbsp;:</b></td><td>%1&nbsp;%2&nbsp;<span class=\"content-small\">(%3%)</span></td></tr></table>"
+     index : 19
+   -
+     text :
+      en-GB : "<table width=\"562\" border=\"0\" cellpadding=\"5\" cellspacing=\"0\" class=\"content-medium\"><tr valign=\"bottom\"><td width=\"42\">&nbsp;</td><td width=\"140\"><b>PRICE&nbsp;IOT&nbsp;:</b></td><td>%1&nbsp;%2</td></tr></table>"
+     index : 20
+   -
+     text :
+      en-GB : "<b>CUSTOMER:</b>&nbsp;%1<br><br>"
+     index : 21
+   -
+     text :
+      en-GB : "<b>CONTRIBUTORS:</b>&nbsp;%1<br><br>"
+     index : 22
+   -
+     text :
+      en-GB : "<b>PROJECT:</b>&nbsp;%1<br><br>"
+     index : 23
+   -
+     text :
+      en-GB : "<b>ENVELOPE:</b>&nbsp;%1<br><br>"
+     index : 24
+   -
+     text :
+      en-GB : "<b>PAYMENT:</b>&nbsp;%1<br><br>"
+     index : 25
+   -
+     text :
+      en-GB : "<b>COMMENT:</b>&nbsp;%1<br><br>"
+     index : 26
+   -
+     text :
+      en-GB : "number;title;amount;currency;vat1;vat2;vat3,;vatrate1;vatrate2;vatrate3;date;category;contributors;customer;project;status;paymenttype;special"
+     index : 27
+   -
+     text :
+      en-GB : $
+     index : 28
+   -
+     text :
+      en-GB : template.html
+     index : 29
+   -
+     text :
+      en-GB : " + Costs: "
+     index : 30
+   -
+     text :
+      en-GB : expense accounts.html
+     index : 31
+   -
+     text :
+      en-GB : Envelope_%1.html
+     index : 32
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

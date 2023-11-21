@@ -1,0 +1,417 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_CurrencyEdit
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_CurrencyEdit
+ identifier : 0x2707d14bda87c803
+ internal_properties : CAAAAAgAAAA1xDfR16TMHlX48YpAwGyjlvnNUJSYFb1/YdwmYk6I4v1n/pKvxx3OYI3OPdeFbl6z5y9+W2qsGybejifzYNPf11oBZf39kkm0S2L1d49fDA0AMGarmgavvqItNcorVS/TZk7TnIo7jcmd2+9Q2hQ0XD256+qbvGjBZSuoyMWifKyLNMDlGwwlFHbZYPXNqnitJDk07PoRhNULwaKd6hZYXeLbrrLc6qIcuksAu2+BPRowdEHrBwDp2mkPAUN9KByzunhBRluR8OiS4lZt/h71V1ghd08asmpY42vEpttWnlR+fmpRaTxchpasok7H/8qv/aTR+HA5983fS9OR/+YCUkNViiJbdvpPbAJX/RH3GitayRlpCDj6ivJlvxAF5Z1vbUul23iHYxqc3Q17oSvb+zNdp94UlBTGX4Fup6Twe6Ct3EHvoZIqNLPbe7ya52BbQvRSQo8RMoItd5Fky1MYQczCCtV5dtHlcMQaFSGxCBHQvsPsqgzRj8xZQ3m+feaBUfLKxk4IRXJiSHSwqB22Zz9q4BHpfKByQYmk4goTzgbYd6SE/Zi4G0Tw4MwVxJ528w8ZNnAwzACAoWVZxvAfTNfX/pD/O2LPopFVVxUOc8AvV/nFyBd57ozqfiovQCz/d21OZQXJMWFt1TP0xwLtQOuIMIrE3woynUYKMtpBy774iP5mK36hCpZT6zSt4WXmSuSIv9fPudCwEkQWLtqOJ7dlgrCIVd+YTYwVKKzxlPdmAxlEvlKptebKy5M/J8/7SCi1BmJpbq6VnANpFWi4C6TydHFJp/4zMa690rfaGQ==
+ properties :
+  width : 320
+  height : 248
+  heightMin : 321
+ controls :
+  -
+    name : EDT_CURRENCY_NAME
+    identifier : 0x2707d14bda8ac803
+    internal_properties : CAAAAAgAAADZXSDG+8RPS5CLikewxv2pne7/fWE0uIq5eKivt50J5Gg/QD0OPfyO48DvUwp4zjZALVTfUAPZHXkx6Yh32jR1OJP4n56GVFoGxEsQ9+ghPLHxV+/+eXzTseiHUbu08RwSvRDhEXb8HNyPBPzH/OKgp/1B8gS8DK4OyX4SBFeMdCx8+KGluLKdCyItfB9swXY/zVNW6rNAJKu6/wvk1nKijc/SYuURA5rkS2mNHZTSsmCdZsG3zbztdtm3yXGCAWyn/oJtnOgi4HbNodbN7PWXMu0rPlCTpFotGk1BlOvKwmp4be+ZnU8z6DVvrDN5ICEzkxodBDCNPi0Qyl4Okxw3Jsy9TPGNJCLk+xd/QYUtEA9zKAontbiWjisggAo/VChEi2xt69hrVOrXzyevIveBEkYyNhuJDQX/rKCkFfrB9zFAyXj82oP9E8II0U0nfl8n/mmX8uhO7v+wtoz9fu24L9rDd+vMxHJwdEDi/xkKVfvWGbhe25AihvW59Rb/Dm2M+G3KHURdqzMKLt/eILSnvtyaDNKd3b0XnCEyUalJoAi+wMrKfkEXkoXoFeAi/9SwksISnsff/Saw+LT/ZvvaWy9IASR/i94kf8oXwTnfQXDsUyUWIUvnKJOVOT/3rrXJVg4YVtta7p6OohySR5Hwo6ANPIOkq88ZLaE88Wumv1HD5YhZO9PB09wIW99use1dNYGdCaIJdWwUXbp8OTZSMIecWT4VE12LjsStF/BxYe9AYe3RDc2fSEPd2c2nUYRL2Cx0knosxR6n4OZIlQSDYuOnS4gtyMrRE8tOc9Xw1xeJaAtgOf3rRkF2ycDRYjdUup9rMkvp7FxhxA0BcLDd9l+Xn+ZH2K0QrsLvJdxNLAQ6kYNAn5Nl5w+sh6TDovGOZKdg4sgNN5Wo5ogT1Ypp8iyGFwbE7ganhPjv64JuZY8S8twxtxoOfAR0e/pHfofPYxljNZj8twR1jtv+QjKHCxWcjDt2Jq+gxhxraB6j7yqdST620DBMILDWUKfd0aEeRDcJzdQA2UcJBkGEhUqYD48PnY/+JznKQQR4FMU16xP8oosHLGj1NPoH9n+bkYQScUApF9s6kLIC36h1TwIo2X+9wWOmOaNwxHduIEzOf0qedmo+HFsdP0WMys4lU7SREjCf0muGO3ynSEHuUMMke6/IXcTFSnVayEmwGN/0+/kwrCmOugVKYhV2gdTU04NB9wzCji3wG1eu0lZI5966Np2xfzxTYE+7avjBvgSXDA+dIqK+XdRg484LGPP/E3yxl55H9lx1m3E=
+    properties :
+     x : 9
+     y : 41
+     width : 300
+     height : 38
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : STC_DESCRIPTION
+    identifier : 0x2707d14bda8bc803
+    internal_properties : CAAAAAgAAAD8sLLYBwTfmrwxDXdRGHMmmKGunKlIfopWAqwFeWNM6qwczbvudzE23ZG2mFWjAdXgaVY1LvT7oC0sw3qKfz4yEsvghUBGcEalDAgnzOzvkENIJJbdT2ga2lEqJFBY8uI88TWchEsILQciGh/vfbyIVCLgQb5BgacM/zdHC0cqIO0rUCudzUCSfeGnKBAYuVJRboe8xZOKM5XJlxhHfBTr3sZ1RXyiIPkQCgL0U7hLHAuGTq+5HKYT7CG5njvlOPgDiFcz72MUOqwOIPGuTlONq1r0pBt+dpUAT5vrwlWziH/AiRS9t9ftiaVEtksKjU7K6B1BWiZW+uA+43ROpww95ImJndMbLTJrKTtr/fRkjibUZ5vDouNTZZGyo7ZtaK+Zrt5fC+uJkbT1Dx+pJWaUDZ3JzxEv2Jk0hNyYtp5yBqFrcfTuiJmTKhASeuagq1/yO9QJ3x067AfwsuSkQjQbfAPr+9PTj6UCkdsCcM/p3NEZ+a6DjOcm1Lh71qMJ5k4XxEbee6KbvfNSNau2uALJwJuqT2eZ2o01XQEL+KTHkee2wWtp/fsAOBQ=
+    properties :
+     x : 9
+     y : 20
+     width : 300
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : EDT_LOCALCURRENCY_SYMBOL
+    identifier : 0x2707d14bda8cc803
+    internal_properties : CAAAAAgAAADsaGM0LNEJJr/hQsjIJNfna2vQvNVwGvOm3TSJsSomL0YeU0e4eMO5M1WT2w/+rMHnc1KSXiYEKfoPkRfokec2t+xjHkzAxtEpTWWsPCwX/YPDQvf+DCh7K4+mEoyh75jMxKk7jxJp9BjOlQxcp53qC86hXG/Bt15bsqQXy1ay5g2lTP+0EefOjvpE6mNw+gxdhwapY9Z0ft3gSaYqlp1+dgOlTILZ7tO8V0s5KUueblOZZ6D0jj9S1kXHXlfbAlqjGlSqYZuFrBQHzpG2eqGQ/q9keXjOs+gXU1GMQtH9bnMX+0YPSym8RDcWXbTS9ntH3A9An7VB4O5VF6CcZ6IDWIoghBHLFg3xyhMaj8FCtuPM00LYPW6MpxChty3vHpkbMREXQk2FvLKbgB+w/gZy1Lw2OXuFcsjXreDaTJNQ87DHTbT6W/JvInfDlltn9lSpc6x9JglvQQ2y+08eOA6ZyGa0cM6BY5XKaZHUL3ZYo6CaXK83EBss1MqBV9TYzSs8v14hJV36O6FWeQZFagK31CXufXuNmuRkuK1/Fg/H4z1/FIip/oOPqyqrJFuF83y3qmeLDBLEbzmqWU8b+4FRezMH8lPU9UTEP2yMAfPhB/3caaFTPv4szYzSPe+43LKQhrzFVvYiqOIjPbbIVd19Fds1UycDLQpBfokCQ+ekDjtzWOs1A/+dOh+QD4nUHJdRpS924iJ//rE/PosQkpaIxSsH33iDerO+FUe+NaQyfbxpDyprajmnYh3CFAde5XhWhgi+M0WVgyQXOB8Gr/qVzhiRyRpGLEYg5rh5R+Fi9EVLtW4QGEBs1jX7P9GQeT+2SPiVKISUj3nmhZPhrYpMIFiRgz2T8ESdUx5aun5EfJWivj9vcikbISsSKn8lG0Se0fNNUvlRT/HmaMhWIl+O57dRG5Zj6YxNCw8mAXZpFeTRi1U9toRvSof1eW9irHN7jXWXUlun7CN2RHXMc9aobdqbUAw1Twj5g/rUMHPNnHP8Q0i0UJmF5veyIcvvz6mQf6m6/fiut93GuCaGYEZzZrf/P11zKQJZSEPxVyw1EHxec/L4VG2NvDl4ZewrxYZEv1X/j/RIpH9OBN4ngRgkq7dozBXmem64vxEud/G1uwbb6OtFI2MklyT+EJVMFscH4XgW+R1d6aeJG1VCQHPNYfdWQVVzYG1MhozPc9niMNVr9eFovx2btZQ0gHxdGnqTV76BK/v6BNTuFyYGetuyZru4Rn/NKbq6rx4vL34y4TQ43bjpWLDttXk9E2ggv5P5fQ==
+    properties :
+     x : 9
+     y : 118
+     width : 300
+     height : 37
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : STC_SYMBOL
+    identifier : 0x2707d14bda8dc803
+    internal_properties : CAAAAAgAAAAt+FZIAKsge4EPJ83UNokhNKsoZfqgTtNlfBwOhhC7oE5JudFZCr9Mw+XOR9b+3xsH0ZT5jfU5qkOF8+ma5fkpFrRE+/I1NnsC4smEYxlrcTKfXcOS0MjMz1FBIqHmp9zz9aX/PeEYyKRF85pyNQ1f+i5n3Cjfox0r+3xCI7oMNn0Dhnh1/5DfbvLTqlcTXLenMQZhF6Zq8D+5+g0TX/cC0kAJit5umpm0o2TtB22ou6iDQEvf37Gtj0i65X1UI8hfMBl4JmrTlHkcBETgS+XWHjVpKLeHhY3jffFOQ9yc+iqHLPGplYKR+gHXUF4qkakKrXi70bLPTeCuAMwJXXklZIFUPu+luLfWYqsKQnSXIYVW9O8dL1RWo75/IfYhtvHSIIjr172lgEZ1SMjvWywK0WmUcFBu/6VYC2EFuxnFR7De3vTarAWBvkdV14t+i28aJkDUPn2RDaBlQJigJqCSfETq7Kfrc5Nz3pMRlwXDxDSMnukZ/fRP7WCJZnAvhyuOS19FA1HQACc2TdqC86409Gu2IBNxDHxF6hjlm5lzOjX6wcEfLSCk6UU=
+    properties :
+     x : 9
+     y : 97
+     width : 300
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : CBOX_REFERENCE
+    identifier : 0x2707d14bda8ec803
+    internal_properties : CAAAAAgAAADOhGO2o8Q6qs/M9ws3bJFNW4DdsYJz1Enn7hi3zvSZM0qS9BVMFga0jpzL0Sjc+ANN38Z7MeBbXMkTH1zehUkoMzoN+NNed/Mo3gK+/+WPlZcGO5hrXAJ7pWMjjH3nvpUBfOtwqWpPQTtKpnyI7FD3SDR+zfLi7asW/kyd5Y3f/+JGiegGO1nABmeGp8ISceb/pXqsxCkeXeiwAKQFGMyDPjGaqLt1pLiXQOssscY0Jkt5+3m7F0knY65JZr9P1ZHWKMMzaM7x4HW7+OE+TdnMdj4LlDuYPnOPN4yvurjcL2fW560/rr23UD4mW0e6agwJEOogz9iIBXl5On1xm5JcOKUqq/8lRmWhhh2OvVIixqV8uiktGnqj/HMq7g881R05EQEghyCcVs1C7xRg9MnTG8J8RfGPLXP4HJYbz2+cC9p8j9NGoDTVoYldftDk5fi+eJSV6Wl4CFBX0y+s+IP408gdnBkxUiy77k6Vl/Gx1SkrwUn1oW4QzvajZ1wEb+DvalH4VSbTtNDvuJAN7B41Uau0+E3UP7rKfF6wv1yYrI/76Re4b5Vag74ajTSnSAB2Y2gI8JAbe7puPiNWppDgcHG5BkWb7bbcOo7TYmBq9qvmKVfF0JtFTk76wiue+a3D/+AgWHx9j3ywfSvKEAY94A28/Oey7iBmylrwAIQcftYlT1mFwtyIQFzrIWNg4hGzUU7TtKeYc3rGCLiscCHOGCpH/+jczevpVo+uvn1OpqPvmY4dmJ5jEMiF6a5vy1p6urM7J2jxV1S/gHrePozuxEVH4Va/cynh+u0O7NRbpAPpwmF/6hWHbVae60725V2YJQsnQcrL34TkMnNOItUSxdxr1MGRgr6rdj6ZEmB+F1RfOrnU44uEN4ns5pBjl5ygRvYfDhJBctDkUng7czlo2qu2Yr7JXCO9uSSEEJlB/7OB05BfW10xaIAQ+0KKs3IDdmm3W2pV5659GSAlIUC+ka9nogLNOgzhJGOCjFs78/5dQFvVv+r2tJSq8p/8aKrXcdtdrJTuk85Yga3NxkTDyTtGv3hcbLezMfqmKwtT9xpwmU7coN5bMa3LkRG8+e5CcGe9RHH5JFHWcw8V2jwhDzbd+KmsWxaBCu6eOrGb9FUEu3LlswJjpojZ6KmjPO6A9G8kkbPc0p3jRXwbxp0/w1c=
+    properties :
+     x : 9
+     y : 183
+     width : 300
+     height : 37
+    options :
+     -
+       internal_properties : CAAAAAgAAAAzZkehcTnDPTImVdYsJQlRpOX4165c46c/F0O2OEBMJzrCXrvoW3xw8jAw6JKYF7qk80fisau+Ui2fvaRmYMQtpqV89VpuLBEg0feZPjo7HVkKwr7eXA7eCHa3KUz52HozszcmRfd9qSIn/BWr2XEXRK/1M801y0Ob3zpycQvjHyCzlqi9OZxKbsPNY55psJ7mIkaCdDGH6lpGew9HPshej9y0viljfOjBSQ==
+    type : 5
+    controls : []
+    code_elements :
+     type_code : 5
+     p_codes :
+      -
+        code : |1-
+         
+        type : 17
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2707d14bda92c803
+  internal_properties : CAAAAAgAAADgm1xzh7HnNGvdmO0CkHE1A9D+O3gzjoNd5hHyPfTN/LbTrY5Lyeft5mc2T+3s2u6iPskTV8tNuR4/zKMIvGSyYxOL90EXoL3xX00V5XDNXl9ksseQD7gU691x86wBpOW7bHlk86CuJqP4P8XXiUJJ6W/7zreINGUscTjbOrsgAXLajvXG1yrMqAXwwq0wZhJhdf+dazxI2W83H+JMeYaPHHvT/FwNc3OTW/FnaTVQx0nRkBPXWYT7rMFM+q++jyuMyQixfTAw5xV+/0Ds3f7P45pWTc5dE+0SWaVq4quqH7+tSpRQnyYm3fmPHW3ap7gQFFuhqgVbbNm7MFrQAPI9ta+WWu1tc79unjhO5/u2+LhAkrGMlZZB/SQGe+8=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2707d14bda90c803
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_OK
+     identifier : 0x2707d14bda91c803
+     internal_properties : CAAAAAgAAACDq/fbAc+8JDOqjOR4cJWwfH64h4w4Cu555uSf2GzxHnAgUu4Ec6J9X2uShHpoNaQPsNX20TPkvvMWenmYjfJY//j8gpVEgCnowYQ/HSp5cRIDDc1ABlllngxddW6hZ2b5dK82Ff8OKC/1SiI5F4/B0ww1RlO/tmwhckmp9eoydcPnioEtHObfsxGAPMSjGD8g/1L46gd8hoJhLIYP5DnkbcRAaizWPVJF/lCDbI0OjBJez0awWW/CrOUbdVbavkz8MHbcbFWS7PtlfZ9s5XiqdTYExMc4trOxQI1ujF4Jydgm23d+D3tMgxSllw+2
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          
+          
+          IF CurrencyValidate() THEN
+          	CurrencySave()
+          END
+          
+          
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAlD2PyQnsJyq2aria4zswmQ9mT/GuLXcaGFGyzlbjR/DMssxxvozFH7OLIsi2OE6pSeXt4WicTML9MC6CSGUnZXqDNki47mD4EY5oMKEx3nF2K5IidZYseJVh5Yg==
+ code_elements :
+  internal_properties : CAAAAAgAAACYc6VTt1X90YDCIrQO2JBmCdGEq2UCbjoXvPSxSXZuPbtRe7osvPtROaczFzrSxAnjXXjxjy/j9OpPfEl8qzkNHA==
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE WIN_CurrencyEdit(gnCurrencyID is int = -1)
+      
+      GLOBAL
+      
+      	gbInitialValue is boolean = False
+      	
+      MyWindow..ReturnedValue = gnCurrencyID
+      SIPVisible(True)
+   -
+     code : |1-
+      
+      IF gnCurrencyID <> -1 THEN
+      	CurrencyDisplay(gnCurrencyID)
+      ELSE
+      	CurrencyReset()
+      END
+      
+      
+      gbInitialValue = CBOX_REFERENCE
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : CurrencyReset
+     internal_properties : CAAAAAgAAABndKAMbiom8vmG0BE4zrAY4iPkryPf355eRqKSMGsJOw0XD6IIsi+3KtQzLS5wNaX21o8LYScRQUyYgiT8G3de8qRSV7KTn5Sxv4dGyuBeFz+tC/+A3VvieFEu027emZ41vBEkwqACRuiOqigz64/pM9ShakMwPhJsFX4hHCxNlSRK/0SsHFV497mu021VWEwCftjl//gT3CCjc4ANEjMs/ZWiFGkH+68N95w1h1MDaqpHKPv1d6jCha+IG1lNX3Yx2mOfBdG23pK+sA+uowcba1q28DQ=
+     procedure_id : 1659525108103759875
+     type_code : 14
+     code : |1-
+      // Summary: Reset the window for a new currency
+      // Syntax:
+      // CurrencyReset ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE CurrencyReset()
+      
+      EDT_CURRENCY_NAME      = ""
+      EDT_LOCALCURRENCY_SYMBOL  = ""
+      CBOX_REFERENCE       = False
+     type : 458752
+   -
+     name : CurrencyDisplay
+     internal_properties : CAAAAAgAAADlVoEZj9+H208VIAtrYvH4wrexwdV8l4BaR1zLklfqKN1QtSCFliENNtWNop2xqdtjRXw4GK6aP1hsvUNeef/oc3kHv1YqEyU3XDPNyt1YgutWT5Sxvb1Lv8MAC0oJpRlPIMfqP2N5TKX5fLusYqXEr4UJ4DL50OeSRwZw9Q/bUtLFKahlFQVtBdt+/jKweK1ULUij9jlXbyB3fRlStSUlF/qw5GAS2Uo/hSSWYoxxcQK6pCmejG6RCd9CJgL+s1VdsSu5skoRVG5OMmH9vs8kf7+KkVJ5
+     procedure_id : 1659525108103825411
+     type_code : 14
+     code : |1-
+      // Summary: Displays a specific currency
+      // Syntax:
+      //CurrencyDisplay (<nIDCurrency>)
+      //
+      // Parameters:
+      // 	nIDCurrency: Currency identifier
+      // Return value:
+      // 	None
+      
+      PROCEDURE CurrencyDisplay(LOCAL nCurrencyID)
+      
+      // Positions on the currency
+      HReadSeekFirst(LocalCurrency, CurrencyID, nCurrencyID)
+      IF HFound(LocalCurrency) THEN
+      
+      	FileToScreen(WIN_CurrencyEdit,LocalCurrency)
+      	
+      ELSE
+      	Error(<§$0004§>)
+      	Close()	
+      END
+     type : 458752
+   -
+     name : CurrencyValidate
+     internal_properties : CAAAAAgAAABO032DU5Rvu6x1uBcN9mllyQ746MG4tP9+qytlxDglju3g24K39AaSoGcnyZ6zqOl7Cbg8wwukA9FpJErDNM1d98UqfbuooZMl5F2Ei8ge36vLAd2fbWM2IwgCqjlHCAc2Dt1tGu+Yg7rtY1m69qXF3zbbKtgBwpAoZLMGSxyAPKqS11Yn+uyr8qMms3ZDmT2lY5UynVgAGu0DGYYouAV7q0rRrW1gC70nE6JXONB1tjlsg07ztpxGu8MXGMp3ZCY/zVYmtkNyEtOkEB/KwX1Jk9WjuzbmP5uhSr2/Rzux
+     procedure_id : 1659525108103890947
+     type_code : 14
+     code : |1-
+      // Summary: Checks the input
+      // Syntax:
+      //[ <Result> = ] CurrencyValid ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	boolean: // 	None
+      //
+      PROCEDURE CurrencyValidate()
+      
+      IF EDT_CURRENCY_NAME ~= "" THEN
+      	Error(<§$0000§>)
+      	RESULT False
+      END
+      
+      IF EDT_LOCALCURRENCY_SYMBOL ~= "" THEN
+      	Error(<§$0001§>)
+      	RESULT False
+      END
+      
+      
+      IF gbInitialValue = True AND CBOX_REFERENCE = False THEN
+      	Error(<§$0005§>)
+      	RESULT False
+      END
+      
+      RESULT True
+     type : 458752
+   -
+     name : CurrencySave
+     internal_properties : CAAAAAgAAAD/GxLOH+u6UD2GgQPRraN4p2vyj+n7/ksdZtnUAaaCLg6+OhZrWN1gY0R8E3uJWp592wopuqVI/HGzbzzk8QwVaUuWxf7Nh0w1tFWZ/GnJnaVU3IPvgQ+xoz/mO8tHf8iRNmRQjG+LU8owhfF/oEvqVxyOVDnHLPhx4WpSw51+NfEmZC2saLU9SOeKD6oPudlxsSuOfeenC9JU2v0/vUwculODFI4orasY2ok/8eQH/mlHuHYlbWsxdGmcM8Offzk8Kbq2T5SiN3itQjvHpya4+YOB1SillJOBwzNBmg5/F8wfY6Rkto2PO1cnTEdIsMqQOJAVoZOxlQLy5i5xH4DCD7Wee7z4keXVkokQtTJI
+     procedure_id : 1659525108103956483
+     type_code : 14
+     code : |1+
+      // Currency: Saves the current currency
+      // Syntax:
+      // CurrencySave ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE CurrencySave()
+      
+      // Edit or addition?
+      IF gnCurrencyID <> -1 THEN
+      	HReadSeekFirst(LocalCurrency,CurrencyID,gnCurrencyID)
+      	IF HFound(LocalCurrency) = False THEN
+      		Error(<§$0003§>)
+      		Close()
+      	END
+      ELSE
+      	HReset(LocalCurrency)
+      END
+      
+      // Saves the new currency
+      ScreenToFile(WIN_CurrencyEdit,LocalCurrency)
+      
+      // Reference currency? Force to 1
+      IF LocalCurrency.Reference = True THEN LocalCurrency.ConversionRate = 1
+      
+      IF gnCurrencyID <> -1 THEN
+      	HModify(LocalCurrency)
+      ELSE
+      	HAdd(LocalCurrency)
+      END
+      
+      // Saves the identifier of the currency
+      gnCurrencyID = LocalCurrency.CurrencyID
+      
+      // New reference?
+      IF LocalCurrency.Reference = True THEN
+      	// Remove the previous reference
+      	FOR EACH LocalCurrency 
+      		IF LocalCurrency.CurrencyID <> gnCurrencyID AND LocalCurrency.Reference = True THEN
+      			LocalCurrency.Reference = False
+      			HModify(LocalCurrency)	
+      		END
+      	END
+      	
+      	pManagingValues.gnReferenceCurrencyID = gnCurrencyID
+      	pManagingValues.gsNameReferenceCurrency      = EDT_CURRENCY_NAME
+      	pManagingValues.gsSymbolReferenceCurrency  = EDT_LOCALCURRENCY_SYMBOL
+      END
+      
+      
+      MyWindow..ReturnedValue = gnCurrencyID
+      Close()
+      
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f2bed2f005635b6
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : The currency must have a name
+     index : 0
+   -
+     text :
+      en-GB : The currency must have a symbol
+     index : 1
+   -
+     text :
+      en-GB : The rate must be greater than 0
+     index : 2
+   -
+     text :
+      en-GB : Currency not found
+     index : 3
+   -
+     text :
+      en-GB : Currency not found
+     index : 4
+   -
+     text :
+      en-GB : "If you do not want this currency to be the reference currency anymore, you must select a new one first"
+     index : 5
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

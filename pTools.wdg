@@ -1,0 +1,1267 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : pTools
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1707d1561514f359
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAAG9lsQ31rGaGrNlLlOr3BsYKsT69umwcfJvreG+kL85dYj9bQpDGnMSHpRLBRwbV3BKaAVyDJDYyvypT5EHQvWNeqKo9I2YIRu
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      
+      
+      gsPaymentTypeFile is string = CompleteDir(fDataDir()) + "typePayment.txt"
+      gsFilePhotoSize is string = CompleteDir(fDataDir()) + "sizePhotos.txt"
+      gsEmailFile        is string = CompleteDir(fDataDir()) + "email.txt"
+      gsVersionFile      is string = CompleteDir(fDataDir()) + "FileVersion.txt"
+      gsLaunchFile       is string = CompleteDir(fDataDir()) + "NbLaunches.txt"
+      gsBillDateFile      is string = CompleteDir(fDataDir()) + "BillDate.txt"
+      
+      
+      gaaCategories is ASSOCIATIVE ARRAY of strings
+      
+      CONSTANT
+      	NO_PHOTO = 1
+      	SIZE_SMALL = 2
+      	SIZE_MEDIUM = 3
+      	SIZE_LARGE = 4
+      	
+      	OPINION_ALREADY_GIVEN = -2
+      	OPINION_DONT_WANT_TO_GIVE = -1
+      	
+      	PARAM_DEFAULT_DATE = "PARAM_DEFAULT_DATE"
+      	PARAM_DEFAULT_CURRENCY = "PARAM_DEFAULT_CURRENCY"
+      	PARAM_DEFAULT_CONTRIBUTORS = "PARAM_DEFAULT_CONTRIBUTORS"	
+      	
+      	
+      END
+     type : 720896
+  procedures :
+   -
+     name : GetMonthCaption
+     internal_properties : CAAAAAgAAAAU3tizWNNDo+G4YCCwCdEc2fNKf9L64u3DMqlL6vZ8UtacgJBNhovKcSdpbNGW/Erny1pj1KxIVqF+AP6uCjVHEZ59P5lW1p8aeqt8bBuKQlUCeWRrkkW3OtT+vR1QqKy4l19e93g+YESAmnQXaoHNhvg51mvw9e6nIDTcG/2L5gnQMU6WBzH9N7l/23xq3HW6l+XYsg/j7MgbZnjE4ZjncijjDSIPkJe8F+PVsFnqgDQ8x5iWv+H4Nh+uek4aMy4UvbKcQ/8tz1wu/ogtjSOaFdT2t/cr5RJ01TftoxQ=
+     procedure_id : 1659525155360469849
+     type_code : 15
+     code : |1+
+      // Summary: Returns the caption of the month
+      // Syntax:
+      //[ <Result> = ] GetMonthCaption (<nMonthNum>)
+      //
+      // Parameters:
+      //	nMonthNum: <specify the role of nMonthNum>
+      // Return value:
+      // 	UNICODE string: // 	None
+      //
+      PROCEDURE GetMonthCaption(LOCAL nMonthNum)
+      
+      SWITCH nMonthNum
+      	CASE 1:
+      		RESULT <§@1f2bf341008deb4f0001§>
+      	CASE 2:
+      		RESULT <§@1f2bf341008deb4f0002§>
+      	CASE 3:
+      		RESULT <§@1f2bf341008deb4f0003§>
+      	CASE 4:
+      		RESULT <§@1f2bf341008deb4f0004§>
+      	CASE 5:
+      		RESULT <§@1f2bf341008deb4f0005§>
+      	CASE 6:
+      		RESULT <§@1f2bf341008deb4f0006§>
+      	CASE 7:
+      		RESULT <§@1f2bf341008deb4f0007§>
+      	CASE 8:
+      		RESULT <§@1f2bf341008deb4f0008§>
+      	CASE 9:
+      		RESULT <§@1f2bf341008deb4f0009§>
+      	CASE 10:
+      		RESULT <§@1f2bf341008deb4f000a§>
+      	CASE 11:
+      		RESULT <§@1f2bf341008deb4f000b§>
+      	CASE 12:
+      		RESULT <§@1f2bf341008deb4f000c§>
+      	OTHER CASE:
+      		Error(<§@1f2bf341008deb4f0000§>)
+      		RESULT ""
+      END
+      
+      
+     type : 458752
+   -
+     name : GetSpecialAccordingToCategory
+     internal_properties : CAAAAAgAAADWBZwmWFZ9So1qeQAbHPrzFI/eQIik3vF2cDnmHmRTCNJeLemU5tEJDyQfs/vvf5cnWmtL7+8dtm5zX/9N7A8/75d83VVy05nvEtaow3D31Kv3MOjWXdqF07hGKDPfx+luxH97lNR5InlUZkBQp13/93U7HN6UanySvHfu5xuMP4eiG7+ufpFqAE9+Fy7mEQrRGadvBGUUDmA+MFs5mnrf4AURaXGaLgT0zqGtw5+ZEyGndLvI7+wo4P9CpE9OyIltJOEwShduTfKfp89+R2W0C5/ng/QF6aBmnYdREQJK3dXVCWOVWu4MNJ0tniSsL8tK
+     procedure_id : 1659525155360535385
+     type_code : 15
+     code : |1+
+      // Summary: Retrieves the special caption according to the category
+      // Syntax:
+      //GetSpecialAccordingToCategory (<nCategoryID>, <sSpecialCaption> is string, <nSpecialType> is int)
+      //
+      // Parameters:
+      //	nCategoryID: Category identifier
+      //	sSpecialCaption (UNICODE string): <specify the role of sSpecialCaption>
+      // 	nSpecialType (integer): <specify the role of nSpecialType>
+      // Return value:
+      // 	None
+      //
+      //
+      PROCEDURE GetSpecialAccordingToCategory(LOCAL nCategoryID,sSpecialCaption is string, nSpecialType is int)
+      
+      // Positions on the category
+      HReadSeekFirst(Category,CategoryID,nCategoryID)
+      IF HFound(Category) THEN
+      	SWITCH Nation()
+      		CASE nationFrench:
+      			sSpecialCaption = Category.SpecialCaption
+      			nSpecialType =  Category.SpecialType
+      		OTHER CASE:
+      			sSpecialCaption = Category.SpecialCaptionUS
+      			nSpecialType =  Category.SpecialType
+      	END
+      ELSE
+      	sSpecialCaption = ""	
+      END
+      
+      
+      
+      
+     type : 458752
+   -
+     name : GetDefaultEmail
+     internal_properties : CAAAAAgAAACdoWOX/CPCRZuRYgKK7bMVYcA1nx8NDGmGgaSSI1c74aJQjJ/IbRON3qkleTvA5Bjb/J4hpWWzP8PKBLnOSAbTacdBq0jQo6ClgzAaRhGejM9HqRnBkVflmUc5FJoc1fjWQryAlSP00cAhkzp9F+A/S/dhcRXFUXL8DgjfrLjtP94YNvKNDKmhYiElaEtNBJBaqOWvOJ6Z3kNZVrV/1PzViPypyXXPn7BXG6p69NRWYc5/0yABBVzZuKSMKbfVKyUsEjjZXD0w3w0cnwWIV3EPys6bUUY6A2hkw9q0wTa6B641siu7SZEQckStqgzsW8mXsn4=
+     procedure_id : 1659525155360600921
+     type_code : 15
+     code : |1+
+      // Summary: Retrieves the email
+      // Syntax:
+      //[ <Result> = ] GetDefaultEmail ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	UNICODE string: // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE GetDefaultEmail()
+      
+      // Variable
+      sEmail      is string
+      
+      IF fFileExist(gsEmailFile) THEN
+      	sEmail = fLoadText(gsEmailFile)
+      ELSE
+      	sEmail = ""
+      END
+      
+      RESULT sEmail
+      
+     type : 458752
+   -
+     name : GetEmailText
+     internal_properties : CAAAAAgAAAC++LYAN7zQ2yLgcqzFsn/JJB9HM1cim89+af5+CRGZ09z5zOieueBzAlWbB7QAQzJBJDS0SmAHZ8lw5fwOmM0+b90J7VEhGaQRhcoawKNuTxbi9VPCUd5JsjGZvcmvXLYemI9ZPRQVHfMt1B2dZoVWXlhXXM3e4aC4oGjvZxAFNEQFydTL+dA1vOFo1EJuNQN3aDikYHK1nVxStFSRIKCoQpg2fhNZZcVqeBi34v7cGb5B4JNR8066C4f3B/mOwPCJzU77rAmPx3Z6+oqySqps6C3V6vCmqJjtxVs2NNs9SGc/b7cc/dXniadjN9gY1291p8O3I9tw/ucmnQ8GCqWHWm2Q3663+L0hmcXRFQ==
+     procedure_id : 1659525155360666457
+     type_code : 15
+     code : |1+
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      //[ <Result> = ] GetEmailText ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	Undefined type: // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE GetEmailText()
+      
+      // Variable
+      sEmailTextUS is string = CompleteDir(fDataDir()) + "textUS.txt"
+      sEmailTextFR is string = CompleteDir(fDataDir()) + "textFR.txt"
+      sEmailFR is string = [
+      Hello,
+      Please find the summary of my expense accounts.
+      
+      Best regards, 
+      ]
+      sEmailUS is string = [
+      Hello,
+      Please find enclosed the summary of my expense accounts.
+      
+      Best regards, 
+      ]
+      
+      SWITCH Nation()
+      	CASE nationFrench:
+      		IF fFileExist(sEmailTextFR) THEN
+      			RESULT fLoadText(sEmailTextFR)
+      		ELSE
+      			fSaveText(sEmailTextFR,sEmailFR)
+      			RESULT sEmailFR
+      		END
+      	OTHER CASE:
+      		IF fFileExist(sEmailTextUS) THEN
+      			RESULT fLoadText(sEmailTextUS)
+      		ELSE
+      			fSaveText(sEmailTextUS,sEmailUS)
+      			RESULT sEmailUS
+      		END	
+      END
+     type : 458752
+   -
+     name : SetDefaultEmail
+     internal_properties : CAAAAAgAAACMOhZn18zGQTseotSKRWzLvHqb64OT55lC2+hLNiZPbhbbc79rgubc17mzlw/vAg+egnurftwBOn94VnxoZE59hPhV+3NlyMpgo53gG9fBdN/8Z3PXEt9T1Qoy5aeeiEBdeZs+sR8xRw9pSi4b8T6uU0sD+wlgZQr98qF53yvnXrXNQZhdqLSadkRXYTPdL56Vxu/++f3TuD6V6zn08yAgjDJZ6mQsb2AW+ejHch1ObXXl5VU37+cC7gvfo1kAlPMmaioukX2MTZLspWfnmSylY/C5hskvBV1QwfDZfIE4WI1oAnN5Zg==
+     procedure_id : 1659525155360731993
+     type_code : 15
+     code : |1+
+      // Summary: Default email address
+      // Syntax:
+      //SetDefaultEmail (<sEmailAddress> is string)
+      //
+      // Parameters:
+      //	sEmailAddress (UNICODE string): Email address
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE SetDefaultEmail(sEmailAddress is string)
+      
+      fSaveText(gsEmailFile,sEmailAddress)
+     type : 458752
+   -
+     name : SetDefaultText
+     internal_properties : CAAAAAgAAAD/3k2t3OiK41vtT/Yn2s9OiO2naQaPalE7E6AhEwZXuRJzR7G45AGnV3cz1H/2TxUCBP4d0Q4EKUl6alZLutt293hsZVW6835W7ISEnZsQ6I31+0VABUUIX/8gKgdzyAcWCRVb9jWRylk4oIlEROL1B77mDsKMPw0xDdhs++e/JbMiey2MKipH4pd2qB0NV3HF3TOpRullQWAW2DKuA/Bc7sM3C2POVdFWVnmUsLL5FrWpNrUSw5fZGBNVeIGMbyFo5+wR31MBixMsPA0mN9gqaxGf13grLxogiivws5aPBX4V12zGj9g=
+     procedure_id : 1659525155360797529
+     type_code : 15
+     code : |1-
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      //SetDefaultText (<sEmailText> is string)
+      //
+      // Parameters:
+      //	sEmailText (UNICODE string): <specify the role of sEmailText>
+      // Return value:
+      // 	None
+      //
+      // Example:
+      // Indicate an example.
+      //
+      PROCEDURE SetDefaultText(sEmailText is string)
+      
+      // Variable
+      sEmailTextUS is string = CompleteDir(fDataDir()) + "textUS.txt"
+      sEmailTextFR is string = CompleteDir(fDataDir()) + "textFR.txt"
+      
+      SWITCH Nation()
+      	CASE nationFrench:
+      		fSaveText(sEmailTextFR,sEmailText)
+      	OTHER CASE:
+      		fSaveText(sEmailTextUS,sEmailText)	
+      END
+     type : 458752
+   -
+     name : InitializeData
+     internal_properties : CAAAAAgAAACGjcZIgM37MZGKvBcJBRXspl8VfYeYU1ftY1AehLOVd36f+8i/Ykj2KSCfrKClUobLc+LMA6kgBFpgP8Am1bV+6X2jxMpofrfz/D+v2YJNZoBp1tvGsMZ3oOK6KCIHv6OfUjzG2mk7594VZcqTU+1HPspQ/O/l6zY3kEA4r0ee0Ipk1G7h8ldmFgu5jeyoJKI89n3T++G1i91u7eh8bpdkVqqTABOGZowa1aNixfZKTZB4kjDPbfgok+mP1UH39LBIcM/ZRFwirWMZOOomb5XUJB8YX5YJnJwXS1gE4Annlj3b0LFFvOpfKb56TUJtHXyNC9MKBsLmNrWTT6C5+zp0ql4KPc/CU0PKyufqFvT8kuOSnwSpABszW+Muxcx+2Vc+uMCT54Iu/JFBwb0yCSS/XD+vqQpfp6oik9ikPKKJig==
+     procedure_id : 1659525155360863065
+     type_code : 15
+     code : |1-
+      // Summary: Initializes the HFSQL files according to the language
+      // Syntax:
+      //InitializeData ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE InitializeData()
+      
+      SWITCH Nation()
+      	CASE nationFrench:
+      		IF HNbRec(LocalCurrency) = 0 THEN		
+      			// Default currencies
+      			HReset(LocalCurrency)
+      			LocalCurrency.Name            = "Euro"
+      			LocalCurrency.Reference      = True
+      			LocalCurrency.Symbol        = "€"
+      			LocalCurrency.ConversionRate = 1
+      			HAdd(LocalCurrency)
+      			
+      			HReset(LocalCurrency)
+      			LocalCurrency.Name            = "Dollar"
+      			LocalCurrency.Reference      = False
+      			LocalCurrency.Symbol        = "$"
+      			LocalCurrency.ConversionRate = 0.76
+      			HAdd(LocalCurrency)	
+      		END
+      		
+      		
+      	OTHER CASE:
+      		
+      		IF HNbRec(LocalCurrency) = 0 THEN		
+      			// Default currencies
+      			HReset(LocalCurrency)
+      			LocalCurrency.Name            = "Euro"
+      			LocalCurrency.Reference      = False
+      			LocalCurrency.Symbol        = "€"
+      			LocalCurrency.ConversionRate = 1.24
+      			HAdd(LocalCurrency)
+      			
+      			HReset(LocalCurrency)
+      			LocalCurrency.Name            = "Dollar"
+      			LocalCurrency.Reference      = True
+      			LocalCurrency.Symbol        = "$"
+      			LocalCurrency.ConversionRate = 1
+      			HAdd(LocalCurrency)			
+      		END	
+      END
+      
+      _DefineReferenceCurrency()
+      
+      _DefineProfile()
+      
+      //Automatic process on the data files
+      IF GetFileVersion() = 1 _AND_ NOT InTestMode() THEN 
+      	
+      	AutoProcessCategoryFile()
+      	AutoProcess_CategoryLogos()
+      	
+      	AutoProcess_PaymentTypeLogos()
+      	
+      	AutoProcess_InternalRef_Envelope()	
+      	
+      	SetFileVersion(2)
+      	
+      END
+      
+      //
+      //// No envelope?
+      //IF HNbRec(Envelope) = 0 THEN
+      //	HReset(Envelope)
+      //	Envelope.StartDate = Today()
+      //	Envelope.EndDate   = Today()
+      //	Envelope.StartYear = Envelope.StartDate..Year
+      //	Envelope.EndYear   = Envelope.EndDate..Year
+      //	Envelope.StartMonth = Envelope.StartDate..Month
+      //	Envelope.EndMonth    = Envelope.EndDate..Month
+      //	Envelope.Name = "Default envelope"
+      //	Envelope.Default = True
+      //	HAdd(Envelope)
+      //END
+      
+      // Default payment file
+      IF fFileExist(gsPaymentTypeFile) = False THEN
+      	HReadFirst(PaymentType)
+      	sContent is string = PaymentType.PaymentTypeID
+      	fSaveText(gsPaymentTypeFile,sContent)
+      END
+      
+      // File of photo sizes for sending by email
+      IF fFileExist(gsFilePhotoSize) = False THEN
+      	sSizeContent is string = SIZE_MEDIUM
+      	fSaveText(gsFilePhotoSize,sSizeContent)
+      END
+      
+      
+      
+      LoadCategoryKeywords()
+      
+      SetFileVersion(3)
+     type : 458752
+   -
+     name : GetTypeDefaultPaymentID
+     internal_properties : CAAAAAgAAABO032DU5Rvu6x1uBcN9mllyQ746MG4tP9+qytlxDglju3g24K39AaSoGcnyZ6zqOl7Cbg8wwukA9FpJErDNM1d98UqfbuooZMl5F2Ei8ge36vLAd2fbWM2IwgCqjlHCAc2Dt1tGu+Yg7rtY1m69qXF3zbbKtgBwpAoZLMGSxyAPKqS11Yn+uyr8qMms3ZDmT2lY5UynVgAGu0DGYYouAV7q0rRrW1gC70nE6JXONB1tjlsg07ztpxGu8MXGMp3ZCY/zVYmtkNyEtOkEB/KwX1Jk9WjuzbmP5uhSr2/Rzux
+     procedure_id : 1659525155360928601
+     type_code : 15
+     code : |1+
+      // Summary: Returns the default type of payment
+      // Syntax:
+      //[ <Result> = ] GetIDDefaultPaymentType ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	variant: // 	None
+      //
+      PROCEDURE GetTypeDefaultPaymentID()
+      
+      RESULT Val(fLoadText(gsPaymentTypeFile))
+     type : 458752
+   -
+     name : SetPaymentTypeID
+     internal_properties : CAAAAAgAAADPixwGjrmjOkugMu8f1+tZYaBIrY9oL0Rwo1d+rE89Z6F3d/7E6gtH1iQfgTIsUTEyFq8PTRcF2aC4bjAIT5OqzszSmx7TYxRln9sa5lz6E7O9gyPk3W9S5Pk6lxqCjXL5lIG4DqCGfqSumFphuQHTDSazTMGeIHiGz5TT0iIfby7cKV7Syhe+CWvMfdvjkp7U0EqnBd59QlrdqeqrMGVG94+8Ph+tpcUXUdJf7fndzCy56n0z/aI4T/EddY2TlQWusYqjPIfz4ust3879kk80LBtlWNw=
+     procedure_id : 1659525155360994137
+     type_code : 15
+     code : |1+
+      // Summary: Saves the default type of payment
+      // Syntax:
+      //SetIDPaymentType (<sIDPaymentType> is string)
+      //
+      // Parameters:
+      //	sIDPaymentType (UNICODE string): Identifier of pyament type
+      // Return value:
+      // 	None
+      //
+      PROCEDURE SetPaymentTypeID(LOCAL sPaymentTypeID is string)
+      
+      fSaveText(gsPaymentTypeFile,sPaymentTypeID)
+      
+     type : 458752
+   -
+     name : GetMyProfileID
+     internal_properties : CAAAAAgAAAAYDxhBCXwDzSIr/lvrUmsvLRhgyucAWE3g3YUdzqgTrEmuX/hNZHqE1gVhaehzSgsnW9zKBV90QZ/33sL1BGtbH7PiL1mgjbkTYhOwmYSMnWtxMWeREUuU7aokNv9DGhVW6AkzBHtAsfyHJcmUxsOgKPnWz/k+G03tg0I1orlTuysdauP0y9m4N8rtbtFcpOR6unyb+oEdg1pa8G2ndRQmdJ2kikZJ6NrYxsVyQ2GYtTZTulcQ2+UrVC7yz6GISwmAiEGb10hTt/wXo4rVHox0jDgG+OeL2DQO6ex6Tw1n
+     procedure_id : 1659525155361059673
+     type_code : 15
+     code : |1-
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      //[ <Result> = ] GetMyProfileID ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	Undefined type: // 	None
+      
+      PROCEDURE GetMyProfileID()
+      
+      HReadSeekFirst(Contributors,MyProfile,True)
+      IF HFound(Contributors) THEN
+      	RESULT Contributors.ContributorsID
+      ELSE
+      	RESULT CS_NO_VALUE
+      END
+     type : 458752
+   -
+     name : setMyProfileID
+     internal_properties : CAAAAAgAAADg69+h9CriODU1K3jlx1qMK4NDuIAifMk6dVotTdPBeG5Fyo7c6AoV1VTZVPwlTjnsZMjFuKVATSdX7a7t/SyUg7rKugKUXZtfFVROdHwcRRezDYehCdWj80Gobq+ZkDlIankGRQXihXR85nCIX+dnTbuuMqWUBozA1I9PRckCmiSXVrz440K71kWM/BjG3avXyPBUcklOpnU1f33WSfl3M93a0TJHo33joTTGGgV9lkJ6tU92UONPYi8q9c3/vehRKQypME/EESj1na6eUad6k+ZaHjxGj1A6zOiZ+Q==
+     procedure_id : 1659525155361125209
+     type_code : 15
+     code : |1+
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      //setMyProfileID (<nProfileID> is int)
+      //
+      // Parameters:
+      //	nProfileID (integer): <specify the role of nProfileID>
+      // Return value:
+      // 	None
+      
+      PROCEDURE setMyProfileID(nProfileID is int)
+      
+      HReadSeekFirst(Contributors,ContributorsID,nProfileID)
+      IF HFound(Contributors) THEN
+      	Contributors.MyProfile = True 
+      	HModify(Contributors)
+      	pManagingValues.gnMyProfileID = nProfileID
+      	pManagingValues.gsNameMyProfile = Contributors.Name
+      END
+      
+      // Remove the previous profile
+      FOR EACH Contributors 
+      	IF Contributors.ContributorsID <> nProfileID AND Contributors.MyProfile = True THEN
+      		Contributors.MyProfile = False
+      		HModify(Contributors)	
+      	END
+      END
+      
+      
+     type : 458752
+   -
+     name : AutoProcessCategoryFile
+     internal_properties : CAAAAAgAAAAZSB6QqtnStda7XHKD2DLyp6KgmShxYodTCaPYoEJB1Df/nwsQYjLYjr9kJd8ZSZgt47MBozrWnEQRGwueFe/OwC85Bv3XzH4tA0kQSSPbTJ4E2Z7FEz0h4Q2kWtzfkpQ+uU9r9s8XopesJRO54PLhiywAlI5XIeF1QQRAv20299pOClXPNdE2vbbm683E6j9BzEEUAHRH8/vn2qWQ7uFyH0xZZgJBKcUNSaN+ZPNiiNqTpXLhwzo1kPAl1KwAwu9OmYHvdbNcVYu8cfywUFv479uUzzdVJV8j2GfuTvAKD5K0YmdAEt5raGmv3nXYCGawq8qTUVgpfwY0i7SCZjNsH0HPjri+3bm+obcbmy6OEZ/cN8bUz5zr7eSZOkRZwyGMiA==
+     procedure_id : 1659525155361190745
+     type_code : 15
+     code : |1-
+      // Summary: Automatic processes for the category files, for the new "SpecialType" item
+      // Syntax:
+      //AutoProcessCategoryFile ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE AutoProcessCategoryFile()
+      
+      
+      HReadSeekFirst(Category,Name, "Supplies")
+      IF HFound(Category) THEN
+      	IF Category.SpecialCaption = "Nb products"  THEN
+      		Category.SpecialType = TYPE_NUM
+      		HModify(Category)
+      	END
+      END
+      
+      HReadSeekFirst(Category,Name, "Accomodation")
+      IF HFound(Category) THEN
+      	IF Category.SpecialCaption = "Nb nights"  THEN
+      		Category.SpecialType = TYPE_NUM
+      		HModify(Category)
+      	END
+      END
+      
+      HReadSeekFirst(Category,Name, "Car")
+      IF HFound(Category) THEN
+      	IF Category.SpecialCaption = "Milage"  THEN
+      		Category.SpecialType = TYPE_NUM
+      		HModify(Category)
+      	END
+      END
+      
+      HReadSeekFirst(Category,Name, "Meal")
+      IF HFound(Category) THEN
+      	IF Category.SpecialCaption = "Guest"  THEN
+      		Category.SpecialType = TYPE_TEXT
+      		HModify(Category)
+      	END
+      END
+     type : 458752
+   -
+     name : AutoProcess_PaymentTypeLogos
+     internal_properties : CAAAAAgAAACzwotqnxoGV3rI0qs7XJFNEIPyQCgpcT9EHtH2EpPGrYYVQe/LavclmJcwHXjlP8MVYxJlAslzQiOyS9MINGYegQYn98Y7EB/jO6qeuIDnUA5YnZgd9W+FQQr8Bbcc8OTcpd5CDPfEs/eriiZopFok60NK1g4awqRttoTcZc56At2pobxMTDN6OnzyyD/eRiI/ZJ+aSIUQOFBDRmhuavUTGErj9EMMYK5IN/eiGNWac6eewH4iEfagbpAQWJTKagbmhlJ+NA4Vuk7wltC40ocD4xo1AclzhSSE5V8plXd2MgA2np94WqKz
+     procedure_id : 1659525155361256281
+     type_code : 15
+     code : |1-
+      // Summary: Automatic process to refresh the logos for the types of payment
+      // Syntax:
+      //AutoProcess_PaymentTypeLogos ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      
+      PROCEDURE AutoProcess_PaymentTypeLogos()
+      
+      
+      IF fExtractResource("paymenttype.fic", fDataDir() + fSep() + "newpaymenttype.fic") = True THEN 
+      	
+      	fExtractResource("paymenttype.ndx", fDataDir() + fSep() + "newpaymenttype.ndx")
+      	fExtractResource("paymenttype.mmo", fDataDir() + fSep() + "newpaymenttype.mmo")
+      	
+      	HDeclareExternal(fDataDir() + fSep() + "newpaymenttype.fic","newpaymenttype")
+      	
+      	FOR EACH "newpaymenttype"
+      		
+      		HReadSeekFirst(PaymentType,PaymentTypeID,{"newpaymenttype.PaymentTypeID", indItem})
+      		
+      		IF HFound(PaymentType) _AND_ 
+      			PaymentType.Caption =  {"newpaymenttype.Caption" , indItem} _AND_ 
+      			PaymentType.CaptionUS=  {"newpaymenttype.CaptionUS" , indItem} THEN
+      			PaymentType.Picto = {"newpaymenttype.Picto" , indItem}
+      			HModify(PaymentType)
+      		END
+      		
+      	END
+      
+      END
+     type : 458752
+   -
+     name : GetFileVersion
+     internal_properties : CAAAAAgAAAAYDxhBCXwDzSIr/lvrUmsvLRhgyucAWE3g3YUdzqgTrEmuX/hNZHqE1gVhaehzSgsnW9zKBV90QZ/33sL1BGtbH7PiL1mgjbkTYhOwmYSMnWtxMWeREUuU7aokNv9DGhVW6AkzBHtAsfyHJcmUxsOgKPnWz/k+G03tg0I1orlTuysdauP0y9m4N8rtbtFcpOR6unyb+oEdg1pa8G2ndRQmdJ2kikZJ6NrYxsVyQ2GYtTZTulcQ2+UrVC7yz6GISwmAiEGb10hTt/wXo4rVHox0jDgG+OeL2DQO6ex6Tw1n
+     procedure_id : 1659525155361321817
+     type_code : 15
+     code : |1+
+      // Summary: Returns the version of the files for the automatic processes
+      // Syntax:
+      //[ <Result> = ] GetFileVersion ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	Undefined type: // 	None
+      //
+      PROCEDURE GetFileVersion()
+      
+      IF fFileExist(gsVersionFile) = True THEN
+      	RESULT Val(fLoadText(gsVersionFile))
+      ELSE 
+      	RESULT 1 
+      END
+     type : 458752
+   -
+     name : SetFileVersion
+     internal_properties : CAAAAAgAAAAf2+x2XunzanvwYt8PhzsJ8TDY3Z9Yv7Qg88fWHM9d92Enh670+sv31hQv4TIcQbHi1m8vrfeV2TBYDgD4T5Nazjziqy7jY0RFj+taJmxKkwO9o0NEHZ+y9Dnah+oCDWL5BFGIfnBGriS+cIKpQflbhZ7rtBlGWMDeB2xbemqXV2aUocZKUo/GwaPkZePryuasKEKv/cZ1SlL1wZIzmL2Or8d0hteVnc0vyYpn1UEVVKSxwgWrRXoAx2GNxd0jBfW+QRoTzDejEttdjx4NYn/kfOu1iKw=
+     procedure_id : 1659525155361387353
+     type_code : 15
+     code : |1+
+      // Summary: Saves the new version of data files, useful for the automatic processes
+      // Syntax:
+      //SetFileVersion (<nVersion> is int)
+      //
+      // Parameters:
+      //	nVersion (integer): ID of payment type
+      // Return value:
+      // 	None
+      //
+      PROCEDURE SetFileVersion(LOCAL nVersion is int)
+      
+      fSaveText(gsVersionFile,nVersion)
+      
+     type : 458752
+   -
+     name : AutoProcess_CategoryLogos
+     internal_properties : CAAAAAgAAADPfhf2G54icxaUDlcntXGuECOSAOhJcT8EvrEWkvNGLQY1oS8LSrdlmPcQfThFP0MVgzIlQulzAmPSK/MIVCbeQWYHN4bbUF/j2wp+eOBnkE64/Vhd1W/FAeqc5Xe8sCTcRX7CDFfEc/fLqsZoxJpkKyOq1v5KMnQd5rQs1V6KMg2Z8Yz8/CNKKuximG9ultJv1O8qOPXASIAztrheesVDSHpzBLP8kL64p2fySOXqI5fOEI6SQWZwHsDA6ARaejbW9mJOZL7Fyj5gBuAoIpdzE8qFUXnjtbQVVsONMcua1qTSIhv83i4/
+     procedure_id : 1659525155361452889
+     type_code : 15
+     code : |1-
+      // Summary: Automatic process to refresh the logos for the types of payment
+      // Syntax:
+      //AutoProcess_CategoryLogos ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      
+      PROCEDURE AutoProcess_CategoryLogos()
+      
+      
+      IF fExtractResource("category.fic", fDataDir() + fSep() + "newcategory.fic") = True THEN 
+      	
+      	fExtractResource("category.ndx", fDataDir() + fSep() + "newcategory.ndx")
+      	fExtractResource("category.mmo", fDataDir() + fSep() + "newcategory.mmo")
+      	
+      	
+      	HDeclareExternal(fDataDir() + fSep() + "newcategory.fic","newcategory")
+      	
+      	FOR EACH "newcategory"
+      		
+      		HReadSeekFirst(Category,CategoryID,{"newcategory.categoryid", indItem})
+      		
+      		IF HFound(Category) _AND_ 
+      			Category.Name =  {"newcategory.name" , indItem} _AND_ 
+      			Category.NameUS =  {"newcategory.NameUS" , indItem} THEN
+      		
+      			Category.Picto = {"newcategory.Picto" , indItem}
+      			
+      			HModify(Category)
+      		END
+      		
+      	END
+      	
+      	
+      END
+     type : 458752
+   -
+     name : AutoProcess_InternalRef_Envelope
+     internal_properties : CAAAAAgAAABndKAMbiom8vmG0BE4zrAY4iPkryPf355eRqKSMGsJOw0XD6IIsi+3KtQzLS5wNaX21o8LYScRQUyYgiT8G3de8qRSV7KTn5Sxv4dGyuBeFz+tC/+A3VvieFEu027emZ41vBEkwqACRuiOqigz64/pM9ShakMwPhJsFX4hHCxNlSRK/0SsHFV497mu021VWEwCftjl//gT3CCjc4ANEjMs/ZWiFGkH+68N95w1h1MDaqpHKPv1d6jCha+IG1lNX3Yx2mOfBdG23pK+sA+uowcba1q28DQ=
+     procedure_id : 1659525155361518425
+     type_code : 15
+     code : |1-
+      // Summary: Automatic process on the envelopes (that are now called expense accounts) to create an identifier for each envelope
+      // Syntax:
+      //AutoProcess_InternalRef_Envelope ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      
+      PROCEDURE AutoProcess_InternalRef_Envelope()
+      
+      FOR EACH Expenses 
+      	Expenses.InternalRef = GetExpenseAccountID()
+      	HModify(Expenses)
+      END
+     type : 458752
+   -
+     name : GetExpenseAccountID
+     internal_properties : CAAAAAgAAAAYDxhBCXwDzSIr/lvrUmsvLRhgyucAWE3g3YUdzqgTrEmuX/hNZHqE1gVhaehzSgsnW9zKBV90QZ/33sL1BGtbH7PiL1mgjbkTYhOwmYSMnWtxMWeREUuU7aokNv9DGhVW6AkzBHtAsfyHJcmUxsOgKPnWz/k+G03tg0I1orlTuysdauP0y9m4N8rtbtFcpOR6unyb+oEdg1pa8G2ndRQmdJ2kikZJ6NrYxsVyQ2GYtTZTulcQ2+UrVC7yz6GISwmAiEGb10hTt/wXo4rVHox0jDgG+OeL2DQO6ex6Tw1n
+     procedure_id : 1659525155361583961
+     type_code : 15
+     code : |1-
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      //[ <Result> = ] GetExpenseAccountID ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	Undefined type: // 	None
+      
+      PROCEDURE GetExpenseAccountID()
+      
+      RESULT Upper(ExtractString(GetGUID(guidFormatted),1, "-"))[[ 2 TO]]
+     type : 458752
+   -
+     name : getStatusForFilter
+     internal_properties : CAAAAAgAAAAZM2vS0nVYaS4ffMC0l2V0BlE4PdyRx1stPaauyI1RSHYjR7PcJ3crHHdKaKBTN3bvrgCPV6xsN1ScONOaNB5hFcXfuS7wcRA59SxMhhGSjmfBhBDjTaEJMeUpNiJUQbLicaCAYRcEsZSR61YhC+gjt999ifHhUWrARBIxBvI7CTDGYMTPzjc/8MdfYhVvWvJku/ZcjXO0K1BIe6q0cZHb9xtukr6AjlFU4o838XkrMiHCvM3WasfCXbuAbTqZ/3mYZhIDnb1/EYQ/tE6RvCpAaM1kO/iYZr0dVlJENHEWfVMRu3Fxq//e7C5ygZ3FKgspNvo=
+     procedure_id : 1659525155361649497
+     type_code : 15
+     code : |1-
+      // Summary: Retrieves the status to find out whether the expense account must be displayed or not according to the display filter
+      // Syntax:
+      //[ <Result> = ] getStatusForFilter (<nExpenseAccountID>)
+      //
+      // Parameters:
+      //	nExpenseAccountID: Status value
+      // Return value:
+      // 	integer: // 	None
+      //
+      PROCEDURE getStatusForFilter(LOCAL nNoteID)
+      
+      // Variable
+      aaStatus is ASSOCIATIVE ARRAY of booleans
+      
+      // Retrieves the statuses
+      HFilter(Invoice,ExpenseAccountID,nNoteID)
+      HReadFirst(Invoice,ExpenseAccountID)
+      WHILE NOT HOut(Invoice)
+      	aaStatus[Invoice.Status] = True
+      	HReadNext(Invoice,ExpenseAccountID)
+      END
+      HDeactivateFilter(Invoice)
+      
+      // Penalization order
+      IF aaStatus[STATUS_REFUSED]..Empty = False THEN
+      	RESULT FILTER_STATUS_INPROGRESS
+      END
+      
+      IF aaStatus[STATUS_TO_SEND]..Empty = False THEN
+      	RESULT FILTER_STATUS_INPROGRESS
+      END
+      
+      IF aaStatus[STATUS_PENDING]..Empty = False THEN
+      	RESULT FILTER_STATUS_INPROGRESS
+      END
+      
+      IF aaStatus[STATUS_REIMBURSED]..Empty = False THEN
+      	RESULT FILTER_STATUS_REIMBURSED
+      END
+      
+      RESULT FILTER_STATUS_INPROGRESS
+     type : 458752
+   -
+     name : SetDefaultPhotoSize
+     internal_properties : CAAAAAgAAAANlTU0vZPcn9H09dWGA1RRUT/Mhg2SbMu3YGkdOQbT1zMoeBrx4VteOrE/kmz0n9icFmF0tPxNtrZe1UXfB1NtHkinGcjdKdSfFOncjpJ9kQ/cBvbcJA7YiU4ENLiZ73JLSysKLvorYbpf4JRwgn5PDxhe6Gw1mbtNyPh17yNUzaWKqCJxzTQf3rJoBx7Ir3qupJ0PTHqBrQBxdmYe1aE/08IwnwUnTy0nyLhxkkgkUP1HznIaRQJm5DRopR1SVXNCf5diqcNxX0D+Cg==
+     procedure_id : 1659525155361715033
+     type_code : 15
+     code : |1+
+      // Summary: Saves the size of photos for sending by email
+      //SetSizePhotos (<nPhotoSize> is int)
+      //
+      // Parameters:
+      //	nPhotoSize (integer): Constant corresponding to the size of the requested photos
+      // Return value:
+      // 	None
+      //
+      PROCEDURE SetDefaultPhotoSize(LOCAL nPhotoSize is int)
+      
+      fSaveText(gsFilePhotoSize,nPhotoSize)
+      
+     type : 458752
+   -
+     name : GetDefaultPhotoSize
+     internal_properties : CAAAAAgAAABO032DU5Rvu6x1uBcN9mllyQ746MG4tP9+qytlxDglju3g24K39AaSoGcnyZ6zqOl7Cbg8wwukA9FpJErDNM1d98UqfbuooZMl5F2Ei8ge36vLAd2fbWM2IwgCqjlHCAc2Dt1tGu+Yg7rtY1m69qXF3zbbKtgBwpAoZLMGSxyAPKqS11Yn+uyr8qMms3ZDmT2lY5UynVgAGu0DGYYouAV7q0rRrW1gC70nE6JXONB1tjlsg07ztpxGu8MXGMp3ZCY/zVYmtkNyEtOkEB/KwX1Jk9WjuzbmP5uhSr2/Rzux
+     procedure_id : 1659525155361780569
+     type_code : 15
+     code : |1+
+      // Summary: Returns the size of photos for sending by email
+      // Syntax:
+      //[ <Result> = ] GetDefaultPhotoSize ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	variant: // 	None
+      //
+      PROCEDURE GetDefaultPhotoSize()
+      
+      RESULT Val(fLoadText(gsFilePhotoSize))
+     type : 458752
+   -
+     name : CreationPDF
+     internal_properties : CAAAAAgAAADMxzlKV8msH5fScMKSFRd/YM3ZkwMLoezKp3eLTYVTDSuJUXJCTSHbcqweKpmiNVwsAxMT1XR7yt9H8pqbD1gi1kKeqUGGN7k9fOWLo2H208kCWMBoyDLOjkT1Al4icO+et0ZceE3uxUqkvq+riv16l4tjGsvhhoDWIzAqhUhWh7N9JwlaFsfOr+tMJ343Uk+D9Lg0KDtEgnUKcDko72aj1F8TjVTMkJT81RROC00pYdWi4qoUO/ul8N2Ns+X5m7KbqSubEVLA6vJdO8wAtKPl/ypuwy/Tu40CCs/8HcMnaL7lN3TM75TqV3vpgVW3CY+AMaovcSFmPqzwsy1+j48NhzY++U/brSMmC5wvoxfRoUNAFkq2VJxUhaotxD+X+09EZrZhLYl9uzVkbd58cT2HgN5E9A8XrmPKMz665JnqwNSzAH6GZdJVSQtIaffhaCLtG+TaEx74SHzGptyH/tlKP+ZjGz4FqkwgRM5rnSYPF9Seepzz5oyNnmDwC0kS9fc20DCYdi97tZ6LEPkXlLlu8WgtNizr/56Th2ES/yz2u4XBzwLsAvjNK4iz4DrxRDh4SqAIC12QlOV8hXiwP99I2UDnok0N4NgoY7Euc1Kt1aBVntlC0cwo4GL+09OqeKYExdlGU9qxmL7xgRIVV5mvQWlIokqB8SCinttyklAFlZljOhmt9/HGTSj8sIttvXiLmiNNbWgcGRC2SWLSjCFiTL4qgHSDhcnaFDhVHGU2skSr01XgexYesx3uy8/8uLFI/0yoSJqvA3J9vD2HrLkcb7vVJx1yDIYXEJFKwcZMlBm30fBuUqQxsxTkcAcbHfdaPWiygVXDlIzqdZf9cj6O+UCIlUun19TXgdzgdUE4lHXutWpeoIay+CsMuuISym/fsjHSli3KMZZysBYtxZa00GF0x9Xw/XHIkJ3vV66sRpWB3tyjE5gMTVOipAfpDCT/lO6sWQvYvxrcaZOYURe3loiW+cmd+rAAu0h3mh73CpcIfsQyrRrApK9GHqVis2wueX7tVTuRtOC5GCVQiKPX6MXHKWUMLid1uASl2OfYozWKfZe68Vc6KBTE4rntd587sWCU1t8LNRZ9CC2NWcpPPiNX5dXwEKI6x6OXsvseSMeRYFKXmJn7dUJymqsCmGotCGJcUMorJkDAEIMY6iY+NrtK08gBRxEaTM9axk5wd9cFYo8MB0BD7SJTrIlZAK4OQ/1V6znbbYMpvzMxpr1KXAD7dsV5qv/XnIwgjHy8wa+86aqHT7amoPzyUgsaTEM3qLhi9rhbn3Pd0VFU1patyPX9PYULmIZ4p8Z+Mj8GWVhOTMO9Stj5Dp879UFngzy054+fVSWwCW2f8qBrRJvOEQtzt+jxSVJPv/7HBqfiMsRRPcn/qL7PPfYAi4x2ytlp5ftf6w==
+     procedure_id : 1659525155361846105
+     type_code : 15
+     code : |1-
+      // Summary: Generate the PDF file
+      // Syntax:
+      //[ <Result> = ] CreatePDF (<arrEnvelopeID>)
+      //
+      // Parameters:
+      //	arrEnvelopeID: List of IDs for the invoice accounts that must be displayed in the PDF
+      // Return value:
+      // 	UNICODE string: // 	None
+      
+      PROCEDURE CreationPDF(arrEnvelopeID)
+      
+      HourGlass(True)
+      
+      // Check whether invoices are found in the selected expense accounts
+      sIDList is string =  ArrayToString(arrEnvelopeID)
+      QRY_CountExpenseAccounts.pIDList = sIDList
+      HExecuteQuery(QRY_CountExpenseAccounts)
+      IF QRY_CountExpenseAccounts.NbExpenseAccounts = 0 THEN
+      	Info(<§@1f2bf341008deb4f0010§>)
+      	RESULT ""
+      END
+      
+      sPath is string = CompleteDir(fDataDir()) + Today() + "_" + Now() + ".pdf"
+      iDestination(iPDF,sPath)
+      
+      
+      FOR ALL ELEMENT nID of arrEnvelopeID
+      
+      	iSequencingAdd(RPT_ENVELOPE,nID)
+      	
+      	//Is there any photo that must be printed for this invoice?
+      	QRY_ProofsExpenseAccounts.pEnvelopeID = nID
+      	HExecuteQuery(QRY_ProofsExpenseAccounts)
+      	HReadFirst(QRY_ProofsExpenseAccounts)
+      	IF NOT HOut(QRY_ProofsExpenseAccounts) THEN
+      					
+      		SWITCH GetDefaultPhotoSize()
+      			CASE NO_PHOTO
+      				
+      			CASE SIZE_SMALL
+      				// if size = SMALL (1/4 A4)
+      				iSequencingAdd(RPT_PROOF_SmallSize, nID)
+      				
+      			CASE SIZE_MEDIUM
+      				// if size = MEDIUM (1/2 A4)
+      				iSequencingAdd(RPT_PROOF_MediumSize, nID)
+      				
+      			CASE SIZE_LARGE
+      				// if size = LARGE (A4)
+      				// Retrieves all the expense accounts for this envelope
+      				QRY_ProofsExpenseAccounts.pEnvelopeID = nID
+      				HExecuteQuery(QRY_ProofsExpenseAccounts)
+      				FOR EACH QRY_ProofsExpenseAccounts 
+      					
+      					// Defines the description
+      					sExpenseAccountCap is string
+      					IF QRY_ProofsExpenseAccounts.Caption ~= "" THEN
+      						sExpenseAccountCap = QRY_ProofsExpenseAccounts.Name
+      					ELSE
+      						sExpenseAccountCap = QRY_ProofsExpenseAccounts.Name + " - " + QRY_ProofsExpenseAccounts.Caption
+      					END
+      					
+      					Myimage is an Image = dLoadImage(QRY_ProofsExpenseAccounts.Path)
+      					IF Myimage..Height > Myimage..Width THEN
+      						iSequencingAdd(RPT_PROOFPORTRAIT, sExpenseAccountCap, QRY_ProofsExpenseAccounts.Path)
+      					ELSE
+      						iSequencingAdd(RPT_PROOFLANDSCAPE, sExpenseAccountCap, QRY_ProofsExpenseAccounts.Path)
+      					END
+      				END
+      				
+      				
+      				
+      			OTHER CASE
+      				
+      		END
+      	END
+      	
+      	
+      END
+      
+      
+      iSequencingPrint()
+      
+      RESULT sPath
+      
+      END:
+      HourGlass(False)
+     type : 458752
+   -
+     name : GetAppLaunch
+     internal_properties : CAAAAAgAAAAYDxhBCXwDzSIr/lvrUmsvLRhgyucAWE3g3YUdzqgTrEmuX/hNZHqE1gVhaehzSgsnW9zKBV90QZ/33sL1BGtbH7PiL1mgjbkTYhOwmYSMnWtxMWeREUuU7aokNv9DGhVW6AkzBHtAsfyHJcmUxsOgKPnWz/k+G03tg0I1orlTuysdauP0y9m4N8rtbtFcpOR6unyb+oEdg1pa8G2ndRQmdJ2kikZJ6NrYxsVyQ2GYtTZTulcQ2+UrVC7yz6GISwmAiEGb10hTt/wXo4rVHox0jDgG+OeL2DQO6ex6Tw1n
+     procedure_id : 1659525155361911641
+     type_code : 15
+     code : |1+
+      // Summary: Returns the number of application launches
+      // Syntax:
+      //[ <Result> = ] GetAppLaunch ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	Undefined type: // 	None
+      //
+      PROCEDURE GetAppLaunch()
+      
+      IF fFileExist(gsLaunchFile) = True THEN
+      	RESULT Val(fLoadText(gsLaunchFile))
+      ELSE 
+      	RESULT 0 
+      END
+     type : 458752
+   -
+     name : SetAppLaunch
+     internal_properties : CAAAAAgAAAB1AYbk7J9ZmClOSEGFYWEn5y7i862OheKOCSrk/ivF1xMPEf4ugDd1yJwr/zyoaRF4aqHP10lVj1qwjp6KN6uKDIi0mzTdC75vp1MkhKzG55XNEW+Oe0Pgiq1m2UjmbQKb3LuAdN56cDrifbOQbNSyepXSXXglOSF/SAXEmUVyTh/PBKdJsfCnPmDtntom0elRVzl8YJlCl+/CBi+On7QRIC5jq7L4eh5kDkMsmIBcpxm0/VLOeKfF0Npz3zf5L6PMVyAdtg19bGHTdXBfMCkSCnnL4kY=
+     procedure_id : 1659525155361977177
+     type_code : 15
+     code : |1+
+      // Summary: Saves the number of application launches
+      // Syntax:
+      //SetAppLaunch (<nNbLaunches> is int)
+      //
+      // Parameters:
+      //	nNbLaunches (integer): Number of application launches performed
+      // Return value:
+      // 	None
+      //
+      PROCEDURE SetAppLaunch(LOCAL nNbLaunches is int)
+      
+      fSaveText(gsLaunchFile,nNbLaunches)
+      
+     type : 458752
+   -
+     name : AskForOpinion
+     internal_properties : CAAAAAgAAAByzhifeJ1Klz+MbjED/v7e4W2TJh7vh8Qk7Skh46hpGW+G13cJfckMzBNPVbwd5V/nbqI66w+vQ+O8RrAgxYKAeYbBn7Sshonw6ScvTKiQ4cJOeaAuYAU0DoBpsCLtBHBscgaoi/Hz7xu2EbY/O0sWBJyUV8NYus/N9z1RJ37aai0oC52WzV+wXaHRhxLqY9ZjY9dbsVfhx2qH2gIRSXRTiyPhy5Nk5fNw7flzr2R3H5xwSXHq3gBRq9oFg937MfTGtpOslnamuRguY083naD3D8qcZLp+e6sIih7kEmj76qJhYgPlxapRKrDSpH3KmClZVMb1/aC0Jb5pwAoRsK3WYEG6Lqkozljo9iMD0pReLfmjyYqf+oAEaHWeWmcBT2hOkm4H
+     procedure_id : 1659525155362042713
+     type_code : 15
+     code : |1+
+      // Summary: Procedure that manages the request for opinions about the application
+      // Syntax:
+      //AskForOpinion ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      
+      PROCEDURE AskForOpinion()
+      
+      
+      //Increments the number of application launches
+      nNbAppLaunches is int = GetAppLaunch()
+      SWITCH nNbAppLaunches 
+      	CASE OPINION_ALREADY_GIVEN,  OPINION_DONT_WANT_TO_GIVE
+      		
+      	OTHER CASE
+      		nNbAppLaunches++
+      		SetAppLaunch(nNbAppLaunches)
+      		
+      		//Every 5 launches >> ask the use to give his opinion about the application
+      		IF modulo(nNbAppLaunches, 5) = 0 THEN
+      			
+      			//1: Give my opinion
+      			//2: Later
+      			//3: No thanks
+      			SWITCH Dialog(<§?1374AC3E00E26643§>)
+      				// Give my opinion
+      				CASE 1
+      					AppOpenForm(<§@1f2bf341008deb4f0011§>)	
+      					SetAppLaunch(OPINION_ALREADY_GIVEN)
+      					
+      				// Later
+      				CASE 2
+      					
+      				// No thanks
+      				CASE 3
+      					SetAppLaunch(OPINION_DONT_WANT_TO_GIVE)
+      					
+      			END
+      			
+      		END
+      END
+      
+      
+     type : 458752
+   -
+     name : GetDefaultDate
+     internal_properties : CAAAAAgAAADsM9bjiaxL/ZqDfjtL+kt/fVAwkq/YWHVg3c1FdphbtKEu1zg9dIKk3k0xuQjrKgsH8xySvYd0KU/3psq9tEPDd0NaH9nQNXk7yvOwyZzc7RvZ0Q95mat8XXrMjlejEv3uWDEzBBsYAQRPBek0fsMkrBXyM516RxGp386pxl3nz185dkeYR1Vssxa5omVw6IieZqhPbu1594aGrCG7OYj6KMlQLurllH6kwsH2x/VsSarPdmvEBwEfgIpOIwVsz+2UlK2v65Sfe4hjX86JUjDYAEQSTKv3NEiq9di8o9kT
+     procedure_id : 1659525155362108249
+     type_code : 15
+     code : |1+
+      // Summary: Retrieves the default date for the expense account
+      // Syntax:
+      //[ <Resulta> = ] GetDefaultDate ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	UNICODE string: // 	None
+      
+      PROCEDURE GetDefaultDate()
+      
+      // Variable
+      sDate      is string
+      sDate = LoadParameter(PARAM_DEFAULT_DATE,Today())
+      
+      RESULT sDate
+      
+     type : 458752
+   -
+     name : SetDefaultDate
+     internal_properties : CAAAAAgAAAAYKtwWVJ+1C3WWIq7hRpltMhIZUJi7qTffflQNiZe22lZz80xkTyGJNVt8GntyAEpXRLJFma4FfUAAhyBnLIyWVZkfNdILdD+LrmGR2Uw0RpZODY+kw0GN9JW6B2SvhA7t+ZEFR1DVQeLZWXFYlhrqIsWysTrf/1nn8LEeGSMc8L2y47uv2l54t1gM727Il55FCciFvQ==
+     procedure_id : 1659525155362173785
+     type_code : 15
+     code : |1+
+      // Summary: Saves the default date for the expense accounts
+      PROCEDURE SetDefaultDate(LOCAL sDate is string = "" ) 
+      
+      IF sDate <> "" THEN
+      	SaveParameter(PARAM_DEFAULT_DATE, sDate)
+      ELSE
+      	DeleteParameter(PARAM_DEFAULT_DATE)
+      END
+      
+     type : 458752
+   -
+     name : AssociateKeywordCategory
+     internal_properties : CAAAAAgAAABVLzZ1ugy8ADk7KSb7vmOYW8DcGrfC/HnyrmKHlbLu6JJfQjLjYrEOCZmihMAETUCEKACQA9lfc5goRfklO7leMTDaTAKkidC/VfBO57iNQzuYMTIMkVkh7AvTDJjv0FQHqNVUd0Rl/nWftOAQQOSs+DwGqHDHM2gAhDL3hW+UYP6/dZOu2D21joX7rF8nEiKUcLzEuQpVjSMThmN9HPUc21Wdcp39pZm5/NLl5PU6nt0qxg==
+     procedure_id : 1659525155362239321
+     type_code : 15
+     code : |1+
+      // Summary: Associates a caption with a category
+      PROCEDURE AssociateKeywordCategory(LOCAL arrKeywords is array of string, LOCAL nCategoryID is int)
+      
+      
+      HReadSeekFirst(Category,CategoryID, nCategoryID)
+      IF HFound(Category) THEN
+      	
+      	//Addition in database
+      	Category.Keywords = ArrayToString(arrKeywords)
+      	HModify(Category)
+      	
+      	//Add in memory
+      	gaaCategories[nCategoryID] = Category.Keywords
+      END
+     type : 458752
+   -
+     name : LoadCategoryKeywords
+     internal_properties : CAAAAAgAAAAYKtwWVJ+1C3WWIq7hRpltMhIZUJi7qTffflQNiZe22lZz80xkTyGJNVt8GntyAEpXRLJFma4FfUAAhyBnLIyWVZkfNdILdD+LrmGR2Uw0RpZODY+kw0GN9JW6B2SvhA7t+ZEFR1DVQeLZWXFYlhrqIsWysTrf/1nn8LEeGSMc8L2y47uv2l54t1gM727Il55FCciFvQ==
+     procedure_id : 1659525155362304857
+     type_code : 15
+     code : |1+
+      // Summary: Loads the keyword of categories onca and for all
+      PROCEDURE LoadCategoryKeywords()
+      
+      
+      FOR EACH Category 
+      	
+      	gaaCategories[Category.CategoryID] = Category.Keywords
+      	
+      END
+     type : 458752
+   -
+     name : FindCategoryAccordingToCaption
+     internal_properties : CAAAAAgAAAB2RB3ymvKk4m7usxjT0uidHG08uCIyNwly0x9hUzz4ON0AyskXlZAv3VXma2gZ+xnyrchY7/MdeRfMj3Lj7EuIYA8bMPTuZcn7GqJvbjkk4Q9wUNXe28hOfQCP94ejTDERUBrwG9k8R4VonIpX7D1c1NDmqhnvkmkuG3zl5p0BLCyIbu4Kb793r81qE0/IBj9HrlndDaBImQ1USh5HbYhIOcEJXql2/Sa1XM0qnm7j5R+R50nAB8MKLMEpNTTGQ6ESaOK3Gm9V6aGDriU=
+     procedure_id : 1659525155362370393
+     type_code : 15
+     code : |1-
+      // Summary: Finds a category that could correspond to the caption
+      PROCEDURE FindCategoryAccordingToCaption(LOCAL sCaption is string)
+      
+      
+      //for each category, retrieve its list of keywords
+      FOR EACH sListKeywords, nCategoryID of gaaCategories
+      		
+      	//The caption can contain several words
+      	FOR EACH string sWord of sCaption SEPARATED BY " "
+      		
+      		//and seek among the keywords whether a caption word is found or not
+      		//if so, take this category
+      		nSubscript is int = StringCount(sListKeywords, sWord, WholeWord+IgnoreCase)
+      		IF nSubscript > 0 THEN
+      			RESULT nCategoryID
+      		END
+      		
+      	END
+      	
+      END
+      
+      RESULT -1
+     type : 458752
+   -
+     name : GetDefaultCurrency
+     internal_properties : CAAAAAgAAACV442MxccX+ABA8P/zba1VzcTo3cnEzKB3CCTFE78NWNhUHQ6y9p66WLdlVh/CxKYzZmPaOBQ/qdj2Eud8n3X4Gz17g1Tz2nQk8NxvzeGrW6EBWVYu189pVKKi7nsdaYT9m+6CquIDUgoaN+I7WAMOpDdlcHlX1077d+2DHnVtKNCkUE21RE0TrdoENsyrdYCAxVfw0prRMzCCf82QZm4liGPH2aZVzfA9UjxE0ps2YOh8
+     procedure_id : 1659525155362435929
+     type_code : 15
+     code : |1-
+      // Summary: Returns the ID of the default currency that will be proposed
+      PROCEDURE GetDefaultCurrency()
+      
+      //It is the reference currency by default.
+      //but it could also be the last currency entered by the user
+      
+      nCurrencyID is int 
+      nCurrencyID = LoadParameter(PARAM_DEFAULT_CURRENCY, pManagingValues.gnReferenceCurrencyID)
+      
+      
+      RESULT nCurrencyID
+     type : 458752
+   -
+     name : SetDefaultCurrency
+     internal_properties : CAAAAAgAAAAYKtwWVJ+1C3WWIq7hRpltMhIZUJi7qTffflQNiZe22lZz80xkTyGJNVt8GntyAEpXRLJFma4FfUAAhyBnLIyWVZkfNdILdD+LrmGR2Uw0RpZODY+kw0GN9JW6B2SvhA7t+ZEFR1DVQeLZWXFYlhrqIsWysTrf/1nn8LEeGSMc8L2y47uv2l54t1gM727Il55FCciFvQ==
+     procedure_id : 1659525155362501465
+     type_code : 15
+     code : |1+
+      // Summary: Saves the default currency for the invoices
+      PROCEDURE SetDefaultCurrency(LOCAL nCurrencyID is int = -1 ) 
+      
+      IF nCurrencyID <> -1 THEN
+      	SaveParameter(PARAM_DEFAULT_CURRENCY, nCurrencyID)
+      ELSE
+      	DeleteParameter(PARAM_DEFAULT_CURRENCY)
+      END
+      
+     type : 458752
+   -
+     name : SetDefaultContributors
+     internal_properties : CAAAAAgAAAAYKtwWVJ+1C3WWIq7hRpltMhIZUJi7qTffflQNiZe22lZz80xkTyGJNVt8GntyAEpXRLJFma4FfUAAhyBnLIyWVZkfNdILdD+LrmGR2Uw0RpZODY+kw0GN9JW6B2SvhA7t+ZEFR1DVQeLZWXFYlhrqIsWysTrf/1nn8LEeGSMc8L2y47uv2l54t1gM727Il55FCciFvQ==
+     procedure_id : 1659525155362567001
+     type_code : 15
+     code : |1+
+      // Summary: Saves the default contributors for the invoices
+      PROCEDURE SetDefaultContributors(LOCAL arrContributors is array of int) 
+      
+      IF arrContributors..Occurrence > 0 THEN
+      	sListContributors is string = ArrayToString(arrContributors)
+      	SaveParameter(PARAM_DEFAULT_CONTRIBUTORS, sListContributors)
+      ELSE
+      	DeleteParameter(PARAM_DEFAULT_CONTRIBUTORS)
+      END
+      
+      
+     type : 458752
+   -
+     name : GetDefaultContributors
+     internal_properties : CAAAAAgAAAAYKtwWVJ+1C3WWIq7hRpltMhIZUJi7qTffflQNiZe22lZz80xkTyGJNVt8GntyAEpXRLJFma4FfUAAhyBnLIyWVZkfNdILdD+LrmGR2Uw0RpZODY+kw0GN9JW6B2SvhA7t+ZEFR1DVQeLZWXFYlhrqIsWysTrf/1nn8LEeGSMc8L2y47uv2l54t1gM727Il55FCciFvQ==
+     procedure_id : 1659525155362632537
+     type_code : 15
+     code : |1-
+      // Summary: Returns the default contributors
+      PROCEDURE GetDefaultContributors()
+      
+      
+      arrContrib is array of int
+      sListContributors is string = LoadParameter(PARAM_DEFAULT_CONTRIBUTORS)
+      
+      IF sListContributors <> "" THEN
+      	StringToArray(sListContributors,arrContrib)
+      ELSE
+      	IF pManagingValues.gnMyProfileID <> CS_NO_VALUE THEN
+      		Add(arrContrib, pManagingValues.gnMyProfileID)
+      	END
+      END
+      
+      RESULT arrContrib
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+resources :
+ string_res :
+  identifier : 0x1f2bf341008deb4f
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : Incorrect value for the month
+     index : 0
+   -
+     text :
+      en-GB : January
+     index : 1
+   -
+     text :
+      en-GB : February
+     index : 2
+   -
+     text :
+      en-GB : March
+     index : 3
+   -
+     text :
+      en-GB : April
+     index : 4
+   -
+     text :
+      en-GB : May
+     index : 5
+   -
+     text :
+      en-GB : June
+     index : 6
+   -
+     text :
+      en-GB : July
+     index : 7
+   -
+     text :
+      en-GB : August
+     index : 8
+   -
+     text :
+      en-GB : September
+     index : 9
+   -
+     text :
+      en-GB : October
+     index : 10
+   -
+     text :
+      en-GB : November
+     index : 11
+   -
+     text :
+      en-GB : December
+     index : 12
+   -
+     text :
+      en-GB : Various
+     index : 13
+   -
+     text :
+      en-GB : Default envelope
+     index : 14
+   -
+     text :
+      en-GB : Currency not found
+     index : 15
+   -
+     text :
+      en-GB : No invoice in the selected expense accounts.
+     index : 16
+   -
+     text :
+      en-GB : "527599856"
+     index : 17
+ dialogs :
+  -
+    identifier : 0x1374ac3e00e26643
+    internal_properties : CAAAAAgAAAC+i0hMMDJm5R4V6c7p2EGW2j6X28xnS4tRVRoPhFBwUXoF5bTs2AVSjrR/D86gWYPS9ULx53cDTNGm5BAbthoyVqR2+0EPV5Y=
+    label :
+     fr-FR : "Cette application vous rend bien des services ? Vous la trouvez sympa ?\r\nDîtes-le !"
+     en-GB : "This application is useful to you? You find it nice and cool?\r\nExpress yourself!"
+    image : {}
+    cancel_button : 2
+    buttons :
+     -
+       label :
+        fr-FR : Donner mon avis
+        en-GB : Give my opinion
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : Plus tard
+        en-GB : Later
+       image : {}
+       value : 2
+     -
+       label :
+        fr-FR : Non merci
+        en-GB : No thanks
+       image : {}
+       value : 3
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ

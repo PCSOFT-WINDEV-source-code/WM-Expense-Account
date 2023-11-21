@@ -1,0 +1,240 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_ExpenseAccountsEdit
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_ExpenseAccountsEdit
+ identifier : 0x27c981438ee66e44
+ internal_properties : CAAAAAgAAAClxJKixQvqCHcWyQtgdOtOGnCj+tPlRYVxlf7dzqvh18N63EP4FI+QpJHcgkUbvwuXBLU+ah3Z4BWUNQEh3Ne+Z5Gd3fBVRVsAmL1Z4sTaVgGaJ5sdMmTzmzphrDcfbz3fB/b6mxH9cdd55oPi3SS06kylOHqePa0YpTo33o/gcS+9nAK4k9nBkDRSM+VimaBt5FGGO0vqaAupq5jAUvtV3zbK8io02BpY0vZQj43SJaJ+RZVBU7Jl2jfWz1BisYvvKuSXIDIcY/2H4RhCIj+it/036qhXRQSsnIls919qhXgJn+6S7BOoD/29ORYI1gUDaiJMPklb/x7lFQMhLedH0SGtwSfIPt6rLaHbAWWUN7i+ys626Zqeag82TSeWwBTHX9Gik5EDln2RQuHyM/HGWNZV57kuQAplieooWv/qQwPPS8bm3erqZ5/WlT0XXQAOSFm5I49n3ompsH3BaJlIlFw5J+BRlLEQ2Pl6jnIl9BAkkew3gKR/sq4KT9YHB1pMSy0TQQSIxYdG+U5bI2tIHkeZrYjXmLzJ6d6skxcZyrnY1rH/f+TCmjArQoeoBqpLncLy3Qpo+umWGCEOL0TLoXOWI3vn67CQoPATvtTsua/TIFTiqr3Tm5onzKec9JhScYTbBM/fwziPNDFpetT5ee9rqTXTmoZ/YQ2WytaiLutv8rbCU657fGucxKGxEu6Qvnirv2zgNrbWJMNgiSxFnyLSJTEeMLqXIAVcQe41ouh0tlB8e8ojT3SexsUPqzo0bRxErX8O4RAI1mBrom9PIQLQGs06+wTh9GhhPpD9uKz+0xMEGC/nZ4BwdMYIsg==
+ properties :
+  width : 320
+  height : 248
+  heightMin : 321
+ controls :
+  -
+    name : EDT_REQUEST_NAME
+    identifier : 0x27c981438ee96e44
+    internal_properties : CAAAAAgAAABxzIInba3+x4r/shlPpYbCP+IlnIusyZW4y/OcpIY2ZMBXYKz8e0MCzPqpDiaWOM/Tg+Vck7M4fjHRlKFdKLJ6NbpPzZlszNPwoPA3U+whdG284kSsFLU7nUHpXmmkJnSwrwcWUw0NRFkCqLkZyBAqtyQfIZtqYy7EsAMV90G9e3m+G3AvLH+WX5Q8Emm00OHPPp0ZE8O4u57s0KR8NjO7A7bBqP+zyF12oi6UWKOyrR1WCz8ggIoXT8HCG1RG4+xHmmYaEkvw9YbUNStbk9Iwr14yflCEpzp8nqNO3Unwrn4MO8WXg1Y/JM4N3SmRozn8AnnvSJrdg6M42DBxnckpymIqnNaq20xIshk8m5Zse7CiyFGcH5V1l3Usm/s6u+fvxEu70VpXzIHa/ypQ2MA/Hw9en34Wlv2iuAQQacQQ7Yru3jWDMTLK0sRGEIJ1rwcP9/5u3vYlLsetGKsJA2aaQ1muQ3RUb0wVazF+3VjE0eLVCXH7ZL71agwDrJ2tcg+5nlmlOF4mbGPQw95w5OTt3/M+kdaM+rMdJ7j7O057lQpHbuR8YCzp+syeVttqKUKB/RuDVqVs5In/urArrXAIVZCmC7Y6+Q9n5tlRMuDOyaoBpbO4JQWfJfTasnHLRfaYzhlY9SNwzpFRi90msOO0ejmePPiqHaCOU11ziVjdkWURSzD26DaS5wJEkDeAnxu+E8LmOFDsAzT/OSA2cepWSvZWHIp3F7s/c+4nLRmuhadJ2yWW3wk91BaroIoB9GAll8Q9gIZeD7mLXMZPEL/RV2ci6Qj7NemhbRsPVOrGkVXcwKOl8FxXDik9C3ayyU6ZaKEWOhM1mFMtjcMDAYIGrfSM6yX7sa1firRXFsmh0RZd1zvjpgfeoaQ1XgkPc4G09LZiWyu6jccFzGZhyUbCs6winzqLfaZNOE1fZdj8tQMFFCubwk5d4fwxyTEKy3Yjis6Mbcm1eZeJWqCXhGe0mulus2NeXV1qyUywiikdMcQH0Li1otltpLFXVC1kBw4sQ3/lU0z3pm9oswv9hSjFCDVpB2SpKK2FQaXPW+7PB0qhjoVuCqSGq5bqjyvAKafzlH8hJiJyfOt6WbTuqmityF036Ul/Lue2BI1sDSQIC+9gZoqoGJoCaQo5gJOQJequUg8FKHdWclkXibIPxx08Y2Ry3oyTmYycKqjermxBzYieXTKP9AOA2ZHNRooiQVpFxSJCdc52vinp6gCEC4afFon7d07acvc=
+    properties :
+     x : 9
+     y : 89
+     width : 300
+     height : 38
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : STC_DESCRIPTION
+    identifier : 0x27c981438eea6e44
+    internal_properties : CAAAAAgAAAA+eNV8X3jMuLhwIkrRBFUGymWFLPdkHOrCrdVMTW/CT3M1wSRiFVIHmuEAqK+jFD/09HVZ6W8Awyu8rVCBB0K0TtTAoTaOAWiKUPAJ63Y1pJv32Gc5tGcbxc7/3EcUhIQEotEKAZg3sZU4sflGA07YchDZyj8tJiabzvDN7ssB/nJnDJbPNDFJr6tIZMb/8yr/Qm/SN17yaa3ZrcZInKYC2pG3yi/LC200/VhBQPhXA6sz++ff4RqUdULnaD8DXQnTL4aZh5CzIuqiJt/Ex+eLFbwZLDk99ZrcDcxWGlqkEvlkOreboV5icmDmEbY2uSMdh/DmuoBlgOzYwwZm6ucRj1W29GVUAdByGoQMOqX4CtGa41CSx9oWp0rbhIfebqVDubLMI9VellWRlFmCr8wRs8ppLMzVU0AHQN/x5itIA4d7iKC2W1HEEC5/r2MMj/B6C6KXc6C5pcnHSghW820c7TKpjxxfuoduFj4gCm0rYFifOLBZ1GzcRlOZZaOHIWQm5eJ7GeLOh5xeRiPZOw88sqwC1hC/3fZcDsUhhQ==
+    properties :
+     x : 9
+     y : 68
+     width : 300
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+  -
+    name : STC_Create_an_expense_account
+    identifier : 0x27c981438eeb6e44
+    internal_properties : CAAAAAgAAABSqX8D0eYFCwjc+ZSc/0Ho0W7/5MFKllyKEPYfbFIDlklk00EWo24HAou+6p+dgMj+rwwQdhaxoQNn8MXLsq+jbBh+lafJzn+53h8kSMdhSONZ05o/OD1gKQJlJYtTZrfXSYP4LgE2EeUwPVQ/j4wgN24TM0l7I+yrhMCwK4ENLQBJfkgZMqvFeRCAhCSNtF0zn8ubeBkPJvOGTbV5ODm33T2YmX+QIXA4C8BJSehOXob4IWhZV9g7OvK91cJK0wisesevOH0LrMvHWJBHEUCAcskMjo2E+iAo0OtkegJtaN54sCFIRYn80O9GgJ9eGc2aBTNMrSfx5k8MRT5pf7AtmvvVsEKONdotplm24Em/QgMRAfc0X19XCKN/T83gnFTbHEVKa2BxNiiq76u/jwdtNt5bRXahfpl92p3JV1bdY27nRWFgT78709QhZA+KEm4ssHoU6Vt+NRujQVlKL0PmU3kSpuSFo0dbjq77/xYBW0+2cl3Ikj0FrFFZV8Tt3TeOYWHj0Y79RFSrlH68SUwvijt59ZiGI2BdTCdQarXRt8hgp0alLg==
+    properties :
+     x : 9
+     y : 9
+     width : 300
+     height : 45
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x27c981438eee6e44
+  internal_properties : CAAAAAgAAACrDWC0xAj+yaC80iYw6XhP8YKBD0t+bNLIL9w0aJ1jAJExTsOshW9k6mmkAfOG4RLg6SAA2pH62uy6MVy1KjL7OVZN8kIkx3gG/WDn/xddH3k924bPx/hdu3UVNrcwPnq/CKZPY31cwsrNdSEg2AD/QR+8597ARxl0Wz8D/ZQFbZvIUFEfuqB1F8AJbAgLzAmeCoa9ScJqopE/uzdusKPwBvLM5eKRN5ppPa9A9w4jaDGwFf5zzRi8rDUcBwuN2KKyjoemD/7aNCEyH0sustle193ha6CdD4PDhL9mMeDteJH9vEgLwksYsWdfdi+z1qJUv4IIoSaIoGnQWZr8K0kg3/qTJLEEr9YYAIHFVm0A+DiGR8ALr+uG/oIT0IZmTUAIm5awuFylSWM=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      code : |1+
+       
+       Close()
+       
+      type : 18
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x27c981438eec6e44
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_Option
+     identifier : 0x27c981438eed6e44
+     internal_properties : CAAAAAgAAACx7PaG4YW8+zLn/KLYOZENjcA0xpPbSzFjVwARxjyO+maJC0CKhi5LdF0V432wl0jOdPNT+A94rcZUAxHpSpeZp6hOVg55/pkKZFop4KCZMQgjgc2oRsVJ13kxjMkx0feJlZ4avo5jL3FSCG4rSzl/h2NXe+eLriR7uLArQMLeTWqMRAhQhL7Q1miOVyycaeos5Q2oUhKJUUcCIosRQ0wNc9CO0VUErxBdCwuArXdGALsya8RYZ9jBP3ZGM7hXIbt8ulOcOnRLOhmHJt3pa4rUGvU8IuIKjPHMEE/TfwcYYqz6FOTdqQbipfPt9g==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         internal_properties : CAAAAAgAAACfHvyC+ypGezqEGJcnjn9RAIc8mD49InYfY7pE3yb6Y0g0zaSgCAaliUolR+cOJm3u7Zu6Kz9m6XyXjCLmSbcVNYsaU1g6T8zF8S9otntx85AOEtOxKUReZtde2yQi76jeG6B3BdFafuHbXynN4KgpBn17ncXS6aCGxobPEW6ZPxy5bYufGbO70VHKLB5PS8Di4YSbjcz0cPk5iFG8PKTp1vucfxGIIwOuiwUoxKP7MUenttBVeeE8Mek=
+         code : |1+
+          
+          // Variable
+          dStartDate is date = Today()
+          dEndDate   is date = Today()
+          
+          // Correct input?
+          IF EDT_REQUEST_NAME ~= "" THEN
+          	Error(<§$0000§>)
+          	RETURN
+          END
+          
+          ////Test removed >> ability to enter bills with identical names
+          //// Does the envelope already exist?
+          //HReadSeekFirst(Envelope,Name,EDT_REQUEST_NAME)
+          //IF HFound(Envelope) THEN
+          //	Error("This expense account already exists")
+          //	RETURN
+          //END
+          
+          // Adds the envelope
+          HReset(Expenses)
+          Expenses.Name        = EDT_REQUEST_NAME
+          Expenses.StartDate  = dStartDate
+          Expenses.EndDate    = dEndDate
+          Expenses.StartYear = dStartDate..Year
+          Expenses.StartMonth  = dStartDate..Month
+          Expenses.EndYear   = dEndDate..Year
+          Expenses.EndMonth    = dEndDate..Month
+          Expenses.InternalRef = GetExpenseAccountID()
+          
+          // Adds
+          IF HAdd(Expenses) = True THEN
+          	
+          	MyWindow..ReturnedValue = Expenses.ExpenseAccountID
+          	Close()
+          	
+          ELSE
+          	Error(HErrorInfo())
+          END
+          
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAJax/+TkcFFvnealJkmgiSjw3H4I+vsSoqwCDn2ETPtqFS1WhdDfHHPjBwgCmCiiNN1LBJvcxMi9AtFH0l6vwlCtT55tpXvOL4l05QdBAr0BHGqLRhWYcaIURVTg==
+ code_elements :
+  internal_properties : CAAAAAgAAABk46+XmEpUMRObnaJ1E/8CswYPyUcbUWR4Q8FnpRBuUU5RY7Kpj/vgo0RP++ccaxAQKQJJ3Kpfe/BgZHzj30VHIohnHA==
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE WIN_ExpenseAccountsEdit()
+      
+      MyWindow..ReturnedValue = CS_NO_VALUE
+      SIPVisible(True)
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f3a940b00b18cd7
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : Enter a name
+     index : 0
+   -
+     text :
+      en-GB : This category already exists
+     index : 1
+   -
+     text :
+      en-GB : This expense account already exists
+     index : 2
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

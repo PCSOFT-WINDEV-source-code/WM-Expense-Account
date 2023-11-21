@@ -1,0 +1,95 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : RPT_PROOFPORTRAIT
+ major_version : 28
+ minor_version : 0
+ type : 3
+ description : ""
+ subtype : 0
+report :
+ identifier : 0x5707d13205fd69e5
+ internal_properties : CAAAAAgAAADqkcfuFkL22SGZBuOIVHr1IpjFACbQH7I9ualr3635dQrXTbqQ/jPtiJeVehmi9lS4e1zQujWuvlBvUbwqc0GambQjBkYjCXN2RI8WzN3/vYjw0CerVDv7OunYbbd3ygHfheFFqHNjqnGeDP50JV+IdVmmyymzm/lgAdx+CGTK2lG0oY3/oXNlpJuzO1abrueeTcelIC6k71nq7j6LGwOXb5+iuMr8mIfCF4iJZA5fb9YYrDBcECLWOwyAcKGsnwp5sfyKOiZ7SY2b1x+lbLV6bvvrKW58TQxxLcEau+Nm7zU+KbOLWecZ0TVa6Q8iJTRQ/cVPa8D89+DFXOoXHOXAV1ukVqO1yk5aLKfbswnrUOhe56xDdZK7zXL0JxlW3FQSFfVVrRVSFa1tBSP3DJzRIKUkDkjx8xCo3Y0AMzwup5tAOWrFNOC3lbsvFefOYbuBOUvSTaC6lSok+QDmTzkzBXbU9Su9lyxZMNFEDy4J3pGqUQbocnJ3VpgLWANBTK5fUP9JgGBnPDiNlgxZNAVWNjczRxID8PYuhwNGzfxnXnCCurLN/R9Fmsqu7mfW37uCIYU0rP91NQz3PaH9utVGDv3feMLhd9uqEOALZopoJ2R9Q3xU4RuBTNCRIt+YblHtOfjwxfYL/ldJ7Q7CYcrZmtiWF6oy89fImEncpBXgE8meQ35X79WR0WhMYVB15tFNmpCr+ZCuvEIEAcT2aW4I+UreKZT5I9Ssl8yYOvLc73w71pHHfzDHzugGjzhs20O70Gt/skvK5DzOGiWL26AApziurTBhbx/1D9SVVWK28D3nZw==
+ languages :
+  - en-GB
+ blocks :
+  -
+    name : START_OF_DOCUMENT
+    identifier : 0x5707d13205fe69e5
+    internal_properties : CAAAAAgAAACPFVUNsoHTJ5wEk3RupL3FFNYkIwDeV723QJ6wGh/jEFjJtO/PJ2daGpH3tK/gWaXJBl+VA4rM9O7amri+s1yuAo1NA9ryQqQbX0VE6ArO1qr8Q882KqumIEfu1qndHFKF6TQau63AbpnSEnlOGx1NfiSeG/N0oF0OiQB0pLQGfyefm604jCf5rvbElqdAgC9vPncslSKz5GMQx0D2NiE9bXp3k6PxpL1JcbPJwabYm+Z2pWrPbSQuUC8m0MldLc5OqxoLf8IRjEE1Pk5zhkDD
+    controls :
+     -
+       name : STC_EXPENSEACCOUNT_NAME
+       identifier : 0x5707d13205ff69e5
+       internal_properties : CAAAAAgAAADtfiY8omNyzmBJ+vYQtNYMqJgeF8/QpbGqty3s2pw3hrycPddlL6EH+zxN5RX/w/FP6fuiXxc7soE+6EL1RbK0VxF3oOym08pta3c0WSpxw9K/RJOVprxpT+5IpKfIU3iUG6PYzTgszHGkmOnKRF9mJQbBH01c0f3WIuMBTYRn9klbYrEjyNMdKdoBRbos0LUiRnO6D/Ne8+TCW4T4TAa07xuLCI/W75rSqLmvwqHnJI8Z+R09D9OZTvQms2bl9ziDNKGCc8TVLatRS36m8F8UP0288oDrqMddR3q8Mb0982L5EyUZMBucd4QmOX7CAHpnM3B1yZ4YVGCHT7HqtRJbD/GmsduarPeA5irkNKVy3Xl15xbFQjxYIq2RPV1D+iOHmirj+6a8ZAI4LvDPR4GU3YJUf7EE2WY9Nmrm22vzb+w/gaykrukXWVb+L72g7PN/YmsjntqUo0kldowvatglzrOu62Usjm6GJa0YJ5TbjxEyc5goWOpEdA46GA2CCFQFkCubMabv+cLcSR+IbtowJzSOZtrbOdKJTDaKQR6sdJi3pwEJT78oKwjbPX5Z
+       properties :
+        width : 199.998
+        height : 8.732
+       code_elements :
+        type_code : 29
+        p_codes :
+         -
+           code : |1+
+            MySelf = StringBuild(MySelf, sCaption)
+           type : 327692
+    properties :
+     width : 200.
+     height : 13.442
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+  -
+    name : BODY
+    identifier : 0x5707d132060069e5
+    internal_properties : CAAAAAgAAABzPLcKMj2+3LsbgFc90dtqxn3haLhn7VntQ5tpoU09N19EoATI8nxwbxpsBvXMlSzV3TF20fae52HrYXLmVDL/DfMpHqafpoYxry+Y4xAv7RgNVcotVHk7U77qmh1+CcjafrEHDvN6RQbvP9SSupZZ0594spjeV8XurWO9hTbAkJDPw7v3sUa6LRAHHvfd4YY6kbZM6+ibtEOXIIprXo9tZHD2SD+7Ryxa3B0Tuu1jr75xouP7+bAe2VLq
+    controls :
+     -
+       name : IMG_Proof
+       identifier : 0x5707d132060169e5
+       internal_properties : CAAAAAgAAADPn3m5DT179X+oARI03iHKnjhQI3ON3cVLzfHCI4WxDbYidNwkHUH80jeXR4feg6+g9g2jSquH+oCYKHqmH2/bOysBVsgB5UV8aBxUr9GKWP0lIk/aavRXLgiC+zQb6Vt2UbPTDkV3PViCGjdvHGv+WVmJNHvZlHZ2BsIS4/S9NUZPFekEa5Bf+Werd8R+7XHc53eBpOQJWgWuvKMWBEgmlI2fkeq06B3RdN7k8Y0HMu0VzGOiGxPHX8U8nxKviY3YzT4qWbbOu+FWs1XrQ+5K70zOdLIwZ9cYQP7X88BkgMt0uu9+PESuhgjhJJVXol15qt/yT3CE+8h8NsrTXC7wVGKXLznY3Cyl9YBXED+UEtWLVsvGMhtPegkZyO7VSVkYxv3vuVydWKj2U9VbWO86iDsvjXvyZL7qywvhp5H5iDmLA6CUcyFxELBgELQ=
+       properties :
+        width : 200.025
+        height : 235.029
+       code_elements :
+        type_code : 29
+        p_codes :
+         -
+           code : |1+
+            MySelf..Image = gTheProof
+           type : 327692
+    properties :
+     y : 13.442
+     width : 200.
+     height : 235.029
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+ controls : []
+ code_elements :
+  type_code : 13
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE RPT_PROOFPORTRAIT(sCaption is string,  gTheProof is string)
+      
+      
+     type : 327680
+   -
+     code : |1-
+      
+     type : 327695
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : ETAT_SansNom1
+resources :
+ string_res :
+  identifier : 0x1333148502381fd4
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=

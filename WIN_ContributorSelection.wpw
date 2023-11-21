@@ -1,0 +1,427 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_ContributorSelection
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_ContributorSelection
+ identifier : 0x2707d14fdd26d83f
+ internal_properties : CAAAAAgAAAA/ljnMklz8MndO+FMp322NNUzn43LZzuZa9a+wm2nZHrZEgmLWyn73Vq4WDiNXepD98pMryCN84ezbjQ6Z2kLCz/YmvKBfihfQPI7tzD64Fii/n6L1gmSrDOk+d451DJYKoQvu9/bZhtekemCfXhFnjt2hPzliJ3gWyWUKPaSGLDhRQ4Ci8pmeY3k2t5vXqx2PxRamIA4zxaHM4SbnTZgoCKjUBYN0HdhN3u3RLVhP74SMC83XBMdpgOrauHPXR17Joeza66LvtU0ZfzwVyyU9POulAQZT+cZGnSvS28jv02kg1FrMFx9iWSN/zxKb10mIfHavAcLxYv/MMRJT6WFiup9WU+Z/tCUBWT6ETc4U6OH5kY+VjzZf9N9TS6RAl0yca4Fcks+OeNI33Varkkl1vanXDRtkq0TK8MM5iDJUl+W4orsK/scXa+98gvYpSVavUgrOb8AgXdKelUDCtGlaAv2UPmZUmaqPTW+lcoA5YFRGbcbkQC+5GmPfxtOoYn8XcdC/RKX4l6tkeZwDimDV+EZKkAJR1sE7uu+M8JXOoSmldiAJsIFK9ZlIOVPeuh1NfPflPm7GyCqDaqP5Z9fCn6SBQVE5phrkSPvIBRKrg/UCr8uGidxGUafwUd1dY64Qlvx+Jg8hQD81dB3coiwqfKAXwHN0UFh/16SAKhaQWB4pdu9xtwB3R6UOzKtHoKblVfS/dj2IliNVclaoOIym5/Tm4x+G7KpIyR4U42MZttsd4BOpy3iQJnp1xcQySA==
+ properties :
+  width : 320
+  height : 248
+  heightMin : 321
+ controls :
+  -
+    name : LOOP_CONTRIBUTOR
+    identifier : 0x2707d14fdd2bd83f
+    internal_properties : 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
+    properties :
+     y : 40
+     width : 320
+     height : 209
+    controls :
+     -
+       name : STC_CONTRIBUTOR
+       identifier : 0x2707d14fdd2fd83f
+       internal_properties : CAAAAAgAAADF0AGZpe6TeUjNw4oecK8pmHecuXQE79xr/F08HUt2Rqp84rk5VlwjrBfY2+W3CkymrEx9EApwoexgdGhDZqxjGu2tAoHaXiFW6IInAtvrKsPF9JcBI0TnDogGJHcZDJrVwUkkJfS/+QvYlrVpIueYZyNa+a38efb+JifYdgGDLLfG4aYl5Nhf+DOr0vy1nLv+ozjVeY7t2M6u7GuHR0lLiP1GKvMTAGSdjG21hU07EZjRCe39x2gktlzPC2vQTrZPM5FbMvU4LE+XvZUT6gpQpWOy7izXrBd0+Clto619PfZT5GvH2LHzep3ug34xl3wKSIdCYEAT2ZlaNc/m9AgERNrz/DuzB/GTEDXnsaQN28uG1Z2lKH9ESL4El8MSceqMgopvTUI2zMOBQFmr0RSxjfJgtmKXs4vSi5Sx1+4g2WcFbG0L6EpRClWxbkcbWmOC0u9//T1T1XYdT65yM4y8f97ReWrVFydl5ALnh424AlhUY4j2/MnCxt8mL+QlNanFeW+B4ueZdSNYwywpBj1zUagKKvbCrSpHOYbybKCxYc0UgFDg
+       properties :
+        x : 33
+        y : 9
+        width : 256
+        height : 22
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 18
+     -
+       name : IMG_Checkmark
+       identifier : 0x2707d14fdd30d83f
+       internal_properties : CAAAAAgAAABn9vQFeuHSr3wk/QxOLHIiQYrkOc++1J0nqRi/3Cst8U6re5ZIUxVYqIJKvWepEbtd/C2NX8HzKlN0VMrwQQrdoOKENBv5mfpocYC2xsoAVVYyQyL9LgBGyuLclJ4Q/ealKy3qu3z1cuLiGYSDcII2UmRqHJCIyG1VKxbXYYOskJhVS5VuZqJtsuae/1RrlTfQoWzEYQLvmE5yAeWQwO3yYoX/7JWp8pTZT866dSiT40XvxuNFS1yxgKigsNEKTSpHIv5/U1Hvnec01LR1bhAOGHtsTt61VCvEmNpyd9XCJt0CMbwfY+Q4XjUFYCa+tqKm7/m2TPslUKcwyWWV1PcgwJDyxZcbUu2mjewwJwH57wQKULjqLp7Lni5MQDf5Ai7xer4vpXOE8z8p+pJrjJ6bZxDmAQjaLQ2TafLlsV65KQo8InwELC3JbX7H4xPBTUrdsWFGVK8hJOw83fdlyRCFTclBk+tCbHJwvcjNsrVtQ0tBKn4AYtx3U0WxYpt0WUFeFPXcobu2ntFd5p0Vc676Od8UZ8K99cewd5B3+kUXp3lgQGTI1AAPk23Wgs6hSxxrhBYU3lIhThnML/Izs7Edh2XI4+DaFI36fWyQmG/QWsqTbJW8KhX2MMRpRi4h+ITvYxev5pqQ2FbDOneAY4G2e5NB/Yjd+jIMeeGMDjjFvDkZAw1oAGQ4v1bWC/tFBvxbBRd0ZN6KXdtoFZCjgnHzRFCqni1NecuYcolW3jZ0ZH+tm2uIVOXAqvDzLP/hfAIIThIfvkSxHkwW5vUbCh+ilWF6UV8lO9y87zQ7pIcZoXg+0YSVD2fIORZAS75wL08hpZm0KZHJeWzMCQw2AiKqkavrOeYZDlkue8lc0tXRVkvE33eZMSMgX8xlhSnLG7ag+ijQ6BQjidQl6kxeCnS69RSiqNCcIf4yYP/JdtKLj5be4UTasiRO5wuoR7h24Gzh
+       properties :
+        x : 289
+        y : 9
+        width : 20
+        height : 22
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    columns :
+     -
+       name : ATT_ID
+       identifier : 0x2707d14fdd2cd83f
+       internal_properties : CAAAAAgAAAAfINrp2D1Bo2JL01FVNp3yzp9WX7vjhw91nDgbYsv6JlOCIv8PCIjJKvAVu8cq2aA1Pn11zFclL0wergcGT27SPiLFUEpOZUDCd0Vu2Xwlh+ipoaZvo5Q2ZCE4Os/dmK7vq0UKBFzqhS0kBDQtn/M5zLlBps+Rxs7SwGomoum7NT5v4PLe9AcDM4zD3eZGlMpb
+       type : 3
+       content :
+        identifier : 0x2557a30819cc6645
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_NAME
+       identifier : 0x2707d14fdd2dd83f
+       internal_properties : CAAAAAgAAABl1T+2r2gjBB4stg8Y1JtiESr3jq+DGPz94vGrnvt8rczz+veW6MLEch0sSs9wppYt4bs+Py0ZTaKCdQi4pv3SMQ3W78zuhQXRKWmbQqVgfHyP6Hncg4MwHPrtRo4iIroWCSh8AOs9qRjiDvEF+xhx2Bqv4/aF2ezSsa8W/VhNAjsCYHVGxhx8OzYmwo9yDtyu5403PIDZet4HVbOXDP8TpLpyiZkA
+       type : 3
+       content :
+        identifier : 0x2557a30819ce6645
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_CHECK
+       identifier : 0x2707d14fdd2ed83f
+       internal_properties : CAAAAAgAAABXGG/WIhx1xHIkuBqVSH2DH3ArYAhw4b3WoeV4fKlM91Tk1X+GHrH1/Yus3VPPIrpTv+BoyX577bKzd8t084eU+vEW53KHQvZbIbHE0k8+o38NgvaEqy3dVeseINOcBdYIopFRLN9t99Nj0L3BE7AP0q7rmOLVMShsJkQOjx1Uka1z0X0UUeyVfw==
+       type : 3
+       content :
+        identifier : 0x2557a30819d06645
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         
+         IF ATT_CHECK THEN
+         	ContributorDelete(ATT_ID)
+         ELSE
+         	ContributorAdd(ATT_ID)
+         END
+         
+         // Reverse
+         ATT_CHECK = NOT ATT_CHECK
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        internal_properties : CAAAAAgAAABvkaU1NM6L0zAWdaC+N+AJ8Sdv1tKYovWWit1uZBIkSwbqxlp1WEgvA+GdXBKrwnxwwXK+0yLCSB/itinOOHTwED+xqiicvqvL2vXDXVuqmM6/yhYyUjERpVFT6No47VX2yNdZBYM7k2vjWyu2BbcEpzzzclnuMyvfkGr6tFoFfS51mF8WR+hwVL/YjfbYLkiG1rXB0/V+8QqB92CC7a23mYOWuZjGKs5cxcYGZVK6izgHa/OlZP3m05mPx+MyILBBr91zsk15m8l2x1X+8SovvWsmrIjyENAtUy0C1oWngY2rksEb2te5H+LRNYTTVoTQ4IwUsWwJDHj5auOBrQ6uWoxL3Cg=
+        code : |1+
+         
+         IF YesNo(<§$0001§>) = Yes THEN
+         	
+         	// If this contributor was selected, deselect it
+         	IF LOOP_CONTRIBUTOR.ATT_CHECK = True THEN
+         		
+         		ContributorDelete(LOOP_CONTRIBUTOR.ATT_ID)
+         		
+         	END
+         	
+         ELSE 
+         	RESULT False
+         END
+        type : 222
+  -
+    name : BTN_No_contributor
+    identifier : 0x2707d14fdd31d83f
+    internal_properties : CAAAAAgAAADPUGyHQKRSh31JJEUI5721fE5wA/HU2mVjeCo4Nls3icx8lLSA+9zPFmhWxMnsPYzefYF9WspuWmKGJHb4rwvMenUGKC8lAPs2qoF3RcMgKkbiDz4NV3IQKygNCVYaJTO/lIwuNP9VGPrkyKYP0vGnaK524TBtsAyYKuVeAK2gqpnDx2KeFkbOVFF89pskqRFDomtNP83xOIpqKaf+OC0ajQUfKz0/vLarNWme9hM3LaA+ANYxunyiHnF/iY+HtbH8qR9TsBSXZcCyc0WGS3J1eCWhWOY68n0+A8cf6kf48+opwidnV4sVglmMe1his52LIJPBYKl0kKqVJfjsJzVi/IzsfenARchkHTTuHglLLO0st41UOw7/CpMygR5WFYu9HOWP2pb+d+WxRQiBq3jWLc/KYKq3Ql7wni7Y/gjYgqLjel4l7lNn3NlFZTICBZJsSn/1Qybf0Arksqe8jB3Dv7hg6xARDmZPA5rjIKkIwjw36x9CaHXoH9BnXUkaUb1eiA5BnXeA58iAtxlHMSmPNkP0CKvWrruyD6s3sVqoRMtpjK7t+6P7vHfrTnX2IdjzeHjpiSoVf+YHr8oNcszBnRoAWGUTdxcou7umVd8DRHTR9M+/hPC1on9Nfvb2i8ijIAaEnb6qMNBh/Z7CJh3OPB730tgDa7lE85vXpc6RbggpMZRXhlpibwgSglm0CtyZFw2gFu9aDTMywCbxnE3K89mA9MXFmq29j3LQv6W9VfTIXUvpjfLPoYYRcgBbWCGj1Gx+b97vxxQx0aB+8n81wqksJhaACqM1Y9eeggiiycAg9rz3KYIVQKX4QpQmyTjmAe7hJlutnKM1Vcdv7fgurG0txWgPNr+p/myumUUMchsbB0V3ePrO683URNiRIpicsw/y0mY3X3KS3Owh2yWeu8LojCuyKeJ84HE6nk6/X6y4RA==
+    properties :
+     width : 320
+     height : 40
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        internal_properties : CAAAAAgAAABwf1TI1f0++HPOky5iF8zvOwCRjeTVtJ4ZYydTFZ+GT2f4vBnNbXevPuqbOUVCL2S3YD/P04U9PAcYakXnuOvz8DsSX+JWG7gtkYq4DdgR9QbN7DXNFW2zD2V3VoQnNrnagQPXfiW0y6BJ4Q==
+        code : |1+
+         
+         //Deletes all the contributors previously selected
+         ArrayDeleteAll(garrContribSelect)
+         
+         Close()
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2707d14fdd36d83f
+  internal_properties : CAAAAAgAAACyUmRq7V7o6oopXnfu4Ed/hE87xyKiGeEDD0ZHFdRYbuBfmAbUJ9aMRSI1S0BH0GZKJ2PhcbDmfoSeGSkHnKeuo/ZjluQxtldsyak2PIrOYOz5aICGmQaxUtZLBACcOQ2LbYOCEZss0NUP5G2k6oTUShWhZeE1iCp2YuMZ7yyPfktIZfNXXh/dNBzSQHwUb1hDZ2O5jH72RNcIenb88j6cX6QP0GpoawhZUPgT1464DADmZG2jPqBGVFqLygEXYZhv5p5Jl48AdK3fZtwULGwcgnecS8A4RdpyaEKKdDTiehSMCpiOMhT5vZICodGLtSPpNzedxvbVeQkSqfgK8TJomrrY9EkMrSRWRSlMDx5Uhfx8vifEEzBKmMaFPDFSzx7kfoQKVkjiDrkNbnU=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      code : |1+
+       
+       
+       
+      type : 18
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2707d14fdd32d83f
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_New
+     identifier : 0x2707d14fdd33d83f
+     internal_properties : CAAAAAgAAAAfqIAvsQXK87MDVKNosXbB0wuQDtz+YsbifzdlHxnCygIv61lcnJOdYuxia+GXjr1eIrrESEKqZ8mC7bqVl7skpz/oSS4jn12vv/Z9EecLBJBR1mvx2McwloqqJ9aDNcx66KyPUBCdvvDWL/lCaadvqkMFO6aYqmTdznKAx+/X2LVfoZPhZaLZNBKm4Ldlp/GEqoNeppa9IAAfsemH5Tba41SCAg1mXhS/OQ2ARnmsabc86kpbt/S0Xg9WOmIareowtTiyY4XaFMe/imOb6xaPQ/7x6sWWShA8prG8CA7WFYvTUNULtP4P
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          
+          
+          OpenMobileWindow(WIN_ContributorEdit)
+         type : 32
+   -
+     name : OPT_All
+     identifier : 0x2707d14fdd34d83f
+     internal_properties : CAAAAAgAAAAa20T2VW7KPgrge6VYEYHkWRWhO5t7JMFvu0mhRoAYmkpIu7CTOKD7jjVihAdUsIJ4ifo+mc0tbtkCWexrA9/coy1YMfNtSOvH6K/AMQfcqW04+tUlnG3hF74MU6iCRmbm65ImG/yuTstnoek9qMVSaikgUSUV6aGvpF8nq7FPDCVPWdhbt961GARM0q1fofQzFFIKqamKFyuuD0gK2rhbxn1XMmeyof82KwPEcjklhvLUqWrPcMPTkQjYzPwo9F3LPybKuZoTgW0HeBHUKWZuUes8IBfhRMtv3SMc+HBO73+vKmrQFeSJzSxidC0o+Qo=
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1-
+          FOR ALL ROW of LOOP_CONTRIBUTOR 
+          	ContributorAdd(LOOP_CONTRIBUTOR.ATT_ID)
+          	LOOP_CONTRIBUTOR.ATT_CHECK = True
+          END
+         type : 32
+   -
+     name : OPT_By_default
+     identifier : 0x2707d14fdd35d83f
+     internal_properties : CAAAAAgAAAC9Q257CXOJimASwYlNIv78sqODe0/6thYq0toKIDDtSrGkuXtz8A73yM73LpU6PyxPytGlX82kN2aZNeh9FaTka9y2DbVN2n0ynKau1A0hGGwt+cyP4Hk18POsvBo9C2vVXrkg4aCGgHP3Cgrn3rYuTuUoXdGJszzsNgVE41Dqm1ewfT7TH/iL+I+ctWTTn4mSExvZ4u8LG7WNAkgYtWVo2b0lrtzcmDaxQfoyVtC6ipiESh3fUyVfbYEYI54Qou0tStjR6tRB9u8QnEhwPsWcc4cHGINLl4aw8obI/fuusPA/g9evp/lHygETjRmZd5Cx
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         internal_properties : CAAAAAgAAADQn4x6771+uPMOU67i1wxvewCRzWRVtJ7Z46cT1R+GD2c4fBmNrTfvPqpbOUWC7+T3YL8PU+WdHOd4CqUHmMsT0Btyv0K2e5iN8SqYrTjxlWYtTBUt9U0T78WXNqQHFtm64eO3XgX6A0CpQQ==
+         code : |1+
+          SetDefaultContributors(garrContribSelect)
+          ToastDisplay("These contributors will be proposed by default for the next invoice")
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAACCtSZEnxPpoxHoOBrRB3c6tj5RYETEG/F6aiDiPpJru/fyl3M4IpdBd1FUn4hQ0u8vPdf+myneVhYZed4p5lX5nIC3I7Lb1Wsbj6fLXMPPUNT9RXy2tTwhCkvD
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE WIN_ContributorSelection(LOCAL garrContributor is array of int)
+      
+      GLOBAL
+      	garrContribSelect is array dynamic of int = garrContributor
+   -
+     internal_properties : CAAAAAgAAABkYxCOAWHWSEcmS47+Q4zr76DFeUhRJGaNs29bIcM+i9P48K1hoWenUlLTUcG+n+jT4Jtjp2sXjnWCcDud5gVpkt1ArZhMBRqjw7AWM4YjS6jH+jMDU88Vva+NPKIVwCdEi8l9zIuOl9Q91Q==
+     code : |1+
+      
+      // Display the list of contributors
+      RefreshContributorList()
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     internal_properties : CAAAAAgAAACxg1Tf69UaFtHq56gET75/meterDa319Mx2PPe6GUp4RsOQOC92r3h8olf1nRKU/wp3CgUJmod4TnIM+RZZxNvRi5fgvL/H3FDXY0bZyE1vSwW7zZrslFgk1Nge5jwUPsKFgqQT/rc9PrcDVY=
+     code : |1+
+      SWITCH MyChildWindow..Name
+      	
+      	CASE "WIN_ContributorEdit" :
+      		IF MyChildWindow..ReturnedValue <> CS_NO_VALUE THEN
+      			
+      			// Refreshes the looper of contributors and selects
+      			ContributorAdd(Contributors.ContributorsID)
+      			RefreshContributorList()
+      			
+      		END
+      		
+      	OTHER CASE
+      		
+      END
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      
+      MyWindow..ReturnedValue =  garrContribSelect
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : RefreshContributorList
+     internal_properties : CAAAAAgAAADaebOIrPAnfmRa2Ri3mTTlw2Rrbl508dq7NrNfXHsnEN8u/7ml9wDnhtQR/nAlbWmBUNyvuq7j3pRnF2cTZJslpeGUu382ETUdjqLk5YRrgsW5tP5UHWSNzeCuBF0rmyeY0tchYvSTSiOMirRiq/kdlS+HslRMXGiRqWyjfHwtZqpHwCwzYW7LgwDvEMf7WtE05gSU4XD9V5uHiezqVyfKm/quNuYte1EDmz5KsAQypqB4xfyJzr2lb7xj5tpX7LlxOD3gz0+sP4dao+rSk98uihTOeywcwJkAaiMvT4RpFXYYClVbyCTaGRaYmXflm7dW
+     procedure_id : 1659525125285337151
+     type_code : 14
+     code : |1+
+      // Summary: Refreshes the list of categories
+      // Syntax:
+      //RefreshContributorList ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      PROCEDURE RefreshContributorList()
+      
+      LooperDisplay(LOOP_CONTRIBUTOR)
+      
+      // Marks the contributors selected in the looper
+      
+      IF garrContribSelect..Occurrence <> 0 THEN
+      	
+      	// Browse the looper
+      	FOR ALL ROW nSubscript of LOOP_CONTRIBUTOR
+      		// Contributor to select?
+      		IF ArraySeek(garrContribSelect, asLinear, LOOP_CONTRIBUTOR.ATT_ID) <> -1 THEN
+      			LOOP_CONTRIBUTOR[nSubscript].ATT_CHECK = True
+      		END
+      		
+      	END
+      	
+      END
+      
+      
+     type : 458752
+   -
+     name : ContributorAdd
+     internal_properties : CAAAAAgAAADl8Xb03G8J6Pl+mBGVcRE3Fx7Sw51etTJeOXpcjmtlJ5MfQa6eELclSIz735w4udEoisFPVwkFbwrwrk5698t6zLjka2RNK45v9wPERDx2R8UNUe9uO/NAWs2GiRjGrVI7zIvwZK76YDrydbuYlGwaki1qxTDNUSm34P3MwY3qtpdH3G+B2QivNvhlxgKuiTFpbzEE2CG6f4eaPvdWRwzZGCZ788ogEkZcRjtUwCg0j3EMtVpmoF9tSKpDD2ep//O8RxAtph2NfHGjRaCP4Pli+mk7crY=
+     procedure_id : 1659525125285402687
+     type_code : 14
+     code : |1-
+      // Summary: Adds a contributor
+      // Syntax:
+      //ContributorAdd (<nContributorID>)
+      //
+      // Parameters:
+      // 	nContributorID: Contributor identifier
+      // Return value:
+      // 	None
+      //
+      PROCEDURE ContributorAdd(LOCAL nContributorID)
+      
+      nSubscript is int = ArraySeek(garrContribSelect,asLinear, nContributorID)
+      IF nSubscript = -1 THEN
+      	Add(garrContribSelect,nContributorID)
+      END
+     type : 458752
+   -
+     name : ContributorDelete
+     internal_properties : CAAAAAgAAADl8Xb03G8J6Pl+mBGVcRE3Fx7Sw51etTJeOXpcjmtlJ5MfQa6eELclSIz735w4udEoisFPVwkFbwrwrk5698t6zLjka2RNK45v9wPERDx2R8UNUe9uO/NAWs2GiRjGrVI7zIvwZK76YDrydbuYlGwaki1qxTDNUSm34P3MwY3qtpdH3G+B2QivNvhlxgKuiTFpbzEE2CG6f4eaPvdWRwzZGCZ788ogEkZcRjtUwCg0j3EMtVpmoF9tSKpDD2ep//O8RxAtph2NfHGjRaCP4Pli+mk7crY=
+     procedure_id : 1659525125285468223
+     type_code : 14
+     code : |1-
+      // Summary: Deletes a contributor
+      // Syntax:
+      //ContributorDelete (<nContributorID>)
+      //
+      // Parameters:
+      // 	nContributorID: Contributor identifier
+      // Return value:
+      // 	None
+      //
+      PROCEDURE ContributorDelete(LOCAL nContributorID)
+      
+      // Variables
+      nSubscript is int
+      
+      nSubscript = ArraySeek(garrContribSelect,asLinear,nContributorID)
+      
+      IF nSubscript <> -1 THEN
+      	ArrayDelete(garrContribSelect,nSubscript)
+      END
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+resources :
+ string_res :
+  identifier : 0x1f3a3cde0049098e
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : Do you want to delete this project?
+     index : 0
+   -
+     text :
+      en-GB : Do you want to delete this contributor?
+     index : 1
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

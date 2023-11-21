@@ -1,0 +1,94 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : RPT_PROOFLANDSCAPE
+ major_version : 28
+ minor_version : 0
+ type : 3
+ description : ""
+ subtype : 0
+report :
+ identifier : 0x5707d13205eb69d6
+ internal_properties : CAAAAAgAAADYZH8nEE5P0yn+izP2GQ5pm7ioy4WRkgAs5xoJ2Gw6BPgFWyTN0wjQw3XFZWRhx4aNlccYTmb2ydQqgbrUAV97WACytVtm/uMSI7L0Kra2PSTKMAfXBULPqy78cN2azxP70hNXBC4S+ACPbbdBy/oO3qxZFosPmLBsK8VGWmtscprz1TvCBF+y9qogKkdbABLIwCkUW2S1ZQn1elIbjEHES4WZaPIDFNdodw2iAG7SWP2lQw3VhFCzJ6ubOQZUrOE+remjeuzJb9DpDnK+Vm6JvJPE9CmDUCzeXhl0M5ChicYSgs+NSWtC5GAQXrKgY0Uria83enqARbkg6asEcp0sxWbYftOIo1pFW9XtXMwdekZ1XhBZp+/UF7jKfNVGSa2T1rjqTQNaGsiz+X5VaccTacKh5jG/ocT7heVFk++otLBM++0LDynEdvAkBb5aMCu/AuXBneNz7pJoVTP+Bl0O1BB0pKmQgGdLxP//bR0FqwIodSeKO8+ojA6fnUeAsk+0hqkaDHc8pRcKOdIcgnDkRsBMw2dJRsZltB7ULqURI81SwrGdigbkquK2S92NQ1bhLOIOAU1LlZ3mBGtqjqpIJrQuhAHXLa8HmxF1NR6xvdDG3kjt+wUdq5fXobOn/ihSDlhJASqmS0+KRMSj7+3TvVSIJjnPyrI2plS5bxt/tBzQhupChp1163ZWJE5qu2WcABx5ADiasuw4w3heNaAIEg0w0H/teJU7B1wp0+nrhLH1xYRQCuaqBPi+FyE/6ENcL9M7ItRCYDDivR/RbdsWG+V2ho4/1nWTgCDhOtGkx81J
+ languages :
+  - en-GB
+ blocks :
+  -
+    name : START_OF_DOCUMENT
+    identifier : 0x5707d13205ec69d6
+    internal_properties : CAAAAAgAAAA+5AZ+w/DAKMlReNGlT1hav0ld1NlRxD7IwR8xpZ5ikd9INWhApuTbhxJwNS5n0B5MmcAOjA19ZRPvO4FRwdioBhnRXygAaJiJwQtmwmiuPAr039NMuAFa4v2gHKcf7NCFmfTq9efq8ggBMwhXstQ0ZQPvgtoZJcrJjPVfyWfFplLCsIC77VD6VVXdXeAf357CicRXyE/mmdSBSMd9v5645vP4EiJyIzrK8jRIQCdZGmf3JulO7qOv0aCXp+A2ymnryD9WIme8OTImL11C1/Fy
+    controls :
+     -
+       name : STC_EXPENSEACCOUNT_NAME
+       identifier : 0x5707d13205ed69d6
+       internal_properties : CAAAAAgAAADGpz9n67xfKw3uaWH/GWn3JWVLKkAlNiI74HRLJYUKwXnJAkJmLN7QNI3cdJwAVny0dnghKGQIb857L30wcpnrJKbKBbuWL4Klq6Xm7+Ypu347sJenMoAJf97KCoEg81igpysouzD0cEUgyi+spNtqGYpJj8/YJfVcxdoXWQ4VzPeR+AfX+iWL17BpvbIa+he0CM0kp0rzf+Kqs8vMXAYkJ8OvRKuOOx6yaKnLPun/pJe53QFhLw8t3iQOL8JFn4Cj3P1utzzJwZOxczLKkHcMP1UYnjRLlCVrVQBGR9sTVcBfCTt3lqnqlVL0KzRARqwlMcZr55w+cq5VlSuoO7AFrRdMd2EQ+g3+dDguOosQ739Tatdmp5eM4RwCnKxOt97eMQHc5p0XCcFnR7fOSvqDKK0NYXRpflXOp9VjVBSuJCE81p/NH6KWihelcMLdd/hwE+SKp9PNkvqW5aVIY+fGf+xXuqLxU7UrevIT2sE0ZkbvsNvrnTURAZu3m4gHjd+OGbwKwNcepr/ZtupTsx/7EB3nnZFsyGMe0Uu9vJMx/wUkFJRkNJoF9EGEVFVy
+       properties :
+        width : 286.571
+        height : 8.731
+       code_elements :
+        type_code : 29
+        p_codes :
+         -
+           code : |1-
+            MySelf = StringBuild(MySelf, gsStatic)
+           type : 327692
+    properties :
+     width : 287.
+     height : 14.765
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+  -
+    name : BODY
+    identifier : 0x5707d13205ee69d6
+    internal_properties : CAAAAAgAAACrdP9C6kU2ZNODCA+FCcPCLmX5sOA/FVHVu/MReXU1P1d8iBzA+nR4Z2LUvsfuNGRNDQF2Ic7OJ7G7oSo2JHpvnXuhps5vDs7pZ1dYmygPRTA9tVq9DJk7874Ksu3KjYymOo1z2p8+gQq7u5DWRsrtH+vE7kR661FyKe8pOXLE1Hy7z2cTPbo2sazjuvvVKQ6iea5E4/CjvFt/GJJzJkelPEjeUCeTHwRi1AVr0sUL10b5OltzQfjmkZqi
+    controls :
+     -
+       name : IMG_Proof
+       identifier : 0x5707d13205ef69d6
+       internal_properties : CAAAAAgAAAAkTUG+KvDiZ3srXztVp/v/YThCIG6mDoai6rkQm7LMB4JRTkVS0mXgEPhHkQNIcWYevN6petSB0yKQU11TYRW3iotDeg5TmGeS3iNb7XnKQYxLitA556HxZa1wJPR2GPyLM3gd0I6hdrQf8MHV06ZSzK3Kvg3AuuQtguoqEh7hKexv8MkuiNR27JtMqTIH0yeV6+Z5Png5ENbkewOo1QzcKJHDcVwn3whwosMW8NKs2ssWDq/DDPay9p8Vi3VOhL8MnLIe3C9BTOqO1lkSREO887NWUo3TGPzhYLlj0A/rpLWjYK9tcaun0ypU7qgQjwkz0bcKm8ou9UUxrWwaLpsuZb1FIAn82SPQlZcBVo7HHEEM1365k3KxGYn8il8QVSo1hSbCMp5xw2X19qdiw5kPO0d/GCh/OYpxgEaDVsOpjT9O/dFBzF+b/Ccj
+       properties :
+        width : 286.571
+        height : 175.948
+       code_elements :
+        type_code : 29
+        p_codes :
+         -
+           code : |1+
+            MySelf..Image = gsTheProof
+           type : 327692
+    properties :
+     y : 14.765
+     width : 287.
+     height : 175.949
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+ controls : []
+ code_elements :
+  type_code : 13
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE RPT_PROOFLANDSCAPE(gsStatic is string,  gsTheProof is string)
+      
+     type : 327680
+   -
+     code : |1-
+      
+     type : 327695
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : ETAT_SansNom1
+resources :
+ string_res :
+  identifier : 0x133314620234964a
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=

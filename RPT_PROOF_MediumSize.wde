@@ -1,0 +1,102 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : RPT_PROOF_MediumSize
+ major_version : 28
+ minor_version : 0
+ type : 3
+ description : ""
+ subtype : 0
+report :
+ identifier : 0x5707d132060f69f5
+ internal_properties : CAAAAAgAAABba96rh4L9CYWE8+KRsgqplGsJplqJ922cgmWkkqyChYkhO1HfmbNRyj6bKqbuReC6bGdy5HLrMCOHgp8V1fQwyrHO4xCtSDmHSm9erlklSGEATl74MzvyuW9CgxcMdwhWYSpwZwvofBXXSjKLOtE5TgdKBn8bRwK9z4/xV3FtZnle4YA9YeCqWjvHRvzkJf1Eqhvoi8EzjUGHnUZIvEa3MYver/K4OPfC8ybrM1h0iYnOMF3Q2lNDdOQPC3pSpYS7VagntBl80p6+WwCs44DQhkpPOoX1qpxHKzSxSxZ7c+XeC0mxggcSGNyi3ZbRs+JCmDqtZ1Om+j5BP760vE1vjz/oW8HS0XHrUNXamsDkxd8CYtR+GXIp+lsvu2VeLB9mHHAbJ7EIW12dwqz8Vm35nZ/7pREzeHdtqjWafZQvsMcv222xWOX6CY4AMgKWop9gLMt2FUKMclZQ/xiKnkmPtQPAD6W4TiwiL4aCabh/h0c5nDjlhrpEuhIbC7mmm7Huak/xv76ohQzK9+6DhRIthnSOjHvvzJnLd6wDQ34bb+L+tahz8eM/rzrNVY8r0xK92JeUyoO1QTDZ3KX8DJ5HtV9u5EH8omF/0pVTX97xRxAfmBOb6S0rWXXMh/bLvSxoTQPp+9BwSn6aRcWMWbJiAwJCqzupYKwiSAS2in69P8LKv65Gi7bTC/1yDG2DJCUNsD8kRQ/LvYJrR5J5RXzk7w9+mOZdYZDFxMsu/6ENgDc4zvwdTpCqIqfen/TsyXAMOxLJrIuvRUPhMJdisGvXHNu85E/cFf5caGk2FyE97q4VlyMoii6vlM5FVVlyUF8cOH99nST1N6/iYF8HCCHHiEyXUW28qeDbxno9t4QMW4TZ0+Xtu3MZ8w==
+ languages :
+  - en-GB
+ blocks :
+  -
+    name : START_OF_DOCUMENT
+    identifier : 0x5707d132061069f5
+    internal_properties : CAAAAAgAAAA/OVIqMU03abvOOGmPMa+tST9NjUUTip6kktRvdzSRyp4kTThRXk+y+qUwl12zWWfzUADMNxPirU7dGV2BfAFD4YSmiZIH5EXFDW8Ki4JJjsIK14k4rFZadihiAgwlBAsTCX4ljBjmJZryt5DvDUaucfcvVCElF3oWbjqx7R05kgNdCp8OnERBAQNTGc7P/sUfSft/OG9L4RNX4/j9qs4Rbe8YIByT2vFKZyFXcyDvPqI1jxYYbHEVTJBPpHqYMQSWdKuJBZNTdRE1mfEp2jZV4EclxajWXmPgoDQTftxW253lHryamhVtWZm/QV8JySaBXXzfkRyG2cacFgsbn2byHku+sFHjJA==
+    properties :
+     width : 200.
+     height : 1.007
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+  -
+    name : BODY
+    identifier : 0x5707d132061169f5
+    internal_properties : CAAAAAgAAABoYkFn5Ud2SuPMVYYxURhJH7kRO+dmbVJWMPu4mpTDamYoHh4EAHAfAUJMlKKQejSffEXo8gztERbVF3pt/QbGCCBMe98LMMN8SzEU4oPfqKBdFYRA70VVrvm+siOxcqiypPX4XYVMX/3yjfpJ4FZ4pC4WlCKSHu/tc0gquY947lFdOzF58OFM49YtmBqR0q/rjM68Ob3qMOzR8ohrpKFirmqD0Iou2ROD3qEVTtFl+rqmC+OmQge8D7mOP5SO2t8R9rVv8Vi+nacMxucVvWeS/Q16Vdt+r1IxtEKgBeIr8NlcMBoEvbXDKuOobpYFcjv6B8s=
+    controls :
+     -
+       name : IMG_Proof
+       identifier : 0x5707d132061269f5
+       internal_properties : CAAAAAgAAAD7vt2ateRqESDv/pp31epUwhgJRrShIgsBawsMT71/dWWm8XnZT8RHaL3C8YO99LjXmxFZdhPoQR29aiujjVuTdz7Nb1/YyPmNoF8Oe19lDDNGota2tCvL2YydImVrL853LnLXz7PkLhjXAtOLaAcS7WcdmI0W7HpiFpAT8w87FhPjQgPQ3nU1TLa10yOa94BA6IinV7koFJD8VBMQLkWyxM7thYVz0/t62QsEA6VHhavlKg6w/oIFi/rRAb5lkOA118czUvC7+7MRSKHUV/oJlwApNrnclsVxyUIdPhJV0UTOOK9sklAAxqTlMc0+yuxE6o0IwpkEXUkvofm4plV3uD+71UPme7znkBLDZj6+Fx/QLjqpwmglt5Th7mJI2/UGGlJpl7XF+xwU9Paef9AxxFCh0hu9lITh5v5aC0bXTuEwBE/VE/qDMulnJGd9s+qKWwa0IlEuV4W6V9EHqjhFAjuth+0CpWqn6HeQsfQkzcwPB/qESWFICRFeKEOwZ/iLNt0TpY7aaw==
+       properties :
+        y : 10.
+        width : 200.025
+        height : 114.114
+       code_elements :
+        type_code : 29
+        p_codes : []
+     -
+       name : ITEM_Caption
+       identifier : 0x5707d132061369f5
+       internal_properties : CAAAAAgAAAAk3kjmsi/aGL6mVoj6oWSM2XGolZL0+5ORwZDsc4PPwWroTKwxSCwRdgwGmcCN6LgYrJNT8/ZTF5z3IsE85O9srs5o7e6WSmLQzosSVXThCyuNRHz8FFfhZc2P1wxR4pcJanr0hbLdioeAAr6tioIBc1QpF1FfjXFFuvr0xFE/BqJmw7ZlzH/LeM71y/Hl17SGBgSrSr3ouVllphwWHrm3Bsb21pt4/D8992X9QPcso+YGkrcDxEl+NHLPQ4BW7AuBaNPvV8W8/n/mtj3rhPzb70TT5NIL6F//i2v+c3dPmcDv8TNyT9EdUxaDV4MmedpFHiKO8JlnWZV9u2ugcd5mjvU6RAO+1zhsuOIYFyPY9De3utD7KJ2yQgU/iU3bBRRA9oUhQEdYud7H1wHYXUK8jPQGubY7aQQrVgWF+B0R+gwU4WYEfTKLlZHUtRmvlL2MURvG+MYUFttKREXcuY7aB6R7hcRHvLlqkEHRS+xJXtDhrga46ZvWC/Iat2kQOqnzNNS03gPZfMcLM0O3
+       properties :
+        width : 200.052
+        height : 8.731
+       code_elements :
+        type_code : 29
+        p_codes :
+         -
+           code : |1+
+            MySelf = StringBuild(<§$0000§>, QRY_ProofsExpenseAccounts.Caption)
+            
+           type : 327692
+    properties :
+     y : 1.007
+     width : 200.
+     height : 127.686
+    code_elements :
+     type_code : 30
+     p_codes :
+      -
+        type : 327697
+        enabled : false
+ controls : []
+ code_elements :
+  type_code : 13
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE RPT_PROOF_MediumSize(nEnvelopeID)
+      
+      
+      
+      QRY_ProofsExpenseAccounts.pEnvelopeID = nEnvelopeID
+      
+      HExecuteQuery(QRY_ProofsExpenseAccounts)
+      
+     type : 327680
+   -
+     code : |1-
+      
+     type : 327695
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : ETAT_SansNom1
+resources :
+ string_res :
+  identifier : 0x134555d2024c7568
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : PROOF OF INVOICE "%1"
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=

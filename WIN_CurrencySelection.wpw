@@ -1,0 +1,368 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_CurrencySelection
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_CurrencySelection
+ identifier : 0x2707d14bdafacb3f
+ internal_properties : CAAAAAgAAAAWyEt48bSecH4jAyZ9iYVyIv8bxq8UWQvsc9CSTN0h47pdT5vXgBaqeLWRUjeEIiJBEeausxv6eTocJ8iTj2qAtaifxxchHK4Sf5nEVxVVdZfG9ClA3nYORMKHBrW1WLpXVBx26RQhjkgfpQuo1FpZDJcrIE2mdx4zy1D+R7GnMquyQzmCyhs7v+/G/IEAnoUmlbli5Yx92wivapnXpqUMtDbWAADb/rPS3gPxcrbR0l8wNHJoh9bPTqOjdJlTUMluUtcOVk1qg8858ehxVP+m/R0HDGAriuGj5/g9gbhFkfGHKVgrGClwo0mro/2WMd3MdqFtQ+ABC/sRm95aJO2r5Di2YSdZyTw+kRKjk5HJmndwshycwvOxbDt8yyjoFz5uaBXfUkbNfr8NVXCsNwAjS+TJBiUjLpSzfvfBY/lVYU/BJJQmi4YddNHIHk/acKpzhc65ZSPZB2nCz1oZB7i6khSaP1jp8PSkbbnBFwFc8BTju3kY8y7dnyeNxiwV4c9X4Daubmxts5SG6d4YR9/vIrsuOSyYjYGAgLvUP7Q/QzumJiH7Tdy2yPGGUZY54f9PAUV8eLNBePvzCK3g2qqoBT81uhug0VY7/o9owu8G6yPARmPEYpXIyJk6q/DObF4atHpdiiLTXfwkX6iVTAvg0TpGh0MtPlBUBfVFrQc/I99cV82bfKt5o/OIby+xcczWEcmhy/GaHmAxZvzLiBcjuYWuW2PffPTcB1jvcQjEJnlZoFWe3Q75qUPCyQ==
+ properties :
+  width : 320
+  height : 248
+  heightMin : 321
+ controls :
+  -
+    name : LOOP_CURRENCIES
+    identifier : 0x2707d14bdafdcb3f
+    internal_properties : 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
+    properties :
+     y : 2
+     width : 320
+     height : 246
+    controls :
+     -
+       name : STC_NAME
+       identifier : 0x2707d14bdb03cb3f
+       internal_properties : CAAAAAgAAADpyAp5aJKgmJ4D4TJxR/7tMBtgWhmkd6aKsRLuoTWvXAykgSzR1WR1DRuw3f4ewLvkkpbEp5gtaLLG4kpqWq38WEL/+IcdgXuRxkWXgMDSYolXuw5UuDpEtcnkhPVmCIQvqq9YqTl+CG/XY1O3x6HVVY1VlXlVDs/zeKXLcjF6ePEESKupQij3AcLrXHrH+IZSmlkenospfsO6vvo+nqhx9+LfRwI/m3/uMJVHQma9Do0PGpfjJZeXLWofDymul4p/CVYegaNpbklqmegzj3OSF8qco/DOg5Sg1/7gs4GhajSpdsgVE/BYaDrdbtCnod8gCMP7Mh+GcNvrELY2WmIhwnbDmzvKnqjx384+s9ondIEI+9LRr8pXCC5GRwLrjhTFzfHDEh5guEL9VqNkoAfrKKcpImEf0fn9BVxnYoVbV0Jow5/64kuu/xGR5W3MU37cdFcKz89ZsP4ubl8Zkh9ycYajKL2j+sHHd1dDRxlReFeRi1VEFXr7VlcVvz7rUoXfHsujnto6JTDHqFyQZWb2aw==
+       properties :
+        x : 9
+        y : 9
+        width : 235
+        height : 22
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 18
+     -
+       name : IMG_Checkmark
+       identifier : 0x2707d14bdb04cb3f
+       internal_properties : CAAAAAgAAAA7lYiyv6dIsvuiKxvOSfwMNf6UTCgXShHm8Py1IrDOceiNIG8xMQb3hOS6mTgWNPElFqcZDtr8ZE/ZN/CbFeiTAQ0pA8E2zCCVfeHlTF23QKYT700SXo0HRhWhV0W6LuHg1hNn23AjpmUJ1zHmrQa205w4nTWsENe21yhdydBjx9gxz5WwaabQwHZpFqjzH38MdbFY3UqOMDyngN5/F+zTH8b80qHm23b3brkR7KEwIP5Y48GSJ3mDUE4YfypSNl7HfEmQ5tl/CBMXlYuZ+ebOKGxXptkgrRSU/GjLIfFqXwpW46hvvkGFUBZTfe1+yoJiVUrQwsyaZyvod+ra2y5LeAUoy9qamaXxyAp4WQZ2dD3FG/A3jjWfJ5SUWRZsL6oZvghLncsWFBGlw+qTWOHKvGbVLDSTi1EbdynX0GbrvyeOgF6K5w789Be1/J0EHRDcDGsI9nk49ZJKB0dEqqpVWffuHZsZeCE+bQXs3cHFn4VDQB4jgv9slGRjzmkm3PgoshMwhhNQWHrYaDnCAmSeUBhLh0r3AKVq6K1RDFiUd1136z20wwQCIMAhwNSpm5Vz/BgruTKdf0p0+optzSlKnxy3sR4R4n1nDacjXm+5W2xwz75MZEeIih8l/IBFsx89UBNrj61hOGK/SSomF+lfDiUbvaqNnHI5jUqlykZqlBUZ0Jhu1ROax7JFsWP3UduMYlkZqnpJaMNxTR8m01fOdjbaPDumLRNImcKHmw1KyqhJLOUS5zVTWZkg4gnU4P1Cf8b8lZssEts55UJ4wIu/+g4tW7UgchgpZT8e0aEInlU5XbDJyO0pXboRIw2OWtJ/fCZhGQmf15iEXLApXbeUryl/hBzI3A9iAQOcWHV6gqP76BVJf5eSMr+3PaSUQlriqoS90YTaQ6zB9UMnLkQ=
+       properties :
+        x : 289
+        y : 9
+        width : 20
+        height : 22
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : STC_SYMBOL
+       identifier : 0x2707d14bdb05cb3f
+       internal_properties : CAAAAAgAAABOYw1JAD40hsdYqFBGXeLMhQoO6YnQYRX8ELQoz76KU7Gbrqsi73poOThwp4IOJgdIA+9dkbHLdaZuDEHqvxQzrtB7ko8TvjM9+acdRnELitnGXKjzIRlUxh3fgVMCPlZ2l2DRfouDlyRRGFX9jkBuiBYGE5PRWWFHv2JDShx+BbfvudHE4mv9fDx1idAeGdQJ1rB42WnL6PrZHooBrdWTJjjyA98SWQdVbeY87B9cdl+gtDbH/VRVX4JP95JkeubZPG6DDGcKzcm6r474Wz48TV2aKJw+58yOomxxbEMWPkzSvNEld2AE4FMZR+kXhivA3wuw7o8C9lUWUL2dBrGfXNFRkFmoVGaxjoTpJiq08jfRUevj6dAZwohDYaTicBswzeBjaxkVGYPhFzHqbeEyvwPscDa+itKGj78dSJK/CCk/GVmZ+jhRkktznSKRjdZ1zhjcxD/xUV2s7WeVOSqeLFJqvkmJHj0HR19ZVOE/+31jVbPE9BaLzLEEskk/bLjmg1DgaCAM3mLh7zuXP2I/NuCrCT3nZ6Y=
+       properties :
+        x : 249
+        y : 11
+        width : 38
+        height : 22
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 18
+    columns :
+     -
+       name : ATT_ID
+       identifier : 0x2707d14bdafecb3f
+       internal_properties : CAAAAAgAAAAxY4yFYr7wXBj1z+3hTmfcFifKSDnujRSu1sUudZZZi1J2vyBC1DeyOOKU129GxQmoy9vl9d/5HNcTqnYOcuftARZESEecjAmxTbe3SiC+RB5BYBZCjHHUmiNoKRR9FSebVYwlgr/lZNxYqzq3gAGbMtDonHydlIkf1bi7vOCzp8O9rfCfVyZs3CvxiLdteSCkoA==
+       type : 3
+       content :
+        identifier : 0x2557a3081ce867eb
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_NAME
+       identifier : 0x2707d14bdaffcb3f
+       internal_properties : CAAAAAgAAABjDCfFWqdnJdlrnSTom5eraGD6Mv6R60USpRhCRhn0nRsOU/BbfclxjJOM9XxHu2fouxefO90WydVIAYTeiGNZ1wuCpj992jsWpu8haa+XlM9g/24C9k9TXeIKK6vOGp7x5VZ/1LImtmoTh0txk4JVCnan5wEslwM4YYRqclgqu0aPHLRZZVdbwbzM5yZNhAzB6gXKKmaNovu4iw7GNk+owsXumQ==
+       type : 3
+       content :
+        identifier : 0x2557a3081cea67eb
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_SYMBOL
+       identifier : 0x2707d14bdb00cb3f
+       internal_properties : CAAAAAgAAAA4QCYO0vVeM1ahAGOEQoMJSh6EvC448u+5W/P2cifYuLec1zs/Y3+bEMgEBGU7x+rZgWrD9O5crkG6wAY13/WNyNn6TzaUGwZzp0WARr55XZjaQfXe3wEHRKJVgg9WE1D7kMcK5N8mAD2F9sJBYYMZGB9a9j0bT8HbrUOvIrxDn5wujTUttLJ4XcDvdGI+GsRfwNdB+qjcuLg9qmW8PCKBQO4yd4PbylII
+       type : 3
+       content :
+        identifier : 0x2557a3081cec67eb
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_CHECK
+       identifier : 0x2707d14bdb01cb3f
+       internal_properties : CAAAAAgAAACnaN9mUgzlVOL0aGqlOM1Tr8AbMLjgUQ1GsaIQlIkMt7QsjY/29tmt1XsUXSM3elJLvzAg0W7b3SIbcmf3V+V0auFGhwqvWp4Dece6ddxin3NhZoIY11lBqV+ChEcYmWK8llUdcJvZa6f3ZNElH0CfQh5bKFKlAXi89pT+v80k4R3jQY0EoTxlDw==
+       type : 3
+       content :
+        identifier : 0x2557a3081cee67eb
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_REFERENCE
+       identifier : 0x2707d14bdb02cb3f
+       internal_properties : CAAAAAgAAABW6ZMUi4iixsW22whi29SYmJUAHDcMGojgPGSiJrWoKHl8UHF1qWGKcS8L13WuMuWXtyzUvCtNV3Q2fvPWO962nAQhNO4yHuMqblcA79aL20IHBzzFZXag7n/GAPWxhFr0tN7jPVeSVdO0rCIzmYVXJrPrnEeY0EdZk83PZPOCv3VxQDBkbnTm1u+mMjMJSwMS
+       type : 3
+       content :
+        identifier : 0x2557a3081cf067eb
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1+
+         
+         gnCurrencyID = LOOP_CURRENCIES.ATT_ID
+         Close()
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        internal_properties : CAAAAAgAAABCQ456VdMUvStBHAT3FGKwS3xPCn28lxendHNI7gtwDciS9Y306+tTOL/9+/OXWlEDASZUJSfnvRuakWbSi4kiKY7ZGTAhlKku5AIawpLhfyUt3m+WJ510DwCs/G0aAPLwvLLGQ3rbA6lmd4HKhnZ/UaHVmVEys8te1kSbX3xzGfQHefHNO8DUymJVVqWV5XF9ID0f3D4KGnjT0mv1HjSvvKILmbyTT4xzeDogNYI2PAykypme1PCkyrSgYCIW2X0C/94g0fY3AJS5ZMr4z4sdRJJgBHzcDkCNiLTln8Yf13/KEfTvsjQZXVpPJBtm6D3YnjSOTkZCGo2GKReNkfr7XKvJHnMDrxxRKnSIOZPfMgimTMRtFg==
+        code : |1+
+         IF LOOP_CURRENCIES.ATT_REFERENCE = True THEN
+         	Info(<§$0002§>)
+         	RESULT False
+         END
+         
+         // Can the currency be deleted?
+         IF CurrencyCanBeDeleted(LOOP_CURRENCIES.ATT_ID) = True THEN
+         	
+         	IF YesNo(<§$0000§>) = Yes THEN
+         		
+         		// If it was this selected currency, deselect it
+         		IF LOOP_CURRENCIES.ATT_CHECK	 THEN
+         						
+         			CurrencySelect(pManagingValues.gnReferenceCurrencyID)
+         			gnCurrencyID = pManagingValues.gnReferenceCurrencyID
+         		END
+         		
+         	ELSE
+         		RESULT False
+         	END
+         ELSE 
+         	
+         	Info(<§$0001§>)
+         	
+         	RESULT False
+         	
+         	
+         END
+        type : 222
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2707d14bdb08cb3f
+  internal_properties : CAAAAAgAAAAZJBeooFa4HUT8v4wjN2je5HkZEKEM+0gKrUSBYkt8TQf8hEdULsSCu8qh2lp/zf+zbxiwiKgqJnO6Zy6lS1tbhIVnBS3l9K0FQcfNbcjZ9MM+LnGUSUi4B+9DXyiRCI83Znny48petrP20dGTJfbvCe3P0M8+kH1stzrzsv+MX8J47kt+Xa48VO/+NgGEhzPYrG4o1EUntDpcbHExgv9wf4beSxkSPprq4Fb6msJNPNxMzzawosvOY4qNqXTfbBCryDt0pjF3ujjTFLchVpdwAol1DAO6tix9cm5RiRTDNlQ63w/rBIGDflpgTFzLtEuFgcg0BeI+UfKECYE/sUOMYtxLFSAyPognx9H1TmTPl9lhs5Cjvr1m1k0/AnY=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2707d14bdb06cb3f
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_New
+     identifier : 0x2707d14bdb07cb3f
+     internal_properties : CAAAAAgAAADDeddJH8wR26zy1szPN+uaAADBQOU4wxjJjFa/tRUsbGfpnHkTdtd9/G0U5dEW8TMJoLccRBdx8k0lZgO01kp1m59NE4jMiekSfHbp27ckqaagkfZ11WwPNGm8jx/tcqv1toxXRog8ySOugu2nLxfwg56/k+UqG+V271Gb/UQhN2XvMTD99fKWOnwOjkgyXV1j9kwf1s/wBTgtzu5n7muY+SPA2X6MJ5goB+wiYJtoxqutnODufard62DFqVQHxs9VUjs7Q1z0UZ2rJNpmWK07g2MKhOeb1J/mkl8AqRculz4QwbQ6pQ==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          
+          
+          
+          OpenMobileWindow(WIN_CurrencyEdit)
+          
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAJax/+TkcFFvnealJkmgiSjw3H4I+vsSoqwCDmeQQXZkFyJbh9DUEn7pCwYLnyAltVLBjxJaSUY/hV3MUditwmCtT55tpXvOL4l05QdBAr0BHGqLRhWYcaIURVTg==
+ code_elements :
+  internal_properties : CAAAAAgAAACvhiIr8gSQ5loUp83uTso9CuLc4dExenO6nYq0wt6wNhhy8DIKk+8xrI7GMink5ce8SLehbaZBjJVyvy60Arg=
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE WIN_CurrencySelection(LOCAL gnCurrencyID = CS_NO_VALUE)
+      
+      MyWindow..ReturnedValue = gnCurrencyID
+   -
+     internal_properties : CAAAAAgAAABkYxCOAWHWSEcmS47+Q4zr76DFeUhRJGaNs29bIcM+i9P48K1hoWenUlLTUcG+n+jT4Jtjp2sXjnWCcDud5gVpkt1ArZhMBRqjw7AWM4YjS6jH+jMDU88Vva+NPKIVwCdEi8l9zIuOl9Q91Q==
+     code : |1+
+      
+      // Selects the currency
+      CurrencySelect(gnCurrencyID)
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      SWITCH MyChildWindow..Name
+      
+      	CASE "WIN_CurrencyEdit"
+      
+      		IF MyChildWindow..ReturnedValue  <> -1 THEN
+      		LooperDisplay(LOOP_CURRENCIES,taCurrentSelection)
+      		gnCurrencyID = MyChildWindow..ReturnedValue 
+      		CurrencySelect(gnCurrencyID)
+      END
+      END
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      MyWindow..ReturnedValue = gnCurrencyID
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : CurrencySelect
+     internal_properties : CAAAAAgAAABK3/k9aPeNrA6AYK54bL52UpPqdZvWDtjJ9c9QRk09YlaIypqaKijw9vb0yYoV81dbbShS5b90Qb93HmKVZOv7vxPCj3kATbnzItNQuWQMPYtRUccxcQvUTSqkFt9jWjU2CKnTJFsAMdyHJSk05gMwWKkGv2muaz2dE/JFUqkDixsNmlNkOymoJ5odPoGMFHTqKqyLanEtM8oqIL0XpQQ25A1UerZ5OEpIVrWqJ6d262246YZMvphaR9Mm68hZ4e+uX76d3WSATzb/exvOBIFoM/2KJQTf9BNJFz9DQz+1
+     procedure_id : 1659525108104153919
+     type_code : 14
+     code : |1+
+      // Summary: Selects a currency in the list
+      // Syntax:
+      //CurrencySelect (<nCurrencyID>)
+      //
+      // Parameters:
+      //	nCurrencyID: Identifier of the currency
+      // Return value:
+      // 	None
+      //
+      PROCEDURE CurrencySelect(LOCAL nCurrencyID)
+      
+      // Selects the currency
+      IF nCurrencyID <> CS_NO_VALUE THEN
+      	
+      	// Browse the looper
+      	FOR ALL ROW of LOOP_CURRENCIES
+      		IF LOOP_CURRENCIES.ATT_ID = nCurrencyID THEN
+      			LOOP_CURRENCIES.ATT_CHECK = True
+      			RETURN
+      		END
+      	END
+      	
+      END
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+resources :
+ string_res :
+  identifier : 0x1f2bed43005a83e5
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : Do you want to delete this currency?
+     index : 0
+   -
+     text :
+      en-GB : Expense accounts are found in this currency therefore it cannot be deleted
+     index : 1
+   -
+     text :
+      en-GB : This currency is the reference currency therefore it cannot be deleted
+     index : 2
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

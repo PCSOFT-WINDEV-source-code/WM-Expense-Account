@@ -1,0 +1,286 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_InvoiceProofs
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_InvoiceProofs
+ identifier : 0x2707d13cd2418f6f
+ internal_properties : CAAAAAgAAABRKDZuk/R1nWQoYsLlnKUvyGiTsub5m0v0vd+iTsiB+iSCLW8FIM909TmDm/+QEoigaWGm+7OWMUucH651w29mjFHFWRdWiKqOndqcpxsqd4ZjjoKiPc15mFNwYg3bUjZEySZ29gtG/Dv7vYvQOOGeJJLhW+cSluuzCmuF9nKrbX/aDuwcnmx95l53cBOeaOttj9mAMT3d5mV2PAe6fm/UBxVhFGZT/Bb3se/clcvPH2DCmINm6oh37C9hR+iT1wYQdB+YqRond45x1H0fJYRv+H9DvoOmiZfVuDmp/wuQ7hTpM/+QZ+34bveZ0PHhRCeb1jqDzT+Sk9Iaucg8l848sAHe7R8Qgg5H/rjq3XWkZy44Qph64Zzb09z+/Ph/bl8eBkXs+n9cr66U6lbMdl8888YTZZ/wPWWE1wqHlf5ibEurhot+jiuQO2DNzNdFiYEZSZpK12gK9t6fxlZ57KHhmvpi7MCqKe9pQlQRr1z7GW7fLYL4VEWy7mai2n7wsl7FENZVtnGihv1HLMZsUvg+/tG8ouhb5hjX7/TgRWu8xk88pozJPDXx82QD3zjcUGCjS6WjSBJK41zsU3tIEY9LtT1Li1s3gDcAZOehH/+6Z6jDEU15OqmcsrWihvlchL+wYRnSUF8sAfJaDrMr2pLa6VxAUvFDrYnTHmsLFCHhOhS95+VeTX0avP6uzALNc7Y8b+N98/LAgvhN6FJNyoSSFUUdd5G1vCSvVPZgIgVbobNjlSmkMw==
+ properties :
+  width : 320
+  height : 372
+  heightMin : 445
+ controls :
+  -
+    name : IWC_DisplayPhoto
+    identifier : 0x2707d13cd2468f6f
+    internal_properties : CAAAAAgAAABlslC4OP2L+w3lwxvOCIkR1razQtPIE7n32hn7RD5rKX7njahcbHPV4kvzIYYuHCkb4FNh1UiTS5N0jO3IvVN7ukDS0MtvB8jS8PQNm249Ck5YoIEnG/+oREPVIg2/8eNiMN7x/JHIwQZzXpzFout+fkSkVqZHPYglmyXJ8RPAkgnkEZq496B9OnxagnoZQZtcqICmh0Lfr+Z66DakF9bUunNXXQZUk1BVIL/C8xoS+VPes94A0aMH2jC1VnCTU7pqsNQuXHWnaJRzG2xNHt684B8sPqj4uDO8Gauo4Zs/2ziVJdodPtuiJ7RQuw8SSjaaYxt8yDHIiZfKEpL0K38t9dCXkNfCWoHKW1ynYwZpetLu3yc83BTU/QMSPU5mi5+8saz1HfMH+mukd6mxpPGKawhItoTX32uetHwIpYEYjQP6QeSHWwtHfXXmqsj8wzbNrMR+3kBOuafL04tMCZ1oYxObJ9zVgtG18HVUGvt5e7newOGUoBwUN7kSrmVhca86zr85KuGXnsBHy4Cq1q+JAF4Rhh7WDM0=
+    properties :
+     y : 2
+     width : 320
+     height : 368
+    controls : []
+    type : 31
+    code_elements :
+     type_code : 73
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2707d13cd24b8f6f
+  internal_properties : CAAAAAgAAABS0JWwjIJfPkC/XV1p7UJN2TzKAYBoVeXm1umySPbC9OzjZ7FmleNjglgLYyeMFjX9uHxZ8njPDjyNotZvsC503x2ZCW5bEHwuc2Q4scJ+K6edxpHdIyS0KGnHx4e3rT81BkEJZleuSfPGH5tGIY9Ing7sHMLnkGwF9PhG7NqWhjFYFEcCjSSfZCW24KaE7jIH4wjVbtwv8t+YheKwOiF2riVUtOFPQP5Tuj1hL0pTFGEJXZf0J+WWUtjAyCspQETSh1fx0uLVKiWvu3a41BvKR5YDp915GLQuWuOEdt4fIrQWGTT1NWGXIZIw1BX7dkJhl5raRrm+zXJCPERKbIsM83XW5aXvyY8nTmSBes+2yHfIj+jCMq/hRENMbpDrfb4=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2707d13cd2478f6f
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_Delete
+     identifier : 0x2707d13cd2488f6f
+     internal_properties : CAAAAAgAAABD+VfKgfDmrGHlLkcsdCDwG8XjDlhmi0/ddjXgmk6Pb+jjfdDU3K2v+Unoz7aUbOBd3nZHLaa72ldxCpjU7WNmyAFCAVrTDuyN0Iv7C5AsYTatcS4dDefQBRk4Wz017Zsbik8JHQus6R3pHQ8I/6Q+3tiVfg3msnzfaHJOCFTVF8nJG+bovarcuCBKekMf+XUy5QSFOFl6D99EsyR9kuI4+PaaNzDKu+T67gPNcUGGdBBDeTom8U/QG2nM43rgUfwih+hWR+rUIb9DEF89Sd2Z4TDtzVkMRQmDZpQTKdKQWvGRQTS6JQ==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         internal_properties : CAAAAAgAAAAfzMK3Xq4KgoYobV24EtaB+LYtiW4qgps38VQs/FPDrW61rBLK4n1Op0Y/IFu+Cn80nXljtw9bbDjh9QlpuZfM/ha251TmIhv9BUk654iIaO3XGdwhsJn0ZUVwf+3tu91go6sQOfAtTo+Pm+hZ9sHn2UTJ6xgqCyHbp3LweuVyGMZvZMFM2byVc9XfsEPXk8b28/2+1ck/McEAJbxWFlw=
+         code : |1+
+          
+          <COMPILE IF ConfigurationType=iOS>
+          	
+          	OpenPopupMenu(MENU_ConfirmDeletion)
+          	
+          <ELSE>
+          	
+          	//1: Delete
+          	//2: Do&n't delete
+          	SWITCH Dialog(<§?1588375B01304246§>)
+          		// Delete
+          		CASE 1
+          			DeleteProof()
+          		// D&on't delete
+          		CASE 2
+          			
+          			
+          	END
+          	
+          <END>
+          
+          
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ popup_menus :
+  -
+    name : MENU_ConfirmDeletion
+    identifier : 0x2707d13cd2498f6f
+    internal_properties : CAAAAAgAAACuIlWsFVyX3UEAbTvGu8FXcIKh2alRTVQal0HPzjhPG6jA7M8zt0dYxo+NQTEymRWYMsMQ8r/SDcgmUlmiX2sMyU6dADpXonliSJTUAo52enJhRK/Dklkgn/z1Rx6AOySnJL68qxVu6ZdUkKGwceFt6mKLNUV3oT2GDjEt38edl27pN9pJsaRutrE0fr5qrWrbQIglghYVOWL/K2RTlGVEwerQVPPwIeAY87AZufjpjZD6dLqEdbYIiBSsI514MwXr01SNpiP1f5uUhfHvx2gR4K+63et5iTnHyBPcnxXxo9OJyiYY/29pDggMjID5oP6n5WkFwvV+AeV7n1eZDgZjqHxAiSOMhAFMTTE8emv/gKZtlWHvDpcyieGgXpRLb3THDIe8ywtUQJp/Vb/iTdr8kDe3g3TQ+kVLLh61gSCHlaO3
+    options :
+     -
+       name : OPT_Delete_the_photo
+       identifier : 0x2707d13cd24a8f6f
+       internal_properties : CAAAAAgAAACw/HY6eRXDk4G2PBu8o2IS19kC3TaFLQu9zq/TqCm5NJFy8fX/5w4d1ga6I/e/oTVxhoo5bzBkDnmsr5spS2u3F/Eexgz3S23fU6XKqvvBVUKSMCH4sK4qaa69UT6Fr9FCabHpHFjYPvbdJDDmLaOhuh7bHNy5ftVZGKfGvNHCo8Gx/W8bd7S7Y1xI+qX8wy4I9FU4qVjuVAI0KlmL8I2S2lGAEvYelURCewCoIocMbkVPv4InsP92HH5LvEStJIa8+36S5y+HDCjxSo2U5ZqRlE7ihcnOTVwqzi3f6QY2w7zqvS+IU7FG3Ud2cFxEJ59cJL5xcpjm50McKp6PzmVR131JBkNXayK/46M56xpMHhM7NJgcVomNybl/NkAftWF4xNOk+efTS7EM+fnMFbanpH0HIgi5jbet/wRkLsUHa6L5T43EmvyCeP+2J09JAU/ZRA7WYAyEtXO7erRGrMzYsW1J5280
+       code_elements :
+        type_code : 26
+        p_codes :
+         -
+           code : |1+
+            
+            DeleteProof()
+           type : 32
+    controls : []
+    code_elements :
+     type_code : 26
+     p_codes : []
+ languages :
+  - en-GB
+ message_bar :
+  internal_properties : CAAAAAgAAAALbR3wTEEHCONUlOyW7LoMWf9Fkn05I7RMbvoYO/Z2JJdgY0CHD1G7yMasviFy8UTcl5lezL2ZtonWgT4sbKJgxA6jTGDJKlBqGcAmAmJZgqNQIspfW4UYI0ZXTA==
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE WIN_InvoiceProofs(LOCAL gtabPhotos is array of stPhoto)
+      
+      GLOBAL
+      	gnCurrentSubscript is int = 1
+      	
+      	
+      FOR i = 1 _TO_ gtabPhotos..Occurrence
+      	APhoto is stPhoto = gtabPhotos[i]
+      	IWListAdd(IWC_DisplayPhoto, IW_ViewProof, APhoto.sPath)
+      END
+      
+      IWListDisplay(IWC_DisplayPhoto,iwStart)
+      
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1-
+      
+      MyWindow..ReturnedValue = gtabPhotos
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : PhotoDelete
+     internal_properties : CAAAAAgAAABc4zUKLnSnQyA+zdAyqC+mbDA2krawCte15poEfmKTqOOOmVWgMrXtE8ut1uuHw18rArvLA5epQhpnkw8pZHsPW6+8JUHyVzWr9mIYb9DD7A9ngNA6lR7RX9ySqL+fEzFCdOdLcNStFjXI0qA0P2nvI8ULxNJMrohcwnXcta0C5RkQicVceEOkcv2sjVRI96ALH03d6o8W+HIMdhHXxIitmrtfh1fMWNbu9F9ziaGPaeMFytF+kaYCgv1AuoU4Dmefksf2jIg1+a67g5syM4F8EFKISLEAMyKB4AAKTgPT5/2g5YMWqVPRCLgkF/VnGTHQ
+     procedure_id : 1659525043673403247
+     type_code : 14
+     code : |1+
+      // Summary: Deletes the photo
+      // Syntax:
+      //PhotoDelete (<nSubscript>)
+      //
+      // Parameters:
+      //	nSubscript: Path to the photo
+      // Return value:
+      // 	None
+      //
+      
+      PROCEDURE PhotoDelete(LOCAL nSubscript)
+      
+      IF nSubscript <> -1 THEN
+      	
+      	stAPhoto is stPhoto
+      	stAPhoto = gtabPhotos[nSubscript]
+      	
+      	//If it is a photo already stored in the database => Delete from the database
+      	IF stAPhoto.nID <> CS_NO_VALUE THEN
+      		HReadSeekFirst(Photos,PhotosID,stAPhoto.nID)
+      		IF HFound(Photos) THEN
+      			//Delete the photo from disk
+      			fDelete(Photos.Path)
+      			//Then in the database
+      			HDelete(Photos)
+      		END
+      	END
+      	
+      	//Delete the array 
+      	ArrayDelete(gtabPhotos,nSubscript)
+      	
+      	IF gnCurrentSubscript = nSubscript THEN
+      		IF gtabPhotos..Occurrence = 0 THEN
+      			gnCurrentSubscript = 0
+      		ELSE
+      			IF gnCurrentSubscript > gtabPhotos..Occurrence THEN
+      				gnCurrentSubscript = gtabPhotos..Occurrence
+      			END
+      			
+      			
+      		END	
+      	ELSE
+      		IF gnCurrentSubscript > 1 THEN
+      			gnCurrentSubscript--
+      			
+      		END
+      	END
+      	
+      	
+      	
+      END
+     type : 458752
+   -
+     name : DeleteProof
+     internal_properties : CAAAAAgAAAAYKtwWVJ+1C3WWIq7hRpltMhIZUJi7qTffflQNiZe22lZz80xkTyGJNVt8GntyAEpXRLJFma4FfUAAhyBnLIyWVZkfNdILdD+LrmGR2Uw0RpZODY+kw0GN9JW6B2SvhA7t+ZEFR1DVQeLZWXFYlhrqIsWysTrf/1nn8LEeGSMc8L2y47uv2l54t1gM727Il55FCciFvQ==
+     procedure_id : 1659525043673468783
+     type_code : 14
+     code : |1-
+      // Summary: Delete the voucher currently displayed
+      PROCEDURE DeleteProof()
+      
+      
+      nSubscript is int = IWListPosition(IWC_DisplayPhoto)
+      PhotoDelete(nSubscript)
+      
+      IF gtabPhotos..Occurrence = 0 THEN
+      	Close()
+      ELSE
+      	IWListDelete(IWC_DisplayPhoto, nSubscript)
+      END
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f3bcf0803cfefb8
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+ dialogs :
+  -
+    identifier : 0x1588375b01304246
+    internal_properties : CAAAAAgAAACKrdjtzSgEBJKSl7SImtBKolugZV8fR0h1HA/mtnF5xw90oTSrbxiZeqvzjQ5l37D8TxTv43G0HWmPMkl0mxUR9Y5si/zAVRz1R+LnDw==
+    label :
+     fr-FR : "Confirmez-vous la suppression de ce justificatif ? "
+     en-GB : "Do you want to delete this proof? "
+    image : {}
+    cancel_button : 1
+    buttons :
+     -
+       label :
+        fr-FR : Supprimer
+        en-GB : Delete
+       image : {}
+       value : 1
+     -
+       label :
+        fr-FR : "&Ne pas supprimer"
+        en-GB : "&Don't delete"
+       image : {}
+       value : 2
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

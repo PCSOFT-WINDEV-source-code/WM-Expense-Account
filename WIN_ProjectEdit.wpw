@@ -1,0 +1,202 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_ProjectEdit
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_ProjectEdit
+ identifier : 0x2707d146d7c1b4c9
+ internal_properties : CAAAAAgAAADWmfeXScMdADlbWVfIMzy0hZW2CBSZ9ZS8wBvOq7U4P2FQo7hvhyckyvTk9flDJRiQx1rqBHGm7GHddXHoEgiDM4kaE7Ev/Ze3hqlWiemzcnEBedbB/r9XXjPPOBgRqr7cPBbdVtHfqj41xXP946wrenVRBtmqEHgbEejHaU+z/zkSRrhd59CziYtW+QPLavgL83BIGDdH2UkCMFByvM+uMIHmxaQfflRKOHDC1XH7Ze8EXp/dTQqmrwAIHn8f454dhzmlpHUzkvBnrBSLb3Efw3ksU0STrsRDBBeL/0Wz9ZD/oXqN7PgKEb4fdI8k+pJa8qaPMOPaEgz0cCcnK8ovKnhM9DtZOPdjTT47G+OZf9LDKGmtVoyx8DohG400TyZlOK6UxOh8jkY4sFEx8jsSZeNFhScPLbd5n/El8baxb15EHIhY7eDhihZon1cLriiLgrKEthfNR8zEjE333VPPPPg0kudyJs54t6msAGZskRYoaAzaGfpYk2oI7FaWfwV+vSPxGJCeEMKG2LQi3xnnmqHBdSEjpTsnUVz0kSjHHSS4ovLyc4GlxkgN16f/ePcu/W0aBjE0oQRTzTLeMorGpkAohHa9//F5t42Bx10EhIu5zpM9qi5IJK4/MZG5hdg5VPZrBNTqZJcD3DCmRzt105jzzxEuXBsOkBcZRZnKy6K2mVUOiYq/Wni9N4NjS/acGo1DCw6SCtcIgKZ4to5jPga+Ok6BEvLhOoCvJtzdV8Xd96X5T5nDHinRrfimcZbjBDcpbb3BFVhyEVdm9pKa/lz3KaUKAAMMNA==
+ properties :
+  width : 320
+  height : 247
+  heightMin : 320
+ controls :
+  -
+    name : EDT_PROJECT_NAME
+    identifier : 0x2707d146d7c4b4c9
+    internal_properties : CAAAAAgAAACC0iY1s3B+9QQFb11ezRT0wD0uXTIPUBy50YtqWOpAqfQNxcyK8LFNZ6eQ355SNZkHqIlnv5di9W+PahCtRM89mi1PouSQ7P3XO2HQzKQ0BDyATr8a1iVrRREYifw7OGnzKAtxDc+MU+/nV42SOsWUJO0ZgrLW6ikhJ8m9UkDS+C61cbvkouunmUESJ7SYDJldK9vTbruphQsk900/GcU5owmhibLSOEtxBYGGgKWUR8/KLlMoQZWD/O6XKhxQSumX7KFQnbWmr1fSPRT4CmsTCNylwv5q6V5u9b3Je8QKHsxXTa9TZ8GI7vRGMKGtaOZQvMuH0ZobMRnUbMYUlkmR08xLQD6eSkqhM7cAI3rhDZ/wyX/QMUP4kBkr+INrXY6nzK+YcIcZ84qQaHChpk2TnzWofKpTwUSUaCJsJI2jXo5doc1+m40Tu/myO4C9MOVsx+slXq8uTtcOHRl9HezI8eYDuPShxC/zgbK3OwN0hBk+uw8BgZCWaxVQYi8oxYZeI/aEJD8pbYlDxbbE7Qfe47uqjGfzjf0F2PlpipHohb9OdN71D/cehgkQF8pxnbawpPmCVRa0LGjP7vxYq1pi87mrapAycLObbRmTcUtcLNkcw1bznMmHOBoRb4T/qZqRCCBk0iiCipST4mpxjsHwiXVjzMGfz4QZn1gkhIQHQ8rb3EIPpdbM6lj7xbb246d5NUMqZRmICaG9mjNLbSJqJfQFkskeWQHY7zLlGZGIsMifDtHVuhmstBNKwNd4s4rpLYWXMVbB4vxQvioXB/JR3nC2zM0fEHP0K8mmje6DwS1F8LB7NtE4VjoNafL732LcGICBgz2oDGHM25RWe4umBRydKOEVXbVkNknGRwWdenf7Et79Om7eDurbhyaJqXuAAhH0yKXjZCK9WuiJfP/1upCTwlwOlSzgypQG1S/b87LJVY0dtO3EMUwcfjA0GhorM6ThS83YpHfYvXa4M1ixyhNGtL90PlmbG1NvlL2lQefNPp3qA6/L3NHq+r/PrlVOS2NAXGp1g4jdVqT+QQrYWOxEUxcbCg0rkqklj5kCfZgbvlxNmgnU7vwMW8vdKdUl5pgIhzZTW32Li85+cWHiEPqZIpsv4cDATSNSLZFlLGUToiso3i+h80NbqpNtNqshULoUpIYPCt8SIZorvQtgvQ24vQcKOxbvrqJoBiYWd7/br7yzRnOqll0m2c7nmBOuHF7y29ZvQRuD1LmG1+HJin0YoyTeGQ==
+    properties :
+     x : 9
+     y : 41
+     width : 300
+     height : 38
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : STC_DESCRIPTION
+    identifier : 0x2707d146d7c5b4c9
+    internal_properties : CAAAAAgAAABZXe/1zFB3Ir4BOQMRoDlkan22FBGOrtqMwvhVrcdaiN6EpWfWT61Jo98k7uPpza/yG8TLsBYVkgucPjrx5V6eMFnYx9UyK1LexFOQ9mAJBAqcp6aOh4oyyTSE25d+Znh1kkGy+Z+IH3smoDTkzb0M7LbTFwIibxbEEiXmsw95rp2rDBaqNERO+xazRP7SKodOobvFeIntuwmHWbHGOvecfAYh2CcJ9yzGor5haI4oVqdfRGeXVfEzvScOrquNCLjzcA97XyPUekw+iKF2nsvlk2q0hMNCOgGEwy+frkE/HHvsRdABa4sZ3em4uqdmgUfhbn2KQPCiam9dnEiaxjxrlL1IiVZveummLh+4eBLrUydT9vVjQQV1JhEL2W5/CvF0Xa06d+Svw8bXa8AWDqZ8zmKBz5IePd+ifhL9C3hZ97iY8OeZPGnl117CoiwZvWOlKd5Zb4a7Bsnto2vNg6zmWwUb3C4ZVwmokftW2jKsNKkdGc4PKPuiVNRDDOHzrNjpJs9dgKUagsglGgY/D7USNR4LLrJmJ2DEpviMeylIMJrbKLQcIqatlbE=
+    properties :
+     x : 9
+     y : 16
+     width : 300
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2707d146d7c8b4c9
+  internal_properties : CAAAAAgAAADmVAsGxw2Dz9sPHx+G6a6DKEZeYCx0auwWSzO7nHID/z5ldenJX/SuQfrxVwODGLGy5dEGVOWsXf7dFeJ7V4tJeTiHCXFM3ncFL3CopoBbfAeiarnxcysN9ImXyeEscyM5NcZpB0UlTe0XSZQsw4fDRxKxdQs7AmJPFskH/bSowhHfrP0NZkngQJc3Oj2LYRINxF/H3cxahgkuJYbrsPA21O/txedO6fr3IodbAMSqbjfLXFo88LQWGgzuPtBLg9p8TTI8IF02fi+Vd95LQlTgR/IKJ6FMUc9eik+/kAQeTRQQc+wmPc8g1S0dcYiP9z6BfJNaGOeyvO+r47XV0NZya5lBJn3KPKtbzkgDfuEqOUlK34fuvS4IzJl7cdbds55cPmj6Va9xsuJzl9tdSg==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      code : |1-
+       
+       Close()
+      type : 18
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2707d146d7c6b4c9
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_OK
+     identifier : 0x2707d146d7c7b4c9
+     internal_properties : CAAAAAgAAACDq/fbAc+8JDOqjOR4cJWwfH64h4w4Cu555uSf2GzxHnAgUu4Ec6J9X2uShHpoNaQPsNX20TPkvvMWenmYjfJY//j8gpVEgCnowYQ/HSp5cRIDDc1ABlllngxddW6hZ2b5dK82Ff8OKC/1SiI5F4/B0ww1RlO/tmwhckmp9eoydcPnioEtHObfsxGAPMSjGD8g/1L46gd8hoJhLIYP5DnkbcRAaizWPVJF/lCDbI0OjBJez0awWW/CrOUbdVbavkz8MHbcbFWS7PtlfZ9s5XiqdTYExMc4trOxQI1ujF4Jydgm23d+D3tMgxSllw+2
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         internal_properties : CAAAAAgAAABHHoVuKCxgy+bPNM2Ej+DfxIrKlmhNR0LTBIlGCft8ZKF9HALZVpg9etCyBqEndYcPGOhZ7iEKJ41wMMzbHJj4xgiOenEYtaYZGnTFtVvG7OYbum5xN4gb9VI+FmPV9EyImiM0u+WEherM6McdOanfcI6gVIYYn21gz+0v+u3LKP7kam9I4wTgGIQ85o7haKs=
+         code : |1+
+          
+          // Correct input?
+          IF EDT_PROJECT_NAME ~= "" THEN
+          	Error(<§$0001§>)
+          	RETURN
+          END
+          
+          // Adds the project
+          HReset(Project)
+          Project.Name   = EDT_PROJECT_NAME
+          
+          // Adds
+          IF HAdd(Project) = True THEN
+          	
+          	// Selects the new project
+          	MyWindow..ReturnedValue = Project.ProjectID
+          			
+          	Close()
+          ELSE
+          	Error(HErrorInfo())
+          END
+          
+          
+          
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADDNcVo1OmfcBt8DAQe5KIEYff9GvWxqyw0xiLg9DYqJm1GbYzFYRmzSsQsPKX2LAGb1tqbg8bOHa57JlfrN2soDNb75NhRstjigbguCmpR+jvoShIH8x2wi/6fBA==
+ code_elements :
+  internal_properties : CAAAAAgAAACvhiIr8gSQ5loUp83uTso9CuLc4dExenO6nYq0wt6wNhhy8DIKk+8xrI7GMink5ce8SLehbaZBjJVyvy60Arg=
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE WIN_ProjectEdit()
+      
+      MyWindow..ReturnedValue = CS_NO_VALUE
+      SIPVisible(True)
+   -
+     code : |1+
+      
+      SetFocus(EDT_PROJECT_NAME)
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f2be92e00348f98
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : Enter a name
+     index : 0
+   -
+     text :
+      en-GB : Enter a name
+     index : 1
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

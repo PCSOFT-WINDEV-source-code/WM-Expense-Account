@@ -1,0 +1,249 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : POPUP_TakePhoto_Tablet
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : POPUP_TakePhoto_Tablet
+ identifier : 0x2707d13fd40799cf
+ internal_properties : CAAAAAgAAAAt72xVtvBPMxrbKrV0OG0xaT6eTFaFEGf0sG/WBG6cox555r/DTgVubovhAKWx0DF6tZ/5xGbDAqD60PeCH+KZ3WwKjEz9NNffrzvwDUG7syWhXCkSHXXhAlu3bmZLUrabEtWapzxfjhrM6UHx8FbvIYmo4A9ZCuDKuCPt2h/QWOec/tvo86UDBDULhpFqT4Zh0c9W8nXndkmOtDW15Kf7zPKdvDw4q5Jhr7gegdhuqjQQuNb64TLTscsBrL6xylN3Qgk1THIonQaFot38rHY/enechUbA+xqBdLwUgPspjvDDvCMzVm8zgf+6J/1Gyhvv5JwWMiqTrs+15HPw+xzMa46JI+jQk6HPRAmUVhZeO9N1e8m32wz3p2AgaHQX7a7f5qkWZ5gSYNYy+fQy7R09qTgAVkQsUXG4iKNEjV9+FGIZgVUs74zDmr1YhHXOREwbXWM8FHQZPLoMlRYn5ULAxbflDIGr9OgDqogrZB8lYTBp+VMPbeDOzdNQm6GC02v1NpZPdiTYlqHt+ED0nm4EqwbC07OQZPibzZ+jl7tOpnrZVZQvWTOoYWgt2w/8um74kU0GjvZNqQ2HyZnOTKhIUpqo2QPIPC7CaX/sq42CNEGTDU04+G0TjfoMyuJhYCJ9VHwW7UV+E/1o+d27b13nN+vu529qDowMf1at0z0l/QlsmDXPPl0rz0dfqpRGhZq4AakRlTyFTT3vaLZpVa+3vfU0Jstv4lpJhAM0vlxiABP/VS/CQ0+C2EDp4g==
+ properties :
+  width : 298
+  height : 85
+ controls :
+  -
+    name : MZ_PopupChoosePhoto
+    identifier : 0x2707d13fd40899cf
+    internal_properties : CAAAAAgAAABOc/YQqRxq7t6x5PnnjrFxN1dYPvwj+z2A+CpQXRPXWGYWUWsCFz2Yi3HRUKYb3rtnA8lL1PhTNteNjUrTC6Fti6F/7oFkmXWiFEuLT20Geh/2AgBIJ55ODdRTTp2mWDV31hmiZ6XH6tSpSEUvDOoemGyCHvKpzIuekOnPKap0/tuJ4aBzy7yRraIeSJ1ogBjI9mWMspoxMx2j+KQBcuYHm2wRZuZX0q2vaEaaZ03gr3xX/wtueL8UiQz5itT3KAkcLlpfQpMh/IEgiNDDuguTaDqafKdcMpDXiSWkAeOb1ufsFmAddmoVWEDEO7UW3zcxt5+CpWAawCHkDzrmEsTsfJOVUtlfTNQkRp7q+SoRu/bkRTjpSa3KJ9oSU+RFXxEAwwzCOQI7XbMdKj7/VA9BHlkOBRHNuDI/APXnrzwde8HU7T8MXJDIsOVE7D1Jh4KM/VHXXY2jdophbt6riXcrRG2Nc3jzpQz5+apLVD1C10weCko5queIJcGB8Xg29xVNcEuqrUQyOgjPJJ+xx281qL4UbEbO6Q3RlxGXGipOdcQgxa0X4YTbdJhrlzqDdhN/lux3hYFQ/5C2szitn3kE+eKEXxChsfjLVmSiKzCatLoFxCE24LoycRAnrdbOnjmq8Zkns2k0C45HDzlb5myPo6LkuklvwcIgS41X0fT2sVy9QYj7e+DG2Eg1G9LhogFJNT8AGtvPK/cy8KRqH0Tz4R/YDrDi1HLaEsJGjp9TzrpImYqaSiKLAb1aRGiYdqkNJtrofEOUkVaqrInOuOruQ7RshA/OLgHUALxymZh9dbMAib6pC2vMixTkxsgGJ8kNpIzkaiecEPXP/j+2UdDH/xoDiUXnZ6Y=
+    properties :
+     x : -4
+     width : 306
+     height : 94
+    rows :
+     -
+       internal_properties : CAAAAAgAAAA+cFKETLEN/PIirBq+Tja/kIU3oEu1NbUxkbwfbMI/WaonV66l04XTAPC51QOHqkAm8srsBaX0PD+IJPvipkeBBZYee5b2xpnnkb4gd442I/8OfwY6xdt4nqK/wuPn0pXUNegrDAWbtJ8T7m3rmhCAICk1
+       controls :
+        -
+          name : BTN_Take_Photo
+          identifier : 0x2707d13fd40a99cf
+          internal_properties : CAAAAAgAAACLis0ln5ZIMXXH4kPQvapzeK7v+lJVVaRkT9yxyKiKUZEJ4+zFHry8FLkvyq3jvX53ox+BpQvcfV7vhWYDjIKlgL7GdEFomw+Z5LUHHBBy29kXRNHQ5YogcFoSdToQisU6lBHS1J+xmHQuEjAqkp9aawgDbNYPxrrkYBN8ZzjH3+XR/ZeiTJ5qqC/CWBaM/5hvs/uDyVISaGLGlaTkt0PCoV5mt/kol1aOLeKgx3dndIketaU7pVQujfBnj6TLGIltwSyfSpbg5mwio+24+u0onCAS2ofEV4w7u4yuVpT26kiUO/V7y+ZRN6cM3t+Svciju05EWXmazBE7+GiM/1pwUqCwfLV15ysUbIz+mt3DX4Pfn0+dbRW4UhNmJtqtgk8Jqd+SFFVP3PiRS+6cDXjHmUtAk9rIaueu2IEsP8VEL3TqlPu8gMGKoVpOB6vYWkGHlNo42t2JBvCpSoDjXFlX7Kb96nukNNUcGc64fU0uk4qRhiV6CRjX8bDTNFBh6pVIo07tWHYD2LPsMC3ufveHqIXe5XusQBQpg+YxGWeepitEODtw+k7RbUTRAwXndavrnnkdG7nd7Os/4O84xZg19K89FR2RYkYuK40TkaXr5v/S3ZSI6RyxNVFK4BRy4rho6Fg/fI85I9iJCI1yMOjortwnN5RaaiRy/JrQWhZmTD5LmGdLrS8kkKq8jwvoVr+86sYf8oTGikfIWgeJKVHqp4aVmnCK3vaR2SDDQKlpAJNALuadNZBHSfRuPfv7esruWIRKPvUC9gh+HSEjkb4wqq6sBHQdZKaPqcO6R9pzLttqtqF9PdcbO9U6GE4Sws5VQE39BLXyVdPtzieZTOdB1YEkX3Jt
+          properties :
+           y : 4
+           width : 306
+           height : 40
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              internal_properties : CAAAAAgAAADw/9RIFf0++HPOE67iF0xvu4ARDeRVNB6Z4ydTFR+GT2f4vBlNbXevPuobucVCr+Q34L9P08V9fEfYqgUneKuzMHvSHyKWW/htUcp4TZjRtUYNrPUNVa3zTyW3FsTn9nkawcOXvmU0SyDJYQ==
+              code : |1+
+               
+               //Starts the phone camera and selects this photo as proof of the expense account
+               IF InTestMode() = False THEN
+               	
+               	sPhoto is string = VideoStartApp(viPictureCapture)
+               	
+               	IF NoSpace(sPhoto) <> "" THEN
+               		
+               		MyWindow..ReturnedValue = sPhoto
+               		Close()
+               		
+               	END	
+               	
+               ELSE
+               	
+               	Info(<§$0001§>)
+               	Close()
+               	
+               	
+               END
+               
+               
+               
+              type : 18
+            -
+              type : 161
+              enabled : false
+     -
+       internal_properties : CAAAAAgAAABWYmvtORmNfhlM2v73qqB0niRx+Rc5F7YDgz6XcEGKzCVv5y/q/OI8uEe8/YuWEQr05962eYXX1uDjWnreLyWzNSyuxyKwusBXLq/FgXJOg+j7Ef4kRFFFo93+2EmTUfsquXuAozaeIhQ93cvjY4LB74mDBbyKzQ==
+       controls :
+        -
+          name : BTN_Choose_existing_one
+          identifier : 0x2707d13fd40c99cf
+          internal_properties : CAAAAAgAAAAYDZfRkfIVRWDV3BGJX43wZkMoD1MfcFQDwXE4U3cq+vi9VIzwCyWzeLlL3NZ6JZP+dBktc7z7Ip7i1xj3oM9fxBoCi1O7dHYjaQIgG2B+x9sBL3aK69HXfWa4puMyAEkiEOiLmeBMut3UUA6ChC6PTcbznKKEQ1Via7jsNqVAiLN4Dle6FjgUxaM3oY653Nvi093B+bTQ2/DRkDxNA7JeKM3UdeHuxLXNeDC8sd6z6qOYSAGd0QgS8FomUZACO2eAGoWsh7ArN4mqb3TJ9ZS8ZDpGl1f4u/pbJVNeP5PsiS9ZGy6PrkoHGCQKP+2tHK/wa4e3EPh5X0RI8gx1prLH4IyK38MVTv9qzEyLwHPaU8bYsc+p6ze6Q9j1nVzQPuNVnDfVKRY8PDgM6fmvDTedVXsFUP4COGufsx+fXZUtNehwe07UZON8a6zWpDZiPK92GUEKA2X7qIafPruuMsE/l180xGoU3k9EobT9+qluE02ap3kxb869LewxQefZNhnriLUFCchr8EXmvMYnzn9H2wbpjXgKtrp3we7Oug0oLMK1OXUH+hZpAzqBqG518e888dRRJicreikdqDihy7QJ2R6UQbKPqi6Kl6s0nOXfmlBpXA5bu6QZZ/OGT/lArD7xmxPl58HjjThh9kDhAKbqj7P43yHmFqCybEhDVU6MfmOeYSuyjcneapSU6rYW+usHI/9BJTZMwMMEGOwwr9MgDoMQcqHceuLJIQb+wZ83EraJ14Y4jXAHy6aGJCTxYvJ1fZGG72fIDCrg9Xhy5/Lkj31z4MkZXE4lh58tsjCJwLzdMTnmF0VhjoC7pCIiognPbDcJaLi1CVibKMM0wNky7ZqnrJ5aYNsMmrzX
+          properties :
+           y : 52
+           width : 306
+           height : 40
+          type : 4
+          code_elements :
+           type_code : 4
+           p_codes :
+            -
+              internal_properties : CAAAAAgAAAAjKnmbrHvy0qCBetqJEg6as33cTSdfcijjPwNZdvL0WmBnFFaTsCd/LvXofG0ukMGM/XwTycd5Sb8a4XSe4wGwobwdURJeWgJ7cQwASbF/ggfpKx0FIGarvf0ZCm/Js3HhwgQyMhIiuxAyPsKpR6B4SDE2HnqjZYlTPWDPOG6U
+              code : |1+
+               // Selects a photo in the album
+               IF InTestMode() = False THEN
+               	
+               	// Image selection
+               	AlbumPicker(SelectPhotoInAlbum)
+               	 
+               	
+               	
+               ELSE
+               	
+               	Info(<§$0001§>)
+               	Close()
+               	
+               END
+               
+               
+               
+               
+               
+              type : 18
+            -
+              type : 161
+              enabled : false
+    type : 97
+    controls : []
+    code_elements :
+     type_code : 126
+     p_codes :
+      -
+        type : 222
+        enabled : false
+      -
+        type : 223
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : CAAAAAgAAADgMVTORwj2Mt8z/R5WRL0mTVIMDO11ij5YdBwcO3ZAw8tWdEBL95DgWGGgMGBRKql5dANp5Vg/qpNyJvJQ8sIrr6GzC+masJIwyV5P7DpW0go2kGsf4EvdW1eqlu6V7I5EHVrMjd02cTaXwP0dbd1DSbdsd/Wxk0ScMGI7Z0eDsGOMLRfieoTYskOjcLtA7tgFoR24z+3d3zH3Bloaoqj6XKllvOzqHQUKs5ikiJtsiZpXF9leDIYykRzjnC4k4qQVjthAFpugw+diG+HfnEMv+L/rU3DRjlIiDq+0aeUP
+  options : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAADTJfWYBLnPgGvMfNSOdBK08WdtSuWBWzzE1lJ/1acbFu3G7UwlAdmTaiQsvCX2HLFLZkrL81a+bX5rFkcLqDuJnGYL1OhBosiS8Si+mvrBaou4mkLXI01ge+6PFA==
+ actionbar : {}
+ code_elements :
+  internal_properties : CAAAAAgAAADM/Wx2Frr5jKWJ+xvvIodwynnWozC836XM5G+OQFoadiDGEm2xfnPUwMm+Eg+xd/4I6ueQiklg+xpsZjWk/71bwr0aAVnQtlqoH8UVXq098SnFrhThobnGRDX+gMIwhCLvib0I7R//Mp8LpGrxeHBbaBbVcoA/Yn6MKitKh53S7gRKuqNBiYWE
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE POPUP_TakePhoto_Tablet()
+      
+      MyWindow..ReturnedValue = CS_NO_VALUE
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : SelectPhotoInAlbum
+     internal_properties : CAAAAAgAAAAl9MFznSHvwoYhTnKSvaf10mcTK3ArMmlf6eIB3S61GUixY9POfF07u9E9XD6+D5XChL6d0Y4EaYk6atZLOls297hsJRV6s/7W7MTE3VtQ6E31O8VAhcXInz+gKgfzyEcWSZUbNvXRSlm44EmEhKL1xz6m7iIsHy2RrTiMm0ffhdPCm41sSgpnQjdWyD3td9Hl/dOJpgnFYcC2uNLO45C8DuPXa0NutXG29lk00JKZdtVJVhXyY3d5+Ks+Z9D/7P6PrDnK6E4IqvJJEXBZ4rnLSka0XPV2NiQ+Qz2IovF7rgQGA0gwZbI=
+     procedure_id : 1659525056561060303
+     type_code : 14
+     code : |1+
+      // Summary: <specify the action of the procedure>
+      // Syntax:
+      //SelectPhotoInAlbum (<sImagePath>)
+      //
+      // Parameters:
+      // 	sImagePath: <specify the role of sImagePath>
+      // Return value:
+      // 	None
+      
+      PROCEDURE SelectPhotoInAlbum(sImagePath)
+      
+      sPhoto is string = sImagePath
+      
+      IF fExtractPath(sPhoto,fExtension) ~= ".jpg" THEN
+      
+      IF NoSpace(sPhoto) <> "" THEN
+      	
+      	MyWindow..ReturnedValue = sPhoto
+      	Close()
+      	
+      END	
+      
+      ELSE
+      	Info(<§$0000§>)
+      	RETURN	
+      END
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB6ragasMBWLfpsSyU19J6lAvYEqFWd1xYOjmHr1XHVZOVmechqLo1vKvfoAJhHeXL59P8BudVQfrBZ/U9vpjDz5RFibMKKm/84EA==
+resources :
+ string_res :
+  identifier : 0x1329d4610a567148
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : Select a photo (notn a video).
+     index : 0
+   -
+     text :
+      en-GB : This feature is not available in test mode.
+     index : 1
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

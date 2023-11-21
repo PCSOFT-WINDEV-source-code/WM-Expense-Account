@@ -1,0 +1,206 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_CustomerEdit
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_CustomerEdit
+ identifier : 0x2707d145d776b1db
+ internal_properties : CAAAAAgAAAAKlcEuGpEPG6O19oMlVPRWRB9a8Z3Nr4B59kAWSu7Z31RiyjKMOfSsl9TlMVTOpWitAUSmufVeAOJjjdOftVK5w5hDdm7mu8LMN0IYNhbqxUqcqxTGUp2RxaKmHhF3rsb58DYAK62sBU+rmRLsop4YfW1eqR4skEACwY7tSH3vwZRoOGW5HOeCMNI89zgK+sakKqwLo2ND5olCCMRvaYpENaRt/f32YlizdmxgQNjwYybputCdpaYWCkFq+ba81E8cBrWdYTXylh7/SySbvVmNwtzWuF+rZ3Bwdb/nUhA3UjsVgoMOKsN9VvhnKQ60ueRLcnY3IqyoMmhm9DNECtw2DkMi8BzRy0Wxa7MsomR5Eio8u7vDSqVcBr9Hd6dvFQVfjbzghBbUa4vi/of8U3K2opua7jumWhxDu6zoaruYTw/jF2rudaAg6TMax8dJcTAuXGV9XysVEv1d9DHFaN0KRoSRvxBnoP3kDJ0ekopxor5ESWS7vgIdHHK+mVjdDZoMm+XrFQCCA4lWiX4zP1OQRmO96VCplnKz84j47+M7jn0glrELa9YKGtKdTkvMpKDxK6gcx+JOjrU0hjM41TzhR5WwyXHB40A4Ogq/OhgGtavHFCA+FB1fF7z5vJ9szszmk64xrg/7ocKbwFsL5TFU0lDEwEB+ABylLfvwJE4UPDTFYFKwSNkQJGFPCnalDpmepDHSIjtoEOYbzYj8hyvsoo6LnmdIcyvboYlOQwNun0LR0tqF8XpQgY+ypMBEC6YlBgMf4z6GtbHn6KtC+OTEnjnaq2YAPBhcMgbTef91
+ properties :
+  width : 320
+  height : 248
+  heightMin : 321
+ controls :
+  -
+    name : EDT_CUSTOMER_NAME
+    identifier : 0x2707d145d779b1db
+    internal_properties : CAAAAAgAAABxzIInba3+x4r/shlPpYbCP+IlnIusyZW4y/OcpIY2ZMBXYKz8e0MCzPqpDiaWOM/Tg+Vck7M4fjHRlKFdKLJ6NbpPzZlszNPwoPA3U+whdG284kSsFLU7nUHpXmmkJnSwrwcWUw0NRFkCqLkZyBAqtyQfIZtqYy7EsAMV90G9e3m+G3AvLH+WX5Q8Emm00OHPPp0ZE8O4u57s0KR8NjO7A7bBqP+zyF12oi6UWKOyrR1WCz8ggIoXT8HCG1RG4+xHmmYaEkvw9YbUNStbk9Iwr14yflCEpzp8nqNO3Unwrn4MO8WXg1Y/JM4N3SmRozn8AnnvSJrdg6M42DBxnckpymIqnNaq20xIshk8m5Zse7CiyFGcH5V1l3Usm/s6u+fvxEu70VpXzIHa/ypQ2MA/Hw9en34Wlv2iuAQQacQQ7Yru3jWDMTLK0sRGEIJ1rwcP9/5u3vYlLsetGKsJA2aaQ1muQ3RUb0wVazF+3VjE0eLVCXH7ZL71agwDrJ2tcg+5nlmlOF4mbGPQw95w5OTt3/M+kdaM+rMdJ7j7O057lQpHbuR8YCzp+syeVttqKUKB/RuDVqVs5In/urArrXAIVZCmC7Y6+Q9n5tlRMuDOyaoBpbO4JQWfJfTasnHLRfaYzhlY9SNwzpFRi90msOO0ejmePPiqHaCOU11ziVjdkWURSzD26DaS5wJEkDeAnxu+E8LmOFDsAzT/OSA2cepWSvZWHIp3F7s/c+4nLRmuhadJ2yWW3wk91BaroIoB9GAll8Q9gIZeD7mLXMZPEL/RV2ci6Qj7NemhbRsPVOrGkVXcwKOl8FxXDik9C3ayyU6ZaKEWOhM1mFMtjcMDAYIGrfSM6yX7sa1firRXFsmh0RZd1zvjpgfeoaQ1XgkPc4G09LZiWyu6jccFzGZhyUbCs6winzqLfaZNOE1fZdj8tQMFFCubwk5d4fwxyTEKy3Yjis6Mbcm1eZeJWqCXhGe0mulus2NeXV1qyUywiikdMcQH0Li1otltpLFXVC1kBw4sQ3/lU0z3pm9oswv9hSjFCDVpB2SpKK2FQaXPW+7PB0qhjoVuCqSGq5bqjyvAKafzlH8hJiJyfOt6WbTuqmityF036Ul/Lue2BI1sDSQIC+9gZoqoGJoCaQo5gJOQJequUg8FKHdWclkXibIPxx08Y2Ry3oyTmYycKqjermxBzYieXTKP9AOA2ZHNRooiQVpFxSJCdc52vinp6gCEC4afFon7d07acvc=
+    properties :
+     x : 9
+     y : 41
+     width : 300
+     height : 38
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+  -
+    name : STC_DESCRIPTION
+    identifier : 0x2707d145d77ab1db
+    internal_properties : CAAAAAgAAADD01yMBQFDHgPAO3ub6FqeqiKFkNy3nIYH/y/u+w8UtoFbKQnXF+nA47p96i3OUK4vCYnVXwkaJDOLTnkONf/hwORm1a2stTxsHWUAPz/dL30xc+twJjmzt3X5ttsN7mq31Ja5CxykzgH0RnQOksZ8yf5AToctNmBO/a4TWpqCoQ8yaMeMCjAmF8up54V/9ysnaA4i8R1sB9TK+bypM7zz3SJOU+MeT9kXU7CBb7Ano6m+kkcd9cTZ3ZlT2f6RaT8f6tfhOZuF86WL6xF18CG8Vci5IRsP9BGj/p84rq11ew4ThV0FAlNH3uSaXeWMUdeVE6+siLUIJh3dB/m44RRsl+yxYIlwh/LInuVQScSyDe09LyjV5Ud5crRQEkh3pGIeF2DGw35tT00QlcLltQSRqhTB+BvyVEdJszADvNR6l2ZYn+GenbN/jb1obWKAPQ5nlODe5cL+Ok51/JfsnuK4W6aV2Lea989JQBlp5JQwHQnp2N6tTmKtFBe91F9CdhXOUMf+B+Do+qaeSsYfquP8XB1ZTDRL4RkzABWtyHPkhkSHrmla/tuBaw==
+    properties :
+     x : 9
+     y : 16
+     width : 300
+     height : 22
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1-
+         
+        type : 18
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2707d145d77db1db
+  internal_properties : CAAAAAgAAACsgpFEAUvFjRlNXdnMNwQpjiSE9gZqnDLUAfGFSkAxRVzLC1fLXfasR/j3YRnxbm8YQ/esvhtWm7SjI+RxVWnX1zluquGcJtdVZ+jw3pCbzEeCUtH5S4t1vCnXKWGkC7shLZb5B3WtnU3PIewEswdTFxK5vfMDonqnBvknDSygSjnHTJ1tZnFw8J/PUsV74YIdJEf/hVRawtVq6eJXJAQ6yKMJMWMi/VYT7us33OjusvtPGMZI9EjiVtiiSsx/917gIQ7oXBG6SmtRS9oHhogkCwZ2k71AZesaFkPLjOjyMXhEjxgCQeMs0Tkfv+IlWZx/cplEIp1s9tXBic8vdqhAWY9PKH/IPq1ZzLad0L/UZxeYrUkoe+C6sr8Rmzh7HQQiBKY8F+2zdKCxVWUnkA==
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      code : |1-
+       
+       Close()
+      type : 18
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2707d145d77bb1db
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_Option
+     identifier : 0x2707d145d77cb1db
+     internal_properties : CAAAAAgAAAD7JszAx58mlRzF3oQiW2NvdxoTkNsH5RM7rS516Ba6prrt0yrfZvpDdEVxc/cYz3WdesXhRBf89zuSJNUN7E1KZF3HIMTT9CW+dbqnMGjLCxYh3zV6SH2pxevp1kG5W6kzN3i2KOwX4yv4hNijM0cNNfn1k/WlD/ewTfGQg7/JcsEjeUkT+Se7w4WvfO+paCvvDMpJxd/KYFR308i0UE+SFrv0YQeGjW4vjEdJKX1mADsJKvzw6bSjVUx8ZJTrlUkqsEGaLEKhkb7kh750cPF9hYxvZWdNVxqnGhkpLfE2fMacNsLzUyyInz2nPA==
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         internal_properties : CAAAAAgAAAAdldXBepnWF0rv1HxbXJiIebMSzzNcbj4DEcUpgGKG5NgNsCT5yFN5AO9uwMtCbn/Qp5StAyORc9lUZ/x4e5+D4g+QHj9DO2+UvNd/+PKigbQo6j4KJVecojzIJbJmAjyqJa/Hww/VCrPcah6Np4yIeNWa2nKrnaDOXA+ag1Cq
+         code : |1+
+          
+          // Correct input?
+          IF EDT_CUSTOMER_NAME ~= "" THEN
+          	Error(<§$0002§>)
+          	RETURN
+          END
+          
+          // Adds the customer
+          HReset(Customer)
+          Customer.Name   = EDT_CUSTOMER_NAME
+          
+          // Adds
+          IF HAdd(Customer) = True THEN
+          	
+          	// Selects the new customer
+          	MyWindow..ReturnedValue = Customer.CustomerID
+          	
+          	Close()
+          ELSE
+          	Error(HErrorInfo())
+          END
+          
+          
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAPaRn8eJ3zpE8owKjSKGZI1UMZVjF953gAmu49+eKiFiESVSidTTFH/vAwgKmCqoNtNJBpXSws63DN9J0lRZl74CJPEKyF7pSu3QSavqadRuccdmazDzFEH0JTSA==
+ code_elements :
+  internal_properties : CAAAAAgAAAA32MT91YSTHb9SpRL9crOObwlObGs+F7s2bpvTjcMViB0dMlZ0QeNYDTGS87ky0FnDud/1WBYPM8JpXY/Kata8QTGptzris7p13Q==
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE WIN_CustomerEdit()
+      
+      MyWindow..ReturnedValue = CS_NO_VALUE
+      SIPVisible(True)
+   -
+     code : |1+
+      
+      SetFocus(EDT_CUSTOMER_NAME)
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f2be91a003042a1
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : Enter a name
+     index : 0
+   -
+     text :
+      en-GB : This category already exists
+     index : 1
+   -
+     text :
+      en-GB : Enter a name
+     index : 2
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

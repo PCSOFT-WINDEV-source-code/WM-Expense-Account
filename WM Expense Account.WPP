@@ -1,0 +1,694 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WM Expense Account
+ major_version : 28
+ minor_version : 0
+ type : 4097
+ description : ""
+ subtype : 0
+project :
+ identifier : 0x0
+ internal_properties : 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
+ configurations :
+  -
+    name : Android application
+    internal_properties : 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
+    configuration_id : 9379621975590716572
+    type : 15
+    generation_directory : .\Exe\Android application
+    version : {}
+    language : 2
+  -
+    name : iOS application
+    internal_properties : CAAAAAgAAAAso2g+zH2wS/VGuzmrCrzRqaPMvxsKeHo/4jUp/FkAactDEoyy6EDZRLIH/1oO7dCpwYS78q2XOxE3vUQ4sgty/cU4jVy3XUKtgD3rEHySAgZ7EetIY3qi1UBAHWfmqj5jKT1UiN/50Z+MO7mqbUjgKH1e18OmHRYQvdY5MtqIerTTXtgCu2YM867ngHeTFzSbvCfqxNM/sEEJUX7nRGAMDllKVnmnzFpHcmokcyxsGAoxl2JXgV98D0nok5P4zERFSvyrmIcM7D2I4SDBZFN99Ax9zL/xkW8G+JnNenScNOMLRCDDlF35bVDCyVojH+FPKf2spO6ZE2Ni3A7bbKQUtBf3C7689cE46fckPoPOiuEmFt+t+0TGpstwN1WgIUfHdGKKqX9kTrYR/tDBkxP7VAIG+HRyCS/6nbKsYLfa1d2XB00QqfPDdK5Ma1bafCMK2fJ3ynlWlKC1013xO5oS/5xPaegePF8UyV9xKKKhVwZ1FoXCkbr4qBH91JLAqUyqfhwZKeUfMmk60ojdgWTaXw56XVQqkqFWvjMZYPFDuHf3+/eHv82wUkuQCmkaK4lIZlACAHetOL2Ox49GmfDL2+kCnUU20NQyO1gIFFegfnwSKoAImtGzGF9FwMJpEsNWy7qWtzzcJoGL4Sgi7wAgLVxwPzp6dl8CTC7kadvko/hH4AVLjwT4y8I92c5UX53k0AgivHnsNo/mr0LyYFv9eifS11sHjMZ38wGjZlqIZUgmVttfNMfnI9SzBFjEt34iMNxIV9HuptzshFCxyNvqTS8388bSg/Oi1PomsvFcb0Viu0r2pi10QUgN34BCMv3MQZH+Cb+wZ1EOb1+6By4nF4J+WbRgU/as6LqH8fdBc4liiFJ0+B3jZtEOOmwsNpTZgQOqc/hgGfznVoWppLtp7geamax3n33a/hTjYbqQc/N69VE4MFLTn3E4GX52QxGeMeZV4TLCfHeFFhed2CiHK88VLQvOLKMG+jD1beYTxdnJzWO0MRbji4m19zl8LS7w8vNGgkgqBJyP4TVX4/dloArbf3+Zd7ROBq1ohGiZTkuc/pbvTVYoy9vyQLGmJ5plFEI+FzxWQuh46B4l/5pAd47LjlZRc3NHeuTuB9npYueTC1faz5+SC0QwhmLwn5OoKhuVhu8szlRJASP0qDcfm3NOE3XOkkf6MW5fGKskE2b1wHxL5O1/3cQzyEuztGbPz8ZQawk2lRbt4OMe+mZPz3EBtXtR8+1SfyeoRLMhlpiG0Z5lWBzM+rqWj2Mroww70zLfwJkb+9wUAdl4CAu/QIrSUAb3OdgqxQrNwtaJcbdV1PyfGjXC7zuKpr9JT0gRAIR5YJJHoUcfrMf8EloJAetagnVu7ViRlNzVebf6BEyzWR9e9UeTGl8dVXm6oT246Mh+7CxfKGIHuF3kyvBFfIXuZTjaeoShhQiKq/T77hI4mJwkW4nNvFYlH7Sgzt209N9rsgGtuJIWDWwbgevEJoCFvNjlNGQ0tXiXmgiFO/Clqun3WH9RR/FUolXQYkFczJOWOfeYmJS+X/H1Ia9bM+koVhAxmyshaZgCyLAxs4H/k/W2krRI6KIPY5cGBbEt1TrpJAA8zLeHYEnzSFuLm6L4yLjB22gpLfrXvBS6ooFthORfqH9+1VancgBdsvNxCjWEqG6FQNK0GcugJjgjbkyh5fKrXCJfeZIIBp7Utq2+DvCHgQU/Jz+8QWhaRHl5e1BE9yJ+OLqr9lSZXbUK3i1tpEakhrNDNO8Eq8Q6YL6geE7WuXy4UoQzGonX9I0WHjyj4kSK1QEPbHjlm/RnhTIpXMEtOsfAVEJLjzhfeR4YE4qjbQWCCVm+3QCwD22VghZtn+I0Bhqy3WfaCwwsTMpMYHGezmcD
+    configuration_id : 3752043233584999604
+    type : 18
+    generation_directory : .\Exe\iOS application
+    version : {}
+    language : 2
+    telemetry :
+     status : disabled
+ elements :
+  identifier : 0x4f2bba4000023f43
+  elements :
+   -
+     name : WIN_ExpenseAccountList_Tablet
+     identifier : 0x404da5f300ea8d1d
+     internal_properties : CAAAAAgAAAAT70tfbNlRCtSUXoZcwuMSHwwKUmVmIZOnli24FeujZadpoc5mUltKdawW4qJeGo52/g==
+     physical_name : .\WIN_ExpenseAccountList_Tablet.wpw
+     type : 2
+   -
+     name : WIN_ProjectSelection
+     identifier : 0x4f2be942032ede72
+     internal_properties : CAAAAAgAAABMyqTwT3Q8b3unUYVTwuADcNG/pymJBQmiNgghuEfNE/U9j9BnUVxNSP/5x0+BeW9Z2Q==
+     physical_name : .\WIN_ProjectSelection.wpw
+     type : 2
+   -
+     name : WIN_ExpenseAccountsEdit
+     identifier : 0x4f3a940b011a8da2
+     internal_properties : CAAAAAgAAADPSyd7yPW97vhIIupguJPa01wufkQ7Hc22WdS45klVs0Hv25SiHi+emYB6Rs4C/vLaWg==
+     physical_name : .\WIN_ExpenseAccountsEdit.wpw
+     type : 2
+   -
+     name : WIN_PaymentSelection
+     identifier : 0x4f2be9cd035dfe90
+     internal_properties : CAAAAAgAAAD2XN7C4V7W2eEh1z8lfkYVkqfhIac3sVB2iViJHPMh/w0xl2jd2+LTwnljXSXbpxnjYw==
+     physical_name : .\WIN_PaymentSelection.wpw
+     type : 2
+   -
+     name : WIN_CategorySelection
+     identifier : 0x4f2be10a0234c48c
+     internal_properties : CAAAAAgAAAD7VyNnRAEpMjyMZq60ruvCJ1TymjxUH32Od0mfuGe3ETvlxbqOanNiXcQ+unp2AvbeZg==
+     physical_name : .\WIN_CategorySelection.wpw
+     type : 2
+   -
+     name : QRY_EnvelopeList
+     identifier : 0x4f3a92f600fd54e6
+     internal_properties : CAAAAAgAAABfO7drWAUtPogYMppwa0cG/462Xu5qRyuitr3UVyByTvYeiGfSLj+u6VBKtn5yDoJKyg==
+     physical_name : .\QRY_EnvelopeList.WDR
+     type : 5
+   -
+     name : WIN_ContributorSelection
+     identifier : 0x4f3a3cde00ab0aa7
+     internal_properties : CAAAAAgAAAApJRF1su/H6PZyOOxqbk0AXS4IuBZNJrCiJvJKkL9XSb8diWbQKDWkk4p0TNQM9OQsNA==
+     physical_name : .\WIN_ContributorSelection.wpw
+     type : 2
+   -
+     name : RPT_ENVELOPE
+     identifier : 0x4707d1340865700f
+     internal_properties : CAAAAAgAAACkooyoF0zkh1fRjUDDK0NADB0Lw+Y1fNOqMV1U8Q+NC/U9lloa9s7jBCeRbzepUUexsQ==
+     physical_name : .\RPT_ENVELOPE.wde
+     type : 3
+     configurations :
+      -
+        configuration_id : 9379621975590716572
+        excluded : true
+   -
+     name : WIN_InvoiceEdit
+     identifier : 0x4f2bc44d01498375
+     internal_properties : CAAAAAgAAABYNgAcq9BYA89bdVmH7UTvkMfPp5/f1UJ2ZTSIkW4mOooExLuDfYBxrJMN66sl3dM9xQ==
+     physical_name : .\WIN_InvoiceEdit.wpw
+     type : 2
+   -
+     name : QRY_ExpenseAccountList
+     identifier : 0x4f2bf2a205147d31
+     internal_properties : CAAAAAgAAABs6kRQbxQcz5sHMeVzqgAzUAGPZ1FV89CiFnwdaC/le01Fh3jHMTyt6F9Zp29hGY95+Q==
+     physical_name : .\QRY_ExpenseAccountList.WDR
+     type : 5
+   -
+     name : WIN_EditInvoice_Tablet
+     identifier : 0x404de11f02d8b0e7
+     internal_properties : CAAAAAgAAABp5VG1ci+HqLYy+Cwqcs14fV7I6N/QkzyJnw3cbbPjzSuBRSoQ6PXk00q0DJRMNKRs9A==
+     physical_name : .\WIN_EditInvoice_Tablet.wpw
+     type : 2
+   -
+     name : WIN_CustomerEdit
+     identifier : 0x4f2be91a032142c0
+     internal_properties : CAAAAAgAAAAOFGa6iTZ+sbkJ7zctfs59el/J6e+PWcmCnpgJjLPhzy2BRygV4+rb2kG7BY1DP7EbGw==
+     physical_name : .\WIN_CustomerEdit.wpw
+     type : 2
+   -
+     name : WIN_CurrencyEdit
+     identifier : 0x4f2bed2f040835d5
+     internal_properties : CAAAAAgAAACyiOo+DXoybXX1u2PpO/6dmvnB2fnhEKKK3Euia6Tw2NAi6vVZp7YnFg33wUG/uy2Xnw==
+     physical_name : .\WIN_CurrencyEdit.wpw
+     type : 2
+   -
+     name : WIN_StatusSelection
+     identifier : 0x4f2bea09037ae890
+     internal_properties : CAAAAAgAAAAfe3crmMVtfshYclqw80f2/95GXmYeYXFW3cIo9yhqVq4GwK+Sbn9uqZAK9r4yzsIKCg==
+     physical_name : .\WIN_StatusSelection.wpw
+     type : 2
+   -
+     name : QRY_EnvelopeSimpleList
+     identifier : 0x4f3a9b6103533508
+     internal_properties : CAAAAAgAAAAkIgwol8xkB9NvKf0bx0TfVDeDW//bDd6CfvOez6jsLJBeqrWfGSSVgKcR77cp0ccxMQ==
+     physical_name : .\QRY_EnvelopeSimpleList.WDR
+     type : 5
+   -
+     name : pManagingValues
+     identifier : 0x4f2beb070394c835
+     internal_properties : CAAAAAgAAACEguzI96wEJzOPSR37WOQPYG1v91019bB2AcvfStU/gUeLWRY/ucQ1YMcxjxfJsSeRkQ==
+     physical_name : .\pManagingValues.wdg
+     type : 7
+   -
+     name : WIN_CurrencyManagement
+     identifier : 0x4f3b6e4d0645196e
+     internal_properties : CAAAAAgAAAAmLA4Skc5mCdGRR49VGxoZ1qWNlTU1damiNxxKc9wwkHBS+uVtS1JDcqkT7bUr18kzMw==
+     physical_name : .\WIN_CurrencyManagement.wpw
+     type : 2
+   -
+     name : WIN_ExpenseAccountsSelect
+     identifier : 0x4f3aa0ad0556e756
+     internal_properties : CAAAAAgAAACEguzI96wEJzOPSR37Kmj7uPn3ryFgN3RxgQhYQO8li021Vxg/ucQ1YMcxjxfJsSeRkQ==
+     physical_name : .\WIN_ExpenseAccountsSelect.wpw
+     type : 2
+   -
+     name : WIN_Parameter
+     identifier : 0x4f33f3bb0058882e
+     internal_properties : CAAAAAgAAACU8vw4h/y0twOfWY1LG5RHJLczmzdvOktCTgX2w0zIwAzSFulvSVRFcNfBP8c5wTeBgQ==
+     physical_name : .\WIN_Parameter.wpw
+     type : 2
+   -
+     name : WIN_ProjectEdit
+     identifier : 0x4f2be92e03268fb7
+     internal_properties : CAAAAAgAAAD0UtzY51zU1+M/+S0rfSjjRMtTe9Pr+Me28TmwabZmYqp0tEsP6fTl0HdhXyfZoRfhYQ==
+     physical_name : .\WIN_ProjectEdit.wpw
+     type : 2
+   -
+     name : WIN_PaymentEdit
+     identifier : 0x4f50d717051105df
+     internal_properties : CAAAAAgAAABg3lhEY9hQC9eTXYFfEoyvnI2bs4USdVN1qHGuMP+dG+Ut//BrVVhJdKsV46NdJZtl7Q==
+     physical_name : .\WIN_PaymentEdit.wpw
+     type : 2
+   -
+     name : WIN_CategoryEdit
+     identifier : 0x4f2be0d8021dff69
+     internal_properties : CAAAAAgAAAAWfH6iAX42OYEBN59FoWaNjuHtHcnRhKNy4phIxUrCVqog5Ju9O0Kz4llDvUW7R7kDAw==
+     physical_name : .\WIN_CategoryEdit.wpw
+     type : 2
+   -
+     name : WIN_ContributorEdit
+     identifier : 0x4f3a3d2700ad26be
+     internal_properties : CAAAAAgAAADySCp+zbryLTW1e6OpxrpJ1otlhUtCxdJSSt0YLMNJ39XJH8CZZ3ZnVs03gQH/++3XXw==
+     physical_name : .\WIN_ContributorEdit.wpw
+     type : 2
+   -
+     name : WIN_InvoicesList
+     identifier : 0x4f3bb1d801f7ef96
+     internal_properties : CAAAAAgAAABLx7NXVBEZwowcNp5Esut6B0TSWnwM+e2s5cYjBDtThbdJ4Z6+OkOy7VROqmpmEoZO1g==
+     physical_name : .\WIN_InvoicesList.wpw
+     type : 2
+   -
+     name : WIN_CustomerSelection
+     identifier : 0x4f2be905031ff128
+     internal_properties : CAAAAAgAAADJRTHV0o+nSBbSmEyKIXH8gTB4MABQNg1K6CfCaabsHCzEZhkwiJUEM+rULPTslATMVA==
+     physical_name : .\WIN_CustomerSelection.wpw
+     type : 2
+   -
+     name : WIN_CurrencySelection
+     identifier : 0x4f2bed44040d8404
+     internal_properties : CAAAAAgAAAAJBXEVks9nCNaSWIxK4i04fT6IaFZmhEBWbTa/zCNz/fvxFdpwSFVEc6oU7LQs1MQMFA==
+     physical_name : .\WIN_CurrencySelection.wpw
+     type : 2
+   -
+     name : WIN_InvoiceProofs
+     identifier : 0x4f3bcf2605156737
+     internal_properties : CAAAAAgAAABDP7vv3ImhugSEThbMba+++74KUmYmrSJxgUVCFRp4gHxwlln2wss6ZdzGMvLuin5Gzg==
+     physical_name : .\WIN_InvoiceProofs.wpw
+     type : 2
+   -
+     name : pTools
+     identifier : 0x4f2bf344053af6f3
+     internal_properties : CAAAAAgAAADGTC5yse7G6fFxJ+91h+pxBmVdhaWdm9mCvmVWR9jETKQezpHNKzKjkolzTdUL9+nTUw==
+     physical_name : .\pTools.wdg
+     type : 7
+   -
+     name : WIN_InvoiceSummary
+     identifier : 0x4f2bbb280075ca62
+     internal_properties : CAAAAAgAAAAoJhAMu+DI058rBckXouRnlNUTS/21yMGqUHFJcI+NmxWNv6CzDRCBvGNdW9sV7eMtNQ==
+     physical_name : .\WIN_InvoiceSummary.wpw
+     type : 2
+   -
+     name : WIN_ExpenseAccountsList
+     identifier : 0x4f3a8d300084c747
+     internal_properties : CAAAAAgAAAAZdcHF4l/X2OYi6Dzalp2gza6IqBatZ4G20VsyCOcvkXdlgW7g2OXUw3pkXCTcpBT8BA==
+     physical_name : .\WIN_ExpenseAccountsList.wpw
+     type : 2
+   -
+     name : IW_SlidingMenu
+     identifier : 0x431ddd62013759f8
+     internal_properties : CAAAAAgAAABi2FpOfSqCnaXln2hiI/Bh0kUhoZHX6YlOh1++UaLy7tog9FXRaLoXBj2nEZFPK51n7w==
+     physical_name : .\IW_SlidingMenu.wdw
+     type : 8
+   -
+     name : IW_ViewProof
+     identifier : 0x4321eb92047d8d0e
+     internal_properties : CAAAAAgAAAA6EGKmBULq9f1RLdjRRZppaDV3X2lzItOmm+YNEvGjXet3m+KuXlSDnoV/eTm3Q7UfJw==
+     physical_name : .\IW_ViewProof.wdw
+     type : 8
+   -
+     name : POPUP_TakePhoto_Tablet
+     identifier : 0x4329d47d0139dbdd
+     internal_properties : CAAAAAgAAADUsjx4Rzx0d8MrfOmq7T7GXMlbc72fWaCgtkNRVr1fWadrljXz1pdxsJcB/4d5AffBQQ==
+     physical_name : .\POPUP_TakePhoto_Tablet.wpw
+     type : 2
+   -
+     name : WIN_StatusSelection_iPad
+     identifier : 0x432c524d00c1ee0c
+     internal_properties : CAAAAAgAAABNz3sX4N3FNvvgDzziYmPBMbsAJlAvIMEC6DeLCqKzSzkO+AcVLaw3/KhzDDfTbFfI
+     physical_name : .\WIN_StatusSelection_iPad.wpw
+     type : 2
+   -
+     name : QRY_ProofsExpenseAccounts
+     identifier : 0x4332b2fa009d16f6
+     internal_properties : CAAAAAgAAADNSSV5RjN7pLIjl7fsjGCK7b4YaF6qikN25QLPqB/3Cf/936f7zY3V30awCIh4APDYWA==
+     physical_name : .\QRY_ProofsExpenseAccounts.WDR
+     type : 5
+   -
+     name : RPT_PROOFLANDSCAPE
+     identifier : 0x4707d13408636f25
+     internal_properties : CAAAAAgAAABBPbnt2oevQAJMlG/akIeDjS5I6OrWyI9c+a1n/AePsVeFvqHDDef6b9LMNPz0jHxEzA==
+     physical_name : .\RPT_PROOFLANDSCAPE.wde
+     type : 3
+     configurations :
+      -
+        configuration_id : 9379621975590716572
+        excluded : true
+   -
+     name : RPT_PROOFPORTRAIT
+     identifier : 0x4707d13408616e2b
+     internal_properties : CAAAAAgAAADEQiwIt+zE5/cxbSBj1ymwLLn7802pKa6gZB0/cpF7TeMf6PZ6Vi5DpIdxT9cJ8efRUQ==
+     physical_name : .\RPT_PROOFPORTRAIT.wde
+     type : 3
+     configurations :
+      -
+        configuration_id : 9379621975590716572
+        excluded : true
+   -
+     name : WIN_ProfileSelect
+     identifier : 0x433590480121a6a1
+     internal_properties : CAAAAAgAAAAdf0vHEK315mpiiRMCLjO97NMQQcyt8H34coVLxmFIHoewivmvjjN6bFij3McjnAcY
+     physical_name : .\WIN_ProfileSelect.wpw
+     type : 2
+   -
+     name : RPT_PROOF_MediumSize
+     identifier : 0x4707d133085f6d31
+     internal_properties : CAAAAAgAAADoZtDM+6AIE9NdCcNPoTpEJnfNBaP5SBFIxuht+inrJS83+uOPeUpfgKMdmxvVrSPtdQ==
+     physical_name : .\RPT_PROOF_MediumSize.wde
+     type : 3
+     configurations :
+      -
+        configuration_id : 9379621975590716572
+        excluded : true
+   -
+     name : RPT_PROOF_SmallSize
+     identifier : 0x4707d133085d6c37
+     internal_properties : CAAAAAgAAABzz6v/TDlxqojmwjgUnJS5laYwcLLQXTqgnAsJzCfvIdd14IzSPhWo2Uy2AoJ+em5W3g==
+     physical_name : .\RPT_PROOF_SmallSize.wde
+     type : 3
+     configurations :
+      -
+        configuration_id : 9379621975590716572
+        excluded : true
+   -
+     name : QRY_CountExpenseAccounts
+     identifier : 0x43721f2a02aa3a5e
+     internal_properties : CAAAAAgAAAACeHquHUri/UU6GxKHWmFPejkhuZEN9L9ORyvmM3SgqADyqJIH+z8sJh2HcTGvS70HDw==
+     physical_name : .\QRY_CountExpenseAccounts.WDR
+     type : 5
+   -
+     name : WIN_CategoryList
+     identifier : 0x4644b4bb0ffffdbb
+     internal_properties : CAAAAAgAAAAND7vXIJ21VrtcgLAkLrNAVAgAU24ppX3wGiD8lSYT1BEPeYgefPjnjFizzPcTrBcI
+     physical_name : .\WIN_CategoryList.wpw
+     type : 2
+  other_elements :
+   -
+     physical_name : .\Exe\Android application\category.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 9379621975590716572
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 3752043233584999604
+        excluded : true
+   -
+     physical_name : .\Exe\Android application\category.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 9379621975590716572
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 3752043233584999604
+        excluded : true
+   -
+     physical_name : .\Exe\Android application\category.mmo
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 9379621975590716572
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 3752043233584999604
+        excluded : true
+   -
+     physical_name : .\Exe\Android application\currency.fic
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 9379621975590716572
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 3752043233584999604
+        excluded : true
+   -
+     physical_name : .\Exe\Android application\currency.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 9379621975590716572
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 3752043233584999604
+        excluded : true
+   -
+     physical_name : .\Exe\Android application\PaymentType.FIC
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 9379621975590716572
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 3752043233584999604
+        excluded : true
+   -
+     physical_name : .\Exe\Android application\PaymentType.ndx
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 9379621975590716572
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 3752043233584999604
+        excluded : true
+   -
+     physical_name : .\Exe\Android application\PaymentType.mmo
+     configurations :
+      -
+        internal_properties : CAAAAAgAAADOAcMIxqq1KnKXSFNJr0uKFFjCpmFzBX7T4clpm8xTxMO3fR0p
+        configuration_id : 9379621975590716572
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 3752043233584999604
+        excluded : true
+   -
+     physical_name : .\Exe\Android application\template.html
+     configurations :
+      -
+        internal_properties : CAAAAAgAAABXAdPILp6HqWWiNgiDyzk/1KgPR6ktkoMMCHcjMGOf
+        configuration_id : 9379621975590716572
+      -
+        internal_properties : CAAAAAgAAAD8s1gpoAka2wWEdhpfRA==
+        configuration_id : 3752043233584999604
+        excluded : true
+  analysis : .\WM Expense Account.ana\WM Expense account.wda
+  net_assemblies : []
+  uwp_api : []
+  external_components : []
+  internal_components : []
+ report_and_queries_enabled : false
+ languages :
+  - en-GB
+ wd_style_sheet : .\WM Expense account.sty
+ wb_style_sheet : .\iOS Expense Account.wws
+ code_elements :
+  internal_properties : CAAAAAgAAABseimUYz4VdXZ8hGsGFqoxLDfDcHkNZdBf0iQg2FQcqmw5VrO2lryVMt3efm9RagPlXJBReauIsX3ZdB8=
+  type_code : 0
+  p_codes :
+   -
+     internal_properties : CAAAAAgAAACIGS+Ui4TKVS4R5iWcx4TygpBMJSS883Q1B6P/39lZcTcupk3i5H5iiPr9K+f/NgeNWecOBqVepqSaZfzv4j2ogPnNTeEjPsyWN/mkCIxhKLr9CyB4adBhxmIh4o3NgTTBR3wbJqgpSCv44GlSbQMJZNNYxKr5aKIrQ7RmNNtEbl3M8QEerLGufNXNvbIkAGhhm2hSoySdc7+wX1ktav2kAlMujJDJ7pldqVFg1CaTN5yx3Gn/TWwkDzN6cOixQD3n83bJMAVFaI9oP1ZCA9pcJ3M7O7UnH3zT5g3srh1UsdV0Fhyc4GU7E8OEy45AhUouHrBLZNMS
+     code : |1+
+      
+      
+      //Further to the renaming of HFSQL files from the data model editor, it must be managed in the applications already installed 
+      //=> rename the files on the device
+      IF GetFileVersion() < 3 THEN 
+      	
+      	IF fFileExist("expenseaccount.fic") THEN
+      		IF HCopyFile("", "invoice.fic", "", "expenseaccount.fic") = True THEN 
+      			fDelete("expenseaccount.*")
+      		END	
+      	END
+      	
+      	IF fFileExist("envelope.fic") THEN
+      		IF HCopyFile("", "expenseacc.fic","", "envelope.fic") THEN 
+      			fDelete("envelope.*")
+      		END	
+      	END
+      	
+      END
+      
+      HModifyStructure("*")
+      HCreationIfNotFound("*")
+      
+      stPhoto is Structure
+      	sPath is string
+      	nID is int
+      END
+      
+      // Manage the language
+      gsLanguage is string = "us"
+      
+      SWITCH gsLanguage
+      	CASE "us"
+      		Nation(nationEnglish)
+      	OTHER CASE
+      		Nation(nationFrench)
+      END
+      
+      // Initialize the data
+      InitializeData()
+      
+      <COMPILE IF ConfigurationType=Android>
+      	gsAppDir 		is string = SysDirStorageCard() + ["/"] + <§@00000000000000000000§> 
+      	gsDirTempPhotos 	is string = gsAppDir + ["/"] + "tempphoto"
+      	
+      	IF fDirectoryExist(gsDirTempPhotos) THEN
+      		HourGlass(True)
+      		fRemoveDir(gsDirTempPhotos)
+      		HourGlass(False)
+      	END
+      <END>
+      
+      CONSTANT
+      	TYPE_NUM = 1000 
+      	TYPE_TEXT = 1002 
+      	
+      	SEND_PDF = 110
+      	SEND_CSV = 115
+      	
+      	FILTER_STATUS_ALL = 25
+      	FILTER_STATUS_REIMBURSED = 26
+      	FILTER_STATUS_INPROGRESS = 27
+      	
+      	
+      END
+      
+      //Cleaning 
+      
+      //Delete the generated pdf files 
+      sListPDF is string = fListFile(fExeDir() + [fSep] + "*.pdf")
+      FOR EACH string sFile of sListPDF 
+      	fDelete(sFile) 
+      END
+      
+      //Delete the generated csv files 
+      sListCSV is string = fListFile(fExeDir() + [fSep] + "*.csv")
+      FOR EACH string sFile of sListCSV 
+      	fDelete(sFile)
+      END
+      
+     type : 196608
+   -
+     type : 196621
+   -
+     type : 196627
+     enabled : false
+  orphans :
+   -
+     name : Android application
+     identifier : 0x458c375f02429621
+     code_elements :
+      type_code : 159
+      p_codes : []
+   -
+     name : iOS application
+     identifier : 0x4f2bba4000033fb1
+     code_elements :
+      type_code : 159
+      p_codes : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+rad :
+ internal_properties : CAAAAAgAAABhIL0UXeZmxDJxY3Xy0Q==
+project_explorer :
+ explorer_type : project
+ children :
+  -
+    explorer_type : windows
+    children :
+     -
+       name : Invoices
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_InvoiceEdit
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_InvoiceProofs
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_EditInvoice_Tablet
+          explorer_type : element
+          type : 2
+        -
+          name : IW_ViewProof
+          explorer_type : element
+          type : 8
+        -
+          name : POPUP_TakePhoto_Tablet
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_InvoiceSummary
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_InvoicesList
+          explorer_type : element
+          type : 2
+     -
+       name : Category
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_CategoryEdit
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_CategorySelection
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_CategoryList
+          explorer_type : element
+          type : 2
+     -
+       name : Customer
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_CustomerSelection
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_CustomerEdit
+          explorer_type : element
+          type : 2
+     -
+       name : Project1
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_ProjectEdit
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_ProjectSelection
+          explorer_type : element
+          type : 2
+     -
+       name : Status
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_StatusSelection
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_StatusSelection_iPad
+          explorer_type : element
+          type : 2
+     -
+       name : Payment
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_PaymentSelection
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_PaymentEdit
+          explorer_type : element
+          type : 2
+     -
+       name : LocalCurrency
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_CurrencyEdit
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_CurrencySelection
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_CurrencyManagement
+          explorer_type : element
+          type : 2
+     -
+       name : Parameter
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_Parameter
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_ProfileSelect
+          explorer_type : element
+          type : 2
+     -
+       name : Contributors
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_ContributorSelection
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_ContributorEdit
+          explorer_type : element
+          type : 2
+     -
+       name : Expenses
+       explorer_type : custom_folder
+       children :
+        -
+          name : WIN_ExpenseAccountsList
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_ExpenseAccountsEdit
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_ExpenseAccountsSelect
+          explorer_type : element
+          type : 2
+        -
+          name : WIN_ExpenseAccountList_Tablet
+          explorer_type : element
+          type : 2
+resources :
+ string_res :
+  identifier : 0x0
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+  strings :
+   -
+     text :
+      en-GB : wm_expense_account
+     index : 0
+   -
+     text :
+      en-GB : Envelope_%1.csv
+     index : 1
+custom_note :
+ internal_properties : CAAAAAgAAAAd98VSJfHHqE3P0QHwrwdhn7ig8dWBR6valpUTgnAMTVXiDg==

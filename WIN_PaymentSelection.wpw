@@ -1,0 +1,500 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_PaymentSelection
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_PaymentSelection
+ identifier : 0x2707d149d9ccc1aa
+ internal_properties : CAAAAAgAAABnAKx2mhFQ+GvGQo+fnPSOBxXArxG6gj2Zucni0dxylByLjyhaXXyMKF9vl3QZHa2GqrJZ21IKJuzJqhT55ntqReG+y0dEKCfikV77Tp1mpljPdn37FCPeZf47/EzlmJVSmIE1sfiPodrNHEgL6Yuj8TSDsoJBfv3c9bANpN7HM8hcb0I43uOqQej373wNvEnPWn/zGJxz2t1u7TEq2/IhG/Ar0mKPkrDra+OpqOKPE3JSuSEkJJhdDl6SKplOKddSUDW11IeMdmg9Q44eUYHSTH1/8oUmUV3tyV7b/YVfbxSy/JdB6CGnPkct+gld4Iva0plNv1p2u1MRlg2j9ml9u4QtyMyOunQBL3xGgo2O3cRmXqK4uIbdxIj2uKE/Ivm4KFd68BCGZ1mysPmDywvv+05CNUBZqoB/UrJK8Cr4oORmYUG7vkI0LTa8Ewcg57c1sX1MUIj9ZqGCBo/va7kTyzujhr2aeCFoPd+qmpv1v98bAenWL9rr5qGej4KMtQ+dcpUEhBcUi4nb3wo7VjUZwzB9TJkQYtZP+Eym8coJJ849xFrGzroeRv2Zpo+d9qMYiIojDKOobvV3rPssGraSzExIgpAKsyRU+Qi3fu24vqygxvuTc9/vT2uJFj0T7mmvjH6Mz74bx5wS2L1BjkOT6Sm+2ecFFenCz6xUxaRGqsyOc+C87pl7vrMvilxuWB8fvT1wbEklLnLUVOue8Tp8vYjFeB6gYD5x5RvKpGovhb8SxI0SBVwCswUI/4BXC/vvnykoAylyfbwh7BX+73ofITIQcoNeIRk1DsY=
+ properties :
+  width : 320
+  height : 248
+  heightMin : 321
+ controls :
+  -
+    name : LOOP_PAYMENT
+    identifier : 0x2707d149d9cfc1aa
+    internal_properties : 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
+    properties :
+     width : 320
+     height : 249
+    controls :
+     -
+       name : STC_PAYMENT_TYPE
+       identifier : 0x2707d149d9d4c1aa
+       internal_properties : CAAAAAgAAAAYzKJCQ/jr+lMFa23P6TzGp/pIcuucLjAU3vNU8JlHDqee2ugWXC5B0qz3tVTVL3i4thnJBxl0+kNieX2XaeyAHso65/7cjT0VJpywmhjNCveGr2HBZ//sbsc0gblBTqTDSiz8iL1NazXn0su0j8e7LIAqVc7toIKJhhvMzuCVjT3mIghKXbG7anRp7bvDDET0ojSRQvMm9wTkxqviD4KxmYoxGjyRC6kYqyOizlUnUtm+l+O0Tq/xGyxxcVR4LB/tQPa+IUzQmUDdt/Y1Y/Mrp2XGpRbDtLpZ6Bown6dXt5TQbgb/unNWS1svxDJfhVDCnx8T9rK1aoRAdI7qluKCdnEhNSHDuyBYYMTYEeqLdakJpbATviXNc0ydfgXEwx4sc55aZTy4v0Rfndh9gZCVDZNcVdA9uXIjYfcU4zymw32n84yLnrnSyEC07/uDdiWROUAHmDmlyTQTk0D9skfzS6QNlWv792P3+3Tz8A0e9TvlbWsCtjHF3+zsRTGiZlH0DxM=
+       properties :
+        x : 43
+        y : 9
+        width : 246
+        height : 22
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 18
+     -
+       name : IMG_Checkmark
+       identifier : 0x2707d149d9d5c1aa
+       internal_properties : CAAAAAgAAADwFuNMXa+zewsK0Vt90kRVBsrEMHtmABpEX/NbMr2T6v6asGW6T3tPPSjGwE8fvOFgOzUlOdHyGOiLH03OmXRBtIjBFb7BclxWE8eJ9yFDgTjhurPiSNOuC2e/yWH3/KcNbcsiziluLafMuTp0m/MnYMl6pKj4UvJDYOY1U8HhQJe6CO4G6SoV3iNlLkPHbyPFkUJvZDqd3ZKqjet1Xk/lbPlnaeu0WsRgC55dGffjY4YZ/V3Z6fERSfKYyeAbSJkbvv0i9y9JlTQW8hAAGalsUuzPhhRnfK+yaHB6EDAtVdFIy9YFD7u8XGy7Zbr65pWOYOz02l6Qqgnv8mpTj+QFVscQoUXQwUIkzljzT6OOj8wBFcUZtIm4s6vqSqSrEKnf53VYAilbU/Wkf7GDooYf4lDUifZffntu8gQjSWRj11Y+mEzbZyJ1/0EsqoJLXdEMSFm819U//Faolkm2ZH9zLDZ7wuhbvFxkLYD6nwyoWAfT76IdZnlx4eOIO+d1iwabL1ea2qdJQwNdN0MfSo2g+5yY+SADxAOKxrv+VAeczzjmDRaNLekYa1uZtIy9TkXX4RipKoFLsTfZyMjERMlmlB8qXEWMEYeWnWkh3Cd83BZSzmBbN/nh+AQ2r6Sd6zG0sY70A1ndnweFK9ygZs+cm+LbOGv22BK85sTo/y+2ZraytR6mwOeHt2lbdepWMhMCkO85qHRGAu+58UCH3hL77i5KITjRc3g0AJ3CeCB5opNA2bKDZhSw4qyz3h+5OB+ltux7zvROBp0xKn1ClJ9LLc22L2HLLvTuJfxr3s3IGQdIQjKkSVjFPBG4EnSx1g9X3ju9AWeyFMGH+fdYlOIKeOrnj4nLvznp7H7ZBbsHZac36o5MXiIeUhujFOLEH0sF1/7nWPRauFY=
+       properties :
+        x : 289
+        y : 9
+        width : 20
+        height : 22
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           type : 18
+           enabled : false
+     -
+       name : IMG_PAYMENT
+       identifier : 0x2707d149d9d6c1aa
+       internal_properties : CAAAAAgAAADp125hnTi93ZzE0JYm+eLXxsUQ3ojyQMy/o8WiAujpmcVX/7CjYHSN4zpdfcdwRPkb+DysIKZ+JBTjtzQFuG+5/w1O6pSduzniBtlrsAwH1Uv9vpheDoxuXj/hSJ+BiJO0XVtwR/Qpd4Rs73hBMSfqwC6dnK14h7XbNvH7u9E+AKeVg/W/jdiR/aCSdsA9VqpyRNmpVq/lQvNm+m2p4TSBGdVIBR65S+LVtOpqn7+BLscIP2EC1yteIUCW/zw16gumNYZ7nZreiMeBQN+SwVmO79gt4CCEziNraG4T8D8n2O+iZhpGmop/DiKXNH6u5g2fBRgBKfjhG8nmwii3oM+hMrNU4CXWvzLmq3xvlaoLGyssFOsVdrkFA40XxeQCfFHP7Y9MG+eapek5JgCVdqOYMea9OIO76mfulhy6xqgBgTXcBAiuaDjgK6qldLhO5zgyEnEDX4/TiJtmPEQbhF9SHbPhT6QP0djn0r0zNYDMTSr5t3c4zc0pm6JXoPzhSdVZ/Jxp04z4am5w2cUsaFY9Ub7qdJwfdNJkozJtCb6XePBRXK+5yfcNrijoL1U/jycxu3syfaCe4BkQ9uS+c3CAp7hCUOdaIHHnHgEEyE74xQG43YhgRH25KS8dBy7dUKSsQObCm5EGe4mgppi3ysunH5Hg5k30wJpF5n1xq/WqWRGTmBpyrkgBiV/uLYBYgOc+xmaRvuX0U8mYNHhOfpLEBAen8UwfDcUg8v2VHueDWd12pRqgiaUzkNKI/dGhur0kE8PyNgASPt0Ht9qeVExy1t43jlCokjHsMgUHS3/gkRdYaUVEX+FEoqewwHpTPtRkfxaLlt9lyu/gbQ1wdMJfJmXmaYnCSD1LnoScH9w+dLDZYLQJ5H/3mTDNlYqsHBwztRzs/QmzzWDGKdcrlZpygQmFTaupvgdsrcNGWAvKhiffBkvWH00Jr6REfuo=
+       properties :
+        x : 13
+        y : 11
+        width : 20
+        height : 20
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes : []
+    columns :
+     -
+       name : ATT_CAPTION
+       identifier : 0x2707d149d9d0c1aa
+       internal_properties : CAAAAAgAAADeSKhwJdEsPg/5aPZb7yECHPQWIUYDRAcwFlj7ayvAX5vojI0eADfYUD6etX+Nkde9afcRTrynPU88tCeIf/qfZj2w8t31Cu442a0wuabzOkweKQ3rER7zAvyadyt9qYKsLG9d//E/EqSSljFxnuWoGg1Oex9+pIaJFccnR46rXBEvreKCIqU=
+       type : 3
+       content :
+        identifier : 0x2557a308196c6626
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_ID
+       identifier : 0x2707d149d9d1c1aa
+       internal_properties : CAAAAAgAAADJ6x3b05Pxs2TlyVBzSULyIPIeJy109rTzUm4BrD3sp4ioqgRCOSStup3LfiLnaJiYdhFBH6SRrqVQo9BehEKAOil6G3oF3aYhDHxCAXmX2jsf7ko8EzXbhWOtR2Hq2zBLC6qaetRPr1U=
+       type : 3
+       content :
+        identifier : 0x2557a308196e6626
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_CHECK
+       identifier : 0x2707d149d9d2c1aa
+       internal_properties : CAAAAAgAAAD/sIe+uqTtrNr8YFJdgEXLNzhz2NAoCXUOaeIKCsuaDVL+j0GEIEP7Ix3iF4lB4EhRkUpajxiVA0jNhcyTNylwculim3CBMODlv1mAR6N2+9vl4pIIpzntCRM2zE/Anc5kGhHFqFvBD9/byLkNZwhniuaTYCqN6WBUXgxGx9Uc2RXbSfWs+ZQ91w==
+       type : 3
+       content :
+        identifier : 0x2557a30819706626
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_IMAGE
+       identifier : 0x2707d149d9d3c1aa
+       internal_properties : CAAAAAgAAAD+ne8wVmMmGtH3SS5v16ZoNW8Vzum4T2bbeqLK+BGLFIJ8gYdTWAbUBFrK7LKl1VTTuPO2v8YV4p5ML2Xk0A4CXIq6oCer01Cv63zb+V13rnGo3HsNA/TP7YDJkIFua5Rr4CRJKXfNWMui9ZKx0OH0c/UFE6s2wLh2M8L5VsJx8g==
+       type : 3
+       content :
+        identifier : 0x2557a30819726626
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 35
+        enabled : false
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         
+         MyWindow..ReturnedValue = LOOP_PAYMENT.ATT_ID
+         
+         Close()
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        internal_properties : CAAAAAgAAAAqLJ06zsGkPql4ixcuEWN2YfhfUeVkOYHMArE6C0OkiFEZyPzAZHQPKxhJcx1RkrSI86okXBXZ9clGJfpYUmnF7fIPENk76xRZ7fL98W+RG8ZcyGKpKzNaGn9w3W/zSzIPNtMOxbsC112JVjmWdtMN75ZolPeBrKGESzBKfXlqmjq/6ueJ4Dy6BAdVR94DRHFzdd+Q2+D7W1IwXBNfFY3eDLdg2IZOycTvmyq25W1RUUDjfcpCM+q04lVY9ihFBELybOuHb1u5YMzwsACelN5iqJMPWf43zADv3bI1W43MKkVBDoNXdZznwXdZrPEBPXDy1WtfUjWuvNPBZ3vd14LpfbV0vI5ECspd78aYiuHi/dHaXbhqfA3TVZJXJQHYwyB4QlyncdRL2qz1WNKwOmPZOTk=
+        code : |1+
+         
+         // Can the payment be deleted?
+         IF PaymentCanBeDeleted(LOOP_PAYMENT.ATT_ID) = True THEN
+         	
+         	IF YesNo(<§$0009§>) = Yes THEN
+         		
+         		// If this payment was selected, deselect it
+         		IF LOOP_PAYMENT.ATT_CHECK THEN
+         			
+         			MyWindow..ReturnedValue = CS_NO_VALUE
+         			gnPaymentTypeID = CS_NO_VALUE
+         			
+         		END
+         		
+         		// Deletes the type of payment
+         		HDelete(PaymentType)
+         		
+         		// Refreshes
+         		PaymentTypeSelect(gnPaymentTypeID)
+         		
+         	ELSE
+         		RESULT False
+         	END
+         ELSE 
+         	
+         	Info(<§$000b§>) 
+         	RESULT False
+         	
+         	
+         END
+         
+         
+         
+         
+         
+        type : 222
+  -
+    name : IMG_PaymentCC
+    identifier : 0x2707d149d9d7c1aa
+    internal_properties : CAAAAAgAAAAVr1HFC8YVvsP+sXwlnpmh/u5OjOKFVvjQw1c6zjunW2uODTg8jZwFLHJidBJM3OrTiHoZCjq9YHs4PlfuWrxSpsoITEEE6dSTa0B+T+uqrUR+ODeoLekIVeIOtpW2zJ09+5Fdti2ENN5Ul/MmV1wW7R1tS4XT5y5QRYYBoii4f3u6hjRuXwfkfONBy0AdFcNBrMlUfzvsRLDOntaM4FH8QWSISp3ewV8HKNBXDCEL5cDjGnk3Faj/Wn0ndxb+3aXsJYHTxOdsEVCQKs2wn8sGpQHI6Pim1YoMAV6ZIse/qUklXmoNgjV4IWiuT1yO5cWC9FBg6RD7S2Q5vBSzT++9tJWOZu0qy+36Ujkj3+FUwvo94NSXN76HY8QJQrsWV1PbxW48cUbB4c6uk39DOBsXK+2SGeVMLC2swl22fL4tNOuCRVgVos57DQuoDrTqcmbPd7AbpvE/Nz9JM4wHn6rBZ+YP5Hk2LuE8LdJix30LQm3rtBkXVazfTmYDG6TS5FXPgOIta63dH4FYUdf77oly5X3nFu3APo8iHvamv6Q8X16wUQ4RkTOz/jI2qnGWRAgsgJmNEV0moeoE9L8GIe/Ki0v6c7rGHvuVNSeNllL+Pstbs3ZLAXDIm+apD4Vw/gSzePHDLTEFBFGUA8qrGL6MBiC9r5oku68XbTx+k9OpRESJBQPevtQ3z1bd1qt4uDtoRol0q6qpGuoNQNIXwQQhkR4fert3aJIWEFfNPwJeeZbNZFjPc++1ny/i/bOEdPHAGB3C8XwsfMoumMwfDgo+glrD8KGtJkmCvluBXmUOVAiGuU1OOQ74l/3vTfbXg+s528NN+YNanbUwl9Kne7bMmwwA65MQNetGVlRuerhFv/VnWNqkaLD1Vb7K3ze9zSvgZ8mhaQQxmYli7xGXsUayztyaUVBW+QTJmky05QHcTY0n0JVBR4w=
+    properties :
+     x : 356
+     y : 80
+     width : 23
+     height : 23
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_PaymentCheck
+    identifier : 0x2707d149d9d8c1aa
+    internal_properties : CAAAAAgAAACoG32ZLFOZVTpXkNgeCVLLv3k6X1m4OU7pP6Ugn4CItJ/NKeAwhohVEJYXdY4OUzhUPElyxKjXXCzmbiDCrqdn/ubuq7uryTtSsfHgl4Xu05K/CSWCeur9Jxyhze386+RUNdXildxfD/7kc7vLqT3jYXLNi4iHptozp7PpwEbomjxl7DqJo3YmrygL1qEyj7SEhP4EJ6YjqAstodAjwiG41v7gPjnc/UlLaTklc3ghZ+/6Nj65gj41WulxrDNKr7RgQEI+uDvkxuGreyBWiRxbPsOY5/PHEouLtysO1hTrXivn+3nSMs86IuBks++xEcccd0Y8PIyY/mIG1Xzuxju6xlwCnsZzprMj64E/+iqnCJFyww0IqiSxjtKl5bOQ9i/reAg8KY2cj4joLxYKJ7CrhFLBWS9pkVZDoYDtdW04kkIA6DJ5FsFDQK/JEx3+lojEhS+tyx48bYFeqbpLk0zodMzJPzKXO9UPflnz6IolD9ej+pL9Qdsl8F76T+a9vK8YuIGi0lOMSbwATZ2zrzL6oU0sxU0Gro2GI6fEiTtAyXYlBCH6NUxqYtxAMD4q8TqYIm2sDOmEZgRPwxinm3g//F5K1n1OxXvUfcyuEpydWe2750RgjOIJDVZ8baQKcdfE+0CwGQm30ZDdR3LshsvR0nYHW6JqqIapAW2cEq+qIp2GIhYdUaxVFJ+AXNsPJw1HCRiWhkFLRRoKfeZl7ZTo8T/Tw/2pQ+vcW/yXnHDUJVZ6CkUrFgkVLamgvjHFdqGAemBDNhTGeOwQ2RI52wp6hUR1pP3vwdDUCXJlOm40IM85eBYbx4EAibUaEXjbFOTmppOFHFGjbJpI9cX3cAGCfrkxM9MpAZdAvU9NMzN9adJG+yf6e5TJDOtEqzn8Vwl++kQ+GlpSAXYn2DpG57/PABBKVQiaDWV95G4UxaLANYSIpQCekZlKYA==
+    properties :
+     x : 356
+     y : 133
+     width : 23
+     height : 23
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_PaymentCash
+    identifier : 0x2707d149d9d9c1aa
+    internal_properties : CAAAAAgAAABz8kLJyQniao4dnG6v/CqzJu2/Qnvl/vBw8NJghAsYR6i3PAffFX7EsGt5zJ6+UfXitHxmZLGPdx5jKfXiGNJOsE6/FghSEwZ1Vq8IieAiQw6xZ/Y2vG1tR6rtyKMWAiZPS+L8ZfjCrhQJ/9VjvQuLl1Vi6U3CMI7dHbi9cGXXF7VSkZIewzBT5Nr579qNyqdfuGo8jmNOx6JbVaEvYsq/k/P24wWz6yTX9xi1VX/kjNXR7Gj/5AlCd6JW7lkTveEVTz1LWuZsU1W2w0BpTEAHXy81f4li7HzIipJpJQfWt42JXGYGcjVqyscz4gVtNrSIN67zpa1Ey4ONDD8p0aC9XJiV9gcGd9rsvMc4EObvxzYHdpLAf8n08My7cb7qZeHX4dxrFjijFYLTNSWRm5CQlGmrGXw8G2NOU8WRvEyNVKjvMf/cmVkNTYUg2GAiwIuyY0xeL7FiSBisTtp8DNQSOd/h6DKgrf/k7YV34uz7TfmC1NXsk9uj6/hiDSylpTh+7bzNRiE9xWjsCHnAkYV8vzxh1B+RBB4bJRoLrtH2b57ni3xrYLE0g0sEU6j9bqoO/7m5sdIcTulFzhRpBjUU3bLcIdzN9IauLppLZvaKgQnqXtQuAdX4jM8cPUFwJlBp85t532OVzIeGnGOd68Vai0vAmsFtGeZeE3pGN4VtAXPTVnY+yTXX6ZyHHM0Ekw0zbu4JbgZ2tKm5WMlwVmuL/yR1D17PfZB/ln4rB1TE1n03r7DjPnHakmnx+GsHAB9W9QkKHYXljcgcTUrcU/jbYMrt5J5HM1n856IhhIHxXtEalVNIf9Xl3fMVP4a9pXBey4DAVNGsR3WnWDHzM+cftLT+vJ78IXpux5aJ9w27M93cgMpAm+TczIPUk2C+Qs4FdLMvi/ieNwXqkFjkIxk/YykBABPYFVA10mfg72dZP7ZU6A==
+    properties :
+     x : 356
+     y : 106
+     width : 23
+     height : 23
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+  -
+    name : IMG_PaymentWire
+    identifier : 0x2707d149d9dac1aa
+    internal_properties : CAAAAAgAAACajcQj/1AS7idk1dF4lUvqUDmmfbpzeSqSzN7D6X19NbHSScCQemq5ccvrUiD+yBS9eBxUh7wUr4Q1mdqOsOrhwvYNa2OQtzpx+defBX5UXkr+mS7w2JICmRwOHGvS0/cb18mUUa9dI/YufTrwnrO0NQEmTBUdk1Z/mobYwxfQ+T0SLdAJVy25LTDTNnckIb6IfJOb/FkCwJecy3K+TyeZnVmC2O6AUJ0suwbeEfG/3nGfA3yOteybtCOuNP9XrDGDEgrYApXbpkQgtp/12zPm/+0psE0WFF8RW0l2WGS2ha372kS9cP9F0gONNqDPiBa9WZa6Et9lAr5CgxSwx1TmPW3WoC3qxF5ZCapz7puolaDPmieUIIjpRbhN4dhA5RTg8gOdEs3GnlNSQefd7rf3Nr410buPfSY2jrhEdXQmE6Gevn2ntlfJTju2h9ukqGRaNapoKwLQOwowLuyTqzO5s+GcRUMW2dzo4TxunaOeG+6k9/ql+c+q3fCVQjUoRPRdMVuEuSW/MEYyZ3SPQBAsRIAyqSAXFOUNN4e0I9ZHa/nl3q0QpJ9fmXG1WOGMBSKv9aa2UkZSkd8lnRcQp1ByFmhPkB+jACF2xohVPIrnHEAOvrGueO6kzN+S9T2wxUL08cqitCRVdg6HfhIduANYUbEOBKcxsw1EQhlEO7dciv0APAAzQyqrqlFA1McuI3exA34zei2FMF2SxWode/MVcv84gxV11RyMaYQJukJqrfhDINmqMs97d19inl0JQLyMzhuemNUd7zF7Gx398tfiESpjkH4xncxuawJ6wz2XM9ysJ6MIxl7L9moVyh2xFQqj4+CWfCp3P9OXAr4ECHHQfPYpjETEBUF/P/WCNO/l+VwQkO6I8iet9luXrhZuvteRyOJi0uANDw73R6bk/lt0ODuIUwD4D8aTUalEb5a3j54=
+    properties :
+     x : 356
+     y : 157
+     width : 23
+     height : 23
+    type : 8
+    code_elements :
+     type_code : 8
+     p_codes : []
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2707d149d9ddc1aa
+  internal_properties : CAAAAAgAAACK9cZpYRf53gW/jvf0KntPFQrIwUKRaC3/uN8qBbCNJBZnCb57Oe/hDlvGB03Isk4CWqWz1xsVfSYLLNPgKFyas1F73MEXoD3xX00V5XBN3t9kskeQjzgUa13xcyyBpOW77Plkc6CupqP4P8XXicLJaW/7TrcItGWs8bhbujsgAXJaDvVG1ypMqAXwwq0wJlIhNT9dq/wImS/3X6IMuUbP3DsTvJzNMzNTGzEnKXUQBwmR0NMXGUS7bIGMum/+T2tMiUhxvfDwp9U+PwCsHb4Po1qWDQ4d063SH4uMYAFsYWnHaH5WnSDEjysJX2uY4XqStsFryHPF2kstGnTGPiz//wFgAEvP0R2IeAKE3fW8giIqhE/if3ynFw5w0QU=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2707d149d9dbc1aa
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_New
+     identifier : 0x2707d149d9dcc1aa
+     internal_properties : CAAAAAgAAAAfqIAvsQXK87MDVKNosXbB0wuQDtz+YsbifzdlHxnCygIv61lcnJOdYuxia+GXjr1eIrrESEKqZ8mC7bqVl7skpz/oSS4jn12vv/Z9EecLBJBR1mvx2McwloqqJ9aDNcx66KyPUBCdvvDWL/lCaadvqkMFO6aYqmTdznKAx+/X2LVfoZPhZaLZNBKm4Ldlp/GEqoNeppa9IAAfsemH5Tba41SCAg1mXhS/OQ2ARnmsabc86kpbt/S0Xg9WOmIareowtTiyY4XaFMe/imOb6xaPQ/7x6sWWShA8prG8CA7WFYvTUNULtP4P
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          
+          OpenMobileWindow(WIN_PaymentEdit)
+          
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAABrTb1QrCGnKMO09Ex2jBrseR8lMp1ZgxTsDhq5KBbMxJegE/AnD2HbGAaMfhGCKXxkL6FGdNXhDlH+CYb0ioD/ZK7DrABpyvDKuWBGYgI54gMwAuo/u+X4w6Y3rA==
+ code_elements :
+  internal_properties : CAAAAAgAAACvhiIr8gSQ5loUp83uTso9CuLc4dExenO6nYq0wt6wNhhy8DIKk+8xrI7GMink5ce8SLehbaZBjJVyvy60Arg=
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      PROCEDURE WIN_PaymentSelection(gnPaymentTypeID is int = CS_NO_VALUE)
+      
+   -
+     internal_properties : CAAAAAgAAABkYxCOAWHWSEcmS47+Q4zr76DFeUhRJGaNs29bIcM+i9P48K1hoWenUlLTUcG+n+jT4Jtjp2sXjnWCcDud5gVpkt1ArZhMBRqjw7AWM4YjS6jH+jMDU88Vva+NPKIVwCdEi8l9zIuOl9Q91Q==
+     code : |1-
+      
+      // Refreshes the list of payments types
+      RefreshPaymentList(gnPaymentTypeID)
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      SWITCH MyChildWindow..Name
+      
+      	CASE "WIN_PaymentEdit"
+      		RefreshPaymentList(MyChildWindow..ReturnedValue)
+      		
+      
+      	OTHER CASE
+      		
+      END
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : RefreshPaymentList
+     internal_properties : CAAAAAgAAABll5Hzz6Ht4zCXCX+N++LhG8fAkeo7uXfYug1vduydrDQ8e53wMOQP4P8JzsOjWY7+hgUIhjU0bYJDrrPJsdsqh0lvhE2wvhCfAmsY+GvYhcL/7SL9OtYhiyeA4yA+idDhGcMkMNpSvxLuPWDwWscp1Hm8fHRUYEVB7TR86HdGJjdvGWoW4x5TqkwpgtoEMzlhXe/Gtg1+oqUoQE+GY4PD89APHfYdmcX3Um96IA/HknIP+Fm6sN/tCJqHeY9du6D1cNnpvvtcU0o0+oqsn3WkuS8BFGwWo72zsBs109XOv3EOnq9j/5fCwcwep13lbGhjz1lMz1Kp9AsZ1C6Uhu1XLkhJ1iI=
+     procedure_id : 1659525099513299370
+     type_code : 14
+     code : |1-
+      // Summary: Refreshes the list of statuses
+      // Syntax:
+      //RefreshPaymentList (<nIDPaymentType>)
+      //
+      // Parameters:
+      //	nIDPaymentType: <specify the role of nPaymentValue>
+      // Return value:
+      // 	None
+      //
+      PROCEDURE RefreshPaymentList(LOCAL nPaymentTypeID)
+      
+      // Variable
+      sSearchItem is string
+      nSubscript           is int = 0
+      
+      // Reset
+      LooperDeleteAll(LOOP_PAYMENT)
+      
+      // Defines the search item
+      SWITCH Nation()
+      	CASE nationFrench:
+      		sSearchItem = PaymentType.Caption..Name
+      	OTHER CASE:
+      		sSearchItem = PaymentType.CaptionUS..Name
+      END
+      
+      // Displays the categories
+      HReadFirst(PaymentType,sSearchItem)
+      WHILE NOT HOut(PaymentType)
+      	
+      	// Fills the looper
+      	IF ExtractString(HInfoMemo(PaymentType,Picto),3) > 0 THEN
+      		nSubscript = LooperAddLine(LOOP_PAYMENT, {PaymentType..Name + "." + sSearchItem,indItem}, PaymentType.PaymentTypeID, False, PaymentType.Picto)
+      	ELSE
+      		nSubscript = LooperAddLine(LOOP_PAYMENT, {PaymentType..Name + "." + sSearchItem,indItem}, PaymentType.PaymentTypeID, False, IMG_PaymentCash)
+      	END
+      	// Category to select?
+      	IF PaymentType.PaymentTypeID = nPaymentTypeID THEN
+      		LOOP_PAYMENT[nSubscript].ATT_CHECK = True
+      		MyWindow..ReturnedValue = nPaymentTypeID
+      	END
+      	
+      	// Next
+      	HReadNext(PaymentType, sSearchItem)
+      END
+     type : 458752
+   -
+     name : PaymentTypeSelect
+     internal_properties : CAAAAAgAAAA9SoKaRhqIRUveDi/0gXBaK4TtouczA3ssSBvR1co+LD0lyZJtUJlBYLSivl/2v80TtSJNzGdZdqcu5R2y5qr0c7wD4zxNAm8/l5h4KoqnMnAGRUBbp0npUQr+f8H+AHYeKw6Sahl+X2dTSMROIhaq2aXmSkkv4Ut6E28pOhFXV5ba4P0Dpb7VR0ndZYxhx7OswVpPA5pXnwmcNQE3zW78QbPCtY7pM+m1NOK/TbCnWPCfb9+1djmzW4WwKVSsmzePq33TSDilx1qkExLZEerSPvGaKYkk4408lsdUoHTBFIAM5KyJ1hwt
+     procedure_id : 1659525099513364906
+     type_code : 14
+     code : |1+
+      // Summary: Selects a type of payment in the list
+      // Syntax:
+      //PaymentTypeSelect (<nPaymentTypeID>)
+      //
+      // Parameters:
+      //	nPaymentTypeID: ID of the payment type
+      // Return value:
+      // 	None
+      //
+      PROCEDURE PaymentTypeSelect(LOCAL nPaymentTypeID)
+      
+      // Selects the type of payment
+      IF nPaymentTypeID <> CS_NO_VALUE THEN
+      	
+      	// Browse the looper
+      	FOR ALL ROW of LOOP_PAYMENT
+      		IF LOOP_PAYMENT.ATT_ID = nPaymentTypeID THEN
+      			LOOP_PAYMENT.ATT_CHECK = True
+      			RETURN
+      		END
+      	END
+      	
+      END
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+resources :
+ string_res :
+  identifier : 0x1f2be9cd0040fe71
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : Waiting to be sent
+     index : 0
+   -
+     text :
+      en-GB : Waiting to be reimbursed
+     index : 1
+   -
+     text :
+      en-GB : Reimbursed
+     index : 2
+   -
+     text :
+      en-GB : Refused
+     index : 3
+   -
+     text :
+      en-GB : Credit card
+     index : 4
+   -
+     text :
+      en-GB : Check
+     index : 5
+   -
+     text :
+      en-GB : Currency
+     index : 6
+   -
+     text :
+      en-GB : Bank transfer
+     index : 7
+   -
+     text :
+      en-GB : Do you want to delete this category?
+     index : 8
+   -
+     text :
+      en-GB : Do you want to delete this type of payment?
+     index : 9
+   -
+     text :
+      en-GB : Expense accounts are paid via this type of payment therefore it cannot be deleted
+     index : 10
+   -
+     text :
+      en-GB : Expense accounts are paid via this type of payment therefore it cannot be deleted
+     index : 11
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe

@@ -1,0 +1,347 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : WIN_CustomerSelection
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : WIN_CustomerSelection
+ identifier : 0x2707d144d719aece
+ internal_properties : CAAAAAgAAADCX3o64yycZeSjkvgOZMNPi5B8c5e93BVBLgv8iyzNZFci4jbOtHC02mYrLUZGf+DVymBE9jgCcmlLtHWUb/5sZgPgrVfaxXmXCkOA5bAPhYWwDkeK+Zr1MPMMgjjH0poRGduqYU2R699Mnzb7Eijomr49/2kmoKVkszL5JHMRnmOvtkQ3BRVzSK2hHoYTtYssOewh5FdEl/s2wlcF0ua2qC/bpBW0GpKaRN5s9f/1Tz2zzWp7dvEwTAR5EqRQ6PB1fM22RHfH13OSKQjVzYzIczx+GRf3O8BiJ2ubuaOPo9W9BDnt8nAIXUaDLspr1BApnlPCF4pj/ExeaO6d7G7tK/a2k3wga30emw4uuuVJZWSK0Z88h+/TX2qRiIM4QAGhvMtLEzJ+UgDskdDpK7GmzgwZnCw1DTied+nJ/I1g+iSp2AKP3UMl/TQOjBRYW4MQhYwZtKmSc2RvGQimycndWRbsAymhaaLXCi1XENe1K5OvqQcLxU0/XIY/HA1z2MTkDKL2pRzQu8cjy3AjjfgaYQcYE+MQOPmD3R/kdDDo5vbIjg+68RtKbZwux1WX6krucRXE05F2Apg67vUnNL+HlHdJmsCImlpctqwNhnhO/0ed0+7ilQP7Agi+s1PqAxf53/7XMZAj1BvM6PVQBXTJ36+xXxT3fvxbtAB6KBnGqfjBVhQZHP40bXO36yrdxZ6WtoS1Q9+5nq/VR8UUDUiYKIUrVpeQe8iB2zKt8qJXwv7eOW7B7UZ/GsVB
+ properties :
+  width : 320
+  height : 248
+  heightMin : 321
+ controls :
+  -
+    name : LOOP_CUSTOMER
+    identifier : 0x2707d144d71caece
+    internal_properties : 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
+    properties :
+     y : 40
+     width : 320
+     height : 208
+    controls :
+     -
+       name : STC_CUSTOMER_NAME
+       identifier : 0x2707d144d720aece
+       internal_properties : CAAAAAgAAACOAdMh7v0YTxFmhk6VRcgAD0iplD8KiqAX5MbVJQut47mf2GbGG3n7G+S7M9g5zmvakoMHhALFLTJggRAbQZwdINGgqs6ovm+LRkn9U6AXHiGG6k4ZOPM/8eoY9Uxa0h+G6ZH5VdfFWBuqOS2o5MtDrbG0NpqvOs7Cplg+0+MHM82aF8oymDIUYe1vS4AZVjBQZWnyqYXWzGS/cjMzPaV0VwP1uObm5udM1y6IYrsa3BUqdwzoJb4XXyOGPvBdrmOrXbgo9dC+eR/6draK3+N9yQvMBSh0JX1DClEco7hBRruTDQ0IbapYgepvm5S8mYE/YMbNRHckn0/YP1sGhkV+5CnNKnfMly00dZuM6QFqwsOxZN0u/DREVNHMjO7UQJk6Y14Gr8wzuFFNT2AfepcYIBo4wSfMxobDBI6X5K+3b0v5pZ8YAUOiJ3zOlZj9NfFPRfLjjj0Tf8iNOlyNjgRvybps294JGhu00jSKQ+sRoQO1Ful3ODYmkMbVxNRI1yiC+sP70UIeHLJCHNHe3cG3sBH3+ht2smVcODALoN04WHwvw60aWTcqwzTQgGirafw6lUXQq5WoTWanbw==
+       properties :
+        x : 14
+        y : 9
+        width : 267
+        height : 22
+       type : 3
+       code_elements :
+        type_code : 2
+        p_codes :
+         -
+           code : |1-
+            
+           type : 18
+     -
+       name : IMG_Checkmark
+       identifier : 0x2707d144d721aece
+       internal_properties : CAAAAAgAAABn9vQFeuHSr3wk/QxOLHIiQYrkOc++1J0nqRi/3Cst8U6re5ZIUxVYqIJKvWepEbtd/C2NX8HzKlN0VMrwQQrdoOKENBv5mfpocYC2xsoAVVYyQyL9LgBGyuLclJ4Q/ealKy3qu3z1cuLiGYSDcII2UmRqHJCIyG1VKxbXYYOskJhVS5VuZqJtsuae/1RrlTfQoWzEYQLvmE5yAeWQwO3yYoX/7JWp8pTZT866dSiT40XvxuNFS1yxgKigsNEKTSpHIv5/U1Hvnec01LR1bhAOGHtsTt61VCvEmNpyd9XCJt0CMbwfY+Q4XjUFYCa+tqKm7/m2TPslUKcwyWWV1PcgwJDyxZcbUu2mjewwJwH57wQKULjqLp7Lni5MQDf5Ai7xer4vpXOE8z8p+pJrjJ6bZxDmAQjaLQ2TafLlsV65KQo8InwELC3JbX7H4xPBTUrdsWFGVK8hJOw83fdlyRCFTclBk+tCbHJwvcjNsrVtQ0tBKn4AYtx3U0WxYpt0WUFeFPXcobu2ntFd5p0Vc676Od8UZ8K99cewd5B3+kUXp3lgQGTI1AAPk23Wgs6hSxxrhBYU3lIhThnML/Izs7Edh2XI4+DaFI36fWyQmG/QWsqTbJW8KhX2MMRpRi4h+ITvYxev5pqQ2FbDOneAY4G2e5NB/Yjd+jIMeeGMDjjFvDkZAw1oAGQ4v1bWC/tFBvxbBRd0ZN6KXdtoFZCjgnHzRFCqni1NecuYcolW3jZ0ZH+tm2uIVOXAqvDzLP/hfAIIThIfvkSxHkwW5vUbCh+ilWF6UV8lO9y87zQ7pIcZoXg+0YSVD2fIORZAS75wL08hpZm0KZHJeWzMCQw2AiKqkavrOeYZDlkue8lc0tXRVkvE33eZMSMgX8xlhSnLG7ag+ijQ6BQjidQl6kxeCnS69RSiqNCcIf4yYP/JdtKLj5be4UTasiRO5wuoR7h24Gzh
+       properties :
+        x : 291
+        y : 9
+        width : 20
+        height : 22
+       type : 8
+       code_elements :
+        type_code : 8
+        p_codes :
+         -
+           type : 18
+           enabled : false
+    columns :
+     -
+       name : ATT_ID
+       identifier : 0x2707d144d71daece
+       internal_properties : CAAAAAgAAAB0qpO6DmneKbgMuuJEaVLn0PWRBgxvJAZaFCEFIbQZZH73jZ+0HPqWscDogyAFFl9B390iWN9NHkdgkAPGr7frqhN/KQHKRp0iElBNXLHOEF5hGHdYVfiqjxdNh9zsU42/pYpjZeLmp1g8u8tEomZs8jEuTi/ipUCn6PqFEwazplO/B7GJLR9Mtnr0
+       type : 3
+       content :
+        identifier : 0x2557a3081cc267dc
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_NAME
+       identifier : 0x2707d144d71eaece
+       internal_properties : CAAAAAgAAADjNguPEPLhX8XQyMiOQmx1nuxAM/GMJAy4opjy5c2e6Z7tG4G8rzRsqImt6Y79gROAEX+MrYZj2zI30fAPvoFKdeR9iAUZTDvkgXB8boMdsxP5vG57De1NZ02PLgDF9s1kr/ZupC59unVP/HE1oBQTwgxxEq/DURoOHRcnYYdSfnFCDVKFbt26IoEz8YhfxqXKLR8BKF9H1GhFEWX4WdRn
+       type : 3
+       content :
+        identifier : 0x2557a3081cc467dc
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+     -
+       name : ATT_CHECK
+       identifier : 0x2707d144d71faece
+       internal_properties : CAAAAAgAAAAMwbSD/+Ow658jrxOeQQSIyPm8mZHrWDxXgMj88vWEqcp0NzFciidBu/UqwZFDygwNm1JC2w6FYUjxOBbEL0gQgrmyG1gZ2Bid58LvNWX7VOjQ3anXki7kMtYZ005hzp91CQDgg47mKtSiH2z4PLGOUy9kH2lOqKGVH00FhhZdmFKYjjBnBqfOpA==
+       type : 3
+       content :
+        identifier : 0x2557a3081cc667dc
+        internal_properties : CAAAAAgAAADryTcE1wdYvD3vRXveAy878MY0tBGVtRJFCKec9ONjoMSjdXko/BUQ7/aa5td4J0QGwbNDZ7u6HVAmFeJiKUW3AIZke7mPEa6O3T80XKwyKxqdz/+IMzq1H7wKTkmLCftmXeih3L2wxA9F34R1rzMUewXfPfNhH+yFL0Z0QK0+gscBykmAbH8+KcjlpZVlWXf1O2O2UpXFTj2e+Oh2XQ==
+        type : 3
+       code_elements :
+        type_code : 46
+        p_codes : []
+    type : 30
+    code_elements :
+     type_code : 42
+     p_codes :
+      -
+        type : 22
+        enabled : false
+      -
+        type : 24
+        enabled : false
+      -
+        type : 23
+        enabled : false
+      -
+        type : 25
+        enabled : false
+      -
+        code : |1-
+         
+         IF Val(LOOP_CUSTOMER.ATT_ID) <> 0 AND gbModification = False
+         		MyWindow..ReturnedValue = LOOP_CUSTOMER.ATT_ID
+         	
+         	Close()
+         END
+        type : 33
+      -
+        type : 230
+        enabled : false
+      -
+        type : 241
+        enabled : false
+      -
+        code : |1-
+         
+        type : 102
+      -
+        internal_properties : CAAAAAgAAAAe73rvWwFORdGf9IATMuo80fLFjImc9cexVl/gJg1khRKE/zPknScfvt21V3/lNt2FQwze7UnXSWk4aV7CZVHmC2DbB7jLuMEg7vLmnnDBq3/XROGG2dkwRQ54zOXcsA7Gmszszwizk2cM062uPH7Dz7eDY+0os3NoIPBz5wafuY6RE7fl9UikvLQF3aJ2IHZCXWSgFTNHWamEQ74C75tQYe/C8lUY9DMo7f+rBt/5efWNqWKLJQE3r6klR69PJMrDyJX59o/AG/FGcfmtGG7C9dOjOUktX6MmKWUEGJvuIID7wFVk2z0QWkfcqwxz+9LR549bI++r9aanmlrKIqk6kSBIr+yILJsmf+ln+sDe8TczwFDR6g==
+        code : |1+
+         
+         
+         IF YesNo(<§$0000§>) = Yes THEN
+         	
+         	// If it was this selected customer, deselect it
+         	IF LOOP_CUSTOMER.ATT_CHECK THEN
+         		MyWindow..ReturnedValue = CS_NO_VALUE
+         		gnCustomerID = CS_NO_VALUE
+         	END
+         	
+         	// Delete
+         	CustomerDelete(LOOP_CUSTOMER.ATT_ID)
+         	
+         	// Refreshes
+         	CustomerSelect(gnCustomerID)
+         	
+         ELSE 
+         	
+         	RESULT False
+         	
+         END
+         
+        type : 222
+  -
+    name : BTN_No_customer
+    identifier : 0x2707d144d722aece
+    internal_properties : CAAAAAgAAABXOP2J9j00EqKjCF+ieEZZa4rRfuG/R5essIlMiourmozfjSBZtzIUEPlwkd4Ka0fxf+NifQ4CjqtfKt/7TQJQtXYvOw2fQDo9bbVSITJsWs4IiM7piyaH9JUvshKw1eCWjppR7u+qEy8Ijn/nsrM51P7Tq90FyYYw9ikV6OicQgkcdQjHc+iG2gwj9/rQKUw/SZFFIJ4MJH5ukJ5oZBqL4SfwLQPFtt3weHwW1xcS9VEfMGfg0gRNWJWMrKzvu1a4Cu0TbcIqQg7i7IZKp9xvgSXh4fuKUYdvQ6t6MR6Um/Hsi7BGC9zHVHpBMzQs63Lcj2DCiTNghDAThg6xh0mw+EnbmyJvqRLYh9i7iQ06OzwlelXGJC4n3PlVxfHofIqjB4fsnigrLF/CKtgIqn+ud3cmNEZIIMS9sAbncfUbZvVcx/NkGstOT/xrXPTu9TD8TMsOZ4fO+fEBHvIkHEHY6H6Jzu89/AHJZfPi89LVgn1PvvLZrI/X8caWInpLaq1HiCNkBOl4GsAKupSOZKDhjXUrX25qdKRYmbJYtr1z8ggrD3M+L234ZA3k0eT32iq6shFkKJrbkNYzimvKC+kFYIINR6jz/cDAV0KbRlgUdqeH98DUCA6esqHKo/f7yOogtIcbUN5k95ax1O8X745ey16AfxmnWQCC9y4U/hNO2PcvTrXEgNLXXWQv6+7h2xY2QxyL1Xl+JNEWX5M6S5iiDj8/r/xvGjArEwUz/uZWvx/+SgZY79oSL8xMH8EWmwHIEuHXVMxDzNAHYnt9a2C3g4OBabXMLACnlWwpIXW7D4lUjX2sLRyQ8mOPT80XYoCnreGUxbXN8+mxQA6ayjGAyaB7fcywm/qCmwHPDnY3EEFTTlgmh5cNY712H8pBFns31HfejAxbWvg3AqX2pQ2TJtHG6424D2iZ3guKt/nsQtM=
+    properties :
+     width : 320
+     height : 40
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         
+         MyWindow..ReturnedValue = CS_NO_VALUE
+         
+         Close()
+        type : 18
+      -
+        type : 161
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x2707d144d725aece
+  internal_properties : CAAAAAgAAACi3Z6hia9xpv1nJn98ouNHHQKQiRp5UMVnMOc8j2ZfbiBd5+S1D1k3UKn8ob/e7NicCKsBWTlfqxg50r0Cpma8bcy6nkEXoL3xX00V5XDNXl9ksseQD7gU691x86wBpOW7bHlk86CuJqP4P8XXiUJJ6W/7zreINGUscTjbOrsgAXLajvXG1yrMqAXwwq0wZhJhdf+dazxI2W83H+JMeYaPHHvT/FwNc3OTW/FnaTVQx0nRkBPXWYT7rMFM+q++jyuMyQixfTAw5xV+/0Ds3f7P45pWTc5dE+0SR5No4K2oGbmnTJJWkRQUz+vx8zvslapi5qXXYE+hMpPl6uBekmCvB3noiLOnqXXQMEp81e1ECqqyHCcaBwQv71bIuS0=
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x2707d144d723aece
+  internal_properties : CAAAAAgAAAAW1gnpy3noas3oG9zuXMxwkZr3JLeoYBVyeA3OKrGpbG8hUZFR3efjg9zXdvbkP3LOwZ4El+W+yh/BGkQoIMQZoZFhas7dNoK2s3zggks/85ETaI984McgHKWWQaYgHOHVWR2GVBXbwNvaP2ycm4Atn3CujyNLKHh/advQBBA/SjyBGhlS+OVu+5TE1UBpYuTyoMQSz+WQI84se2WdSbgsP+46Rqg+kP3nqD2BlYQgQ/0OVhmkbMPaynkAR9GXiUaW7GJI29Zvzbs1MN1yglvg1H3vemeWKxvW/9SKChIdFRPIVMDPwBAkLg==
+  options :
+   -
+     name : OPT_New
+     identifier : 0x2707d144d724aece
+     internal_properties : CAAAAAgAAAAfqIAvsQXK87MDVKNosXbB0wuQDtz+YsbifzdlHxnCygIv61lcnJOdYuxia+GXjr1eIrrESEKqZ8mC7bqVl7skpz/oSS4jn12vv/Z9EecLBJBR1mvx2McwloqqJ9aDNcx66KyPUBCdvvDWL/lCaadvqkMFO6aYqmTdznKAx+/X2LVfoZPhZaLZNBKm4Ldlp/GEqoNeppa9IAAfsemH5Tba41SCAg1mXhS/OQ2ARnmsabc86kpbt/S0Xg9WOmIareowtTiyY4XaFMe/imOb6xaPQ/7x6sWWShA8prG8CA7WFYvTUNULtP4P
+     code_elements :
+      type_code : 26
+      p_codes :
+       -
+         code : |1+
+          
+          
+          OpenMobileWindow(WIN_CustomerEdit)
+         type : 32
+  code_elements :
+   type_code : 26
+   p_codes : []
+ languages :
+  - en-GB
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAATZTXYRHkPwKuMvJTOtNL0sSctCqXBG/yEFhKwkfZ0lBfg4wBnL9GbaCYsviHyoTTM58lOfM1JhlnG8a5MykDYXKbLlCgBYgjSsWh+WjoBKst42oKXY40gOy5PVA==
+ code_elements :
+  internal_properties : CAAAAAgAAAA32MT91YSTHb9SpRL9crOObwlObGs+F7s2bpvTjcMViB0dMlZ0QeNYDTGS87ky0FnDud/1WBYPM8JpXY/Kata8QTGptzris7p13Q==
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE WIN_CustomerSelection(LOCAL gnCustomerID = CS_NO_VALUE)
+      
+      GLOBAL
+      	gbModification is boolean = False
+      	
+   -
+     internal_properties : CAAAAAgAAABkYxCOAWHWSEcmS47+Q4zr76DFeUhRJGaNs29bIcM+i9P48K1hoWenUlLTUcG+n+jT4Jtjp2sXjnWCcDud5gVpkt1ArZhMBRqjw7AWM4YjS6jH+jMDU88Vva+NPKIVwCdEi8l9zIuOl9Q91Q==
+     code : |1+
+      
+      // Selects the customer
+      CustomerSelect(gnCustomerID)
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+      SWITCH MyChildWindow..Name 
+      
+      	CASE "WIN_CustomerEdit"
+      		LooperDisplay(LOOP_CUSTOMER)
+      		CustomerSelect(MyChildWindow..ReturnedValue)
+      				
+      		
+      	OTHER CASE
+      		
+      END
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+     type : 40
+   -
+     code : |1+
+      
+      
+     type : 2
+   -
+     code : |1+
+      
+      
+     type : 11
+   -
+     code : |1+
+      
+      
+     type : 12
+   -
+     code : |1+
+      
+      
+     type : 17
+   -
+     code : |1+
+      
+      
+     type : 13
+  procedures :
+   -
+     name : CustomerSelect
+     internal_properties : CAAAAAgAAAB0X3+ESy6hTUWlrvqLwVKoZ+0LTHDWWCNusoDJuXJGeNZIolsKYjpl5bQpdAx1Xol8ZJhV2NUAzWenTd4NnQwUY0rq+tK0TatvFUROJGzMtYcTXXdBORXjs3GIfm9ZcHkIWjkmVSWSlWRc1lCYz1/vNXMGSp2cDqTYvNc3faE6QgwvzrQQ60ozrm30hNBetZP/AKisCjF23u09Z0XuAdFfG7UyCeqvyxUb6Vyucp1V/iqyLacu+ItxmkAfw31JAEZrTzh228iDIjnS6hFfbDqvXCWEkGrdedwr9IQFbQ==
+     procedure_id : 1659525078037475022
+     type_code : 14
+     code : |1-
+      // Summary: Selects a customer in the list
+      // Syntax:
+      //CustomerSelect (<nCustomerID>)
+      //
+      // Parameters:
+      //	nCustomerID: ID of the customer
+      // Return value:
+      // 	None
+      //
+      PROCEDURE CustomerSelect(LOCAL nCustomerID)
+      
+      
+      
+      // Selects a customer
+      IF nCustomerID <> CS_NO_VALUE THEN
+      	// Browse the looper
+      	FOR ALL ROW of LOOP_CUSTOMER
+      		IF LOOP_CUSTOMER.ATT_ID = nCustomerID THEN
+      			LOOP_CUSTOMER.ATT_CHECK = True
+      			MyWindow..ReturnedValue = nCustomerID
+      			RETURN
+      		END
+      	END
+      END
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAADeQcze1Ixqfwn6yOfjwsQ7IKxuiqMzbTygTLeVXFH8DB0WqXgSKvkzRoO0/Z27dfrh8D+BLYmMenjdtZezotw6hJf2mE4Gv6OctA==
+  original_name : FEN_Fenêtre1
+resources :
+ string_res :
+  identifier : 0x1f2be905002df05d
+  internal_properties : CAAAAAgAAACyXVFaObH4lOGSEHJoZf1MD49w+XTw2LScZCP/urkWFwy+HYJdyQ3umA==
+  strings :
+   -
+     text :
+      en-GB : Do you want to delete this customer?
+     index : 0
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
